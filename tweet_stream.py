@@ -1,51 +1,198 @@
 #Miguel Aroca-Ouellette
 #Modified from: http://adilmoujahid.com/posts/2014/07/twitter-analytics/
+#Bounding box: http://stackoverflow.com/questions/22889122/how-to-add-a-location-filter-to-tweepy-module
 
 #Import the necessary methods from tweepy library
-from tweepy.streaming import StreamListener
-from tweepy import OAuthHandler
-from tweepy import Stream
-
+import tweepy
+import json
+import sys
 #Variables that contains the user credentials to access Twitter API
-access_token = ""
-access_token_secret = ""
-consumer_key = ""
-consumer_secret = ""
 
-#TO DO: Read Keys to/from file so I can put this on GitHub
+#for string matching
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
 
-#This is a basic listener that just prints received tweets to stdout.
-class StdOutListener(StreamListener):
+def main():
+    myTweetStream=TweetStream('credentials.txt','activity_list.txt','output.txt',40)
+    myTweetStream.start_stream('activity')
+
+class StdOutListener(tweepy.StreamListener):
+    """Basic listener which prints username and Tweets"""
+
+    def __init__(self,num_prev,activity_list,output_file,tweet_max):
+        self.client=None
+        self.num_prev=num_prev
+        self.tweet_max=tweet_max
+        self.tweet_count=0
+        self.activity_list=activity_list
+
+        #variables
+        self.fuzz_confidence=95
+
+        #open output file
+        self.out=open(output_file,'w')
 
     def on_data(self, data):
-        print data
+        """Handles succesful data fetch"""
+        #print data
+        self.write_out(data)
+        user,text=self.parse_tweet(data)
+        print "--------------------------------"
+        print "\t\t\tUser: "+str(user)+" tweeted: "
+        print "\t"+text
+        self.get_last_tweet(user)
+
+        if (self.tweet_max) and (self.tweet_count<self.tweet_max):
+            self.close_listener()
+            sys.exit(0)
+        else:
+            self.tweet_count+=self.num_prev
+
+        print self.tweet_count
         return True
 
     def on_error(self, status):
         print status
 
-def fetch_credentials(filename):
-    """Read from credential file"""
-    global access_token, access_token_secret, consumer_key, consumer_secret
+    def set_client(self,client):
+        self.client=client
 
-    with open(filename,'r') as f:
-        access_token=f.readline().rstrip()
-        access_token_secret=f.readline().rstrip()
-        consumer_key=f.readline().rstrip()
-        consumer_secret=f.readline().rstrip()
+    def get_last_tweet(self,username):
+        new_tweets = self.client.user_timeline(screen_name=str(username),count=self.num_prev)
+        for tweet in new_tweets:
+            self.write_out(json.dumps(tweet._json))
+            _,text=self.parse_tweet(tweet)
+            #print str(count)+":\t"+text
+            self.check_for_activity(text)
+        #print count
 
-    f.close()
+    def parse_tweet(self,tweet):
+        """Returns username and text from tweet"""
+        if (type(tweet) is str) or (type(tweet) is unicode):
+            tweet_json=json.loads(tweet)
+            user=tweet_json['user']['screen_name'].encode('ascii','ignore')
+            text=tweet_json['text'].encode('ascii','ignore')
+        else:
+            #tweepy.models.Status type
+            try:
+                #ignores special unicode characters
+                user=tweet.author.screen_name.encode('ascii','ignore')
+                text=tweet.text.encode('ascii','ignore')
+            except UnicodeEncodeError:
+                pass
 
-def stream():
-    #This handles Twitter authetification and the connection to Twitter Streaming API
-    l = StdOutListener()
-    auth = OAuthHandler(consumer_key, consumer_secret)
-    auth.set_access_token(access_token, access_token_secret)
-    stream = Stream(auth, l)
+        return user,text
 
-    #This line filter Twitter Streams to capture data by the keywords: 'python', 'javascript', 'ruby'
-    stream.filter(track=['python', 'javascript', 'ruby'])
+    def check_for_activity(self,tweet):
+        """Checks tweet to see if it contains activity. Looks for best match."""
+        best_match=self.fuzz_confidence
+        best_activity=None
+        best_word=None
+        for activity in self.activity_list:
+            for word in tweet.split(" "):
+                match=fuzz.ratio(activity.lower(),word.lower())
+                if match>best_match:
+                    best_match=match
+                    best_activity=activity
+                    best_word=word
+
+        if best_activity:
+            #print best_match
+            #print best_activity
+            #print best_word
+            return True
+        return False
+
+    def write_out(self,tweet):
+        """Writes tweet out to file"""
+        self.out.write(tweet)
+
+    def close_listener(self):
+        """Closes listener and output file"""
+        self.out.close()
+
+
+#Stream class
+class TweetStream():
+
+    def __init__(self,cred_file,activity_file,output_file,tweet_max=None):
+        #filters
+        self.NA_bounding_box=[-139.7,25.5,-44.1,59.9]
+        self.activity_filter=['basketball','yoga','baseball']
+
+        #variables
+        num_prev=20
+
+        #initialization
+        self.access_token=""
+        self.access_token_secret=""
+        self.consumer_key=""
+        self.consumer_secret=""
+        self.stream=None
+        self.activity_list=[]
+        self.load_activities(activity_file)
+        self.listen = StdOutListener(num_prev,self.activity_list,output_file,tweet_max)
+        self.fetch_credentials(cred_file)
+        self.setup_credentials()
+
+    def setup_credentials(self):
+        """This handles Twitter authetification and the connection to Twitter Streaming API"""
+
+
+        auth = tweepy.OAuthHandler(self.consumer_key, self.consumer_secret)
+        auth.set_access_token(self.access_token, self.access_token_secret)
+        client = tweepy.API(auth)
+        self.listen.set_client(client)
+        self.stream = tweepy.Stream(auth, self.listen)
+
+    def fetch_credentials(self,filename):
+        """Read from credential file"""
+
+        with open(filename,'r') as f:
+            self.access_token=f.readline().rstrip()
+            self.access_token_secret=f.readline().rstrip()
+            self.consumer_key=f.readline().rstrip()
+            self.consumer_secret=f.readline().rstrip()
+
+        f.close()
+
+    def start_stream(self,mode):
+        """Starts stream and filters on either activity or location"""
+        if mode=="activity":
+            self.stream.filter(track=self.activity_filter)
+        elif mode=="location":
+            self.stream.filter(locations=self.NA_bounding_box)
+        else:
+            print "start_stream error(): invalid input!"
+            raise
+
+    def load_activities(self,filename):
+        with open(filename,'r') as f:
+            for line in f:
+                self.activity_list.append(line.rstrip())
+                if len(line.split(" "))>1:
+                    self.activity_list.append(" ".join(line.rstrip().split(" ")[:-1])) #also remove last word
+
+        f.close()
+
+def parse_json(fields):
+    """Groups tweets by users. Input specifies desired fields returned.
+    Input: list of json fields returned.
+    Output: list of list of [users[tweet fields]]"""
+
+    pass
+
+def fix_activity_list():
+    f1=open('activity_list.txt','r')
+    f2=open('new.txt','w')
+
+    for line in f1:
+        if (line[0] in ['4','5']) or len(line)<=1 or ("Suggested" in line):
+            continue
+        f2.writelines(line)
+
+    f1.close()
+    f2.close()
 
 if __name__ == '__main__':
-    fetch_credentials('credentials.txt')
-    stream()
+    main()
