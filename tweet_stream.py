@@ -13,7 +13,7 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 def main():
-    myTweetStream=TweetStream('credentials.txt','activity_list.txt','output.txt',40)
+    myTweetStream=TweetStream('credentials.txt','activity_list.txt','output.txt',50000)
     myTweetStream.start_stream('activity')
 
 class StdOutListener(tweepy.StreamListener):
@@ -35,18 +35,19 @@ class StdOutListener(tweepy.StreamListener):
     def on_data(self, data):
         """Handles succesful data fetch"""
         #print data
-        self.write_out(data)
-        user,text=self.parse_tweet(data)
+
+        user,text,loc,time=self.parse_tweet(data)
+        self.write_out([time,loc,user,text])
+
         print "--------------------------------"
         print "\t\t\tUser: "+str(user)+" tweeted: "
         print "\t"+text
-        self.get_last_tweet(user)
+        count=self.get_last_tweet(user)
 
-        if (self.tweet_max) and (self.tweet_count<self.tweet_max):
+        self.tweet_count+=count
+        if (self.tweet_max) and (self.tweet_count>=self.tweet_max):
             self.close_listener()
             sys.exit(0)
-        else:
-            self.tweet_count+=self.num_prev
 
         print self.tweet_count
         return True
@@ -59,29 +60,42 @@ class StdOutListener(tweepy.StreamListener):
 
     def get_last_tweet(self,username):
         new_tweets = self.client.user_timeline(screen_name=str(username),count=self.num_prev)
+        count=0
         for tweet in new_tweets:
-            self.write_out(json.dumps(tweet._json))
-            _,text=self.parse_tweet(tweet)
+            if count==0:
+                #skip first tweet
+                count+=1
+                continue
+            user,text,loc,time=self.parse_tweet(json.dumps(tweet._json))
+            self.write_out([time,loc,user,text])
             #print str(count)+":\t"+text
-            self.check_for_activity(text)
-        #print count
+            #self.check_for_activity(text)
+            count+=1
+        return count
 
     def parse_tweet(self,tweet):
-        """Returns username and text from tweet"""
+        """Returns username,text,location,time from tweet"""
         if (type(tweet) is str) or (type(tweet) is unicode):
             tweet_json=json.loads(tweet)
             user=tweet_json['user']['screen_name'].encode('ascii','ignore')
             text=tweet_json['text'].encode('ascii','ignore')
+            try:
+                loc=tweet_json['user']['location'].encode('ascii','ignore')
+            except AttributeError:
+                loc=""
+            time=tweet_json['created_at'].encode('ascii','ignore')
         else:
             #tweepy.models.Status type
             try:
                 #ignores special unicode characters
                 user=tweet.author.screen_name.encode('ascii','ignore')
                 text=tweet.text.encode('ascii','ignore')
+                loc=tweet.user.location.encode('ascii','ignore')
+                time=tweet.created_at.encode('ascii','ignore')
             except UnicodeEncodeError:
                 pass
 
-        return user,text
+        return user,text,loc,time
 
     def check_for_activity(self,tweet):
         """Checks tweet to see if it contains activity. Looks for best match."""
@@ -105,7 +119,7 @@ class StdOutListener(tweepy.StreamListener):
 
     def write_out(self,tweet):
         """Writes tweet out to file"""
-        self.out.write(tweet)
+        self.out.write("\n".join(tweet)+"\n\n")
 
     def close_listener(self):
         """Closes listener and output file"""
@@ -121,7 +135,7 @@ class TweetStream():
         self.activity_filter=['basketball','yoga','baseball']
 
         #variables
-        num_prev=20
+        num_prev=1
 
         #initialization
         self.access_token=""
