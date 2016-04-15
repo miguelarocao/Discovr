@@ -1,0 +1,911 @@
+Arts & Entertainment
+    Aquarium
+    Arcade
+    Art Gallery
+    Bowling Alley
+    Casino
+    Circus
+    Comedy Club
+    Concert Hall
+    Country Dance Club
+    Disc Golf
+    General Entertainment
+    Go Kart Track
+    Historic Site
+    Laser Tag
+    Mini Golf
+    Movie Theater
+        Indie Movie Theater
+        Multiplex
+    Museum
+        Art Museum
+        Erotic Museum
+        History Museum
+        Planetarium
+        Science Museum
+    Music Venue
+        Jazz Club
+        Piano Bar
+        Rock Club
+    Performing Arts Venue
+        Dance Studio
+        Indie Theater
+        Opera House
+        Theater
+    Pool Hall
+    Public Art
+        Outdoor Sculpture
+        Street Art
+    Racetrack
+    Roller Rink
+    Salsa Club
+    Stadium
+        Baseball Stadium
+        Basketball Stadium
+        Cricket Ground
+        Football Stadium
+        Hockey Arena
+        Soccer Stadium
+        Tennis
+        Track Stadium
+    Theme Park
+        Theme Park Ride / Attraction
+    Water Park
+    Zoo
+College & University
+    College Academic Building
+        College Arts Building
+        College Communications Building
+        College Engineering Building
+        College History Building
+        College Math Building
+        College Science Building
+        College Technology Building
+    College Administrative Building
+    College Auditorium
+    College Bookstore
+    College Cafeteria
+    College Classroom
+    College Gym
+    College Lab
+    College Library
+    College Quad
+    College Rec Center
+    College Residence Hall
+    College Stadium
+        College Baseball Diamond
+        College Basketball Court
+        College Cricket Pitch
+        College Football Field
+        College Hockey Rink
+        College Soccer Field
+        College Tennis Court
+        College Track
+    College Theater
+    Community College
+    Fraternity House
+    General College & University
+    Law School
+    Medical School
+    Sorority House
+    Student Center
+    Trade School
+    University
+Event
+    Conference
+    Convention
+    Festival
+    Music Festival
+    Other Event
+    Parade
+    Stoop Sale
+    Street Fair
+Food
+    Afghan Restaurant
+    African Restaurant
+        Ethiopian Restaurant
+    American Restaurant
+        New American Restaurant
+    Asian Restaurant
+        Cambodian Restaurant
+        Filipino Restaurant
+        Himalayan Restaurant
+        Hotpot Restaurant
+        Suggested Countries: CA, CN, HK, JP, KR, MO, MY, SG, TH, TW, US, VN
+        Japanese Restaurant
+            Donburi Restaurant
+            Suggested Countries: JP
+            Japanese Curry Restaurant
+            Kaiseki Restaurant
+            Suggested Countries: JP
+            Kushikatsu Restaurant
+            Suggested Countries: JP
+            Monjayaki Restaurant
+            Suggested Countries: JP
+            Nabe Restaurant
+            Suggested Countries: JP
+            Okonomiyaki Restaurant
+            Suggested Countries: JP
+            Ramen Restaurant
+            Shabu-Shabu Restaurant
+            Soba Restaurant
+            Sukiyaki Restaurant
+            Suggested Countries: JP
+            Sushi Restaurant
+            Takoyaki Place
+            Suggested Countries: JP
+            Tempura Restaurant
+            Suggested Countries: JP
+            Tonkatsu Restaurant
+            Suggested Countries: JP
+            Udon Restaurant
+            Unagi Restaurant
+            Suggested Countries: JP
+            Wagashi Place
+            Suggested Countries: JP
+            Yakitori Restaurant
+            Suggested Countries: JP
+            Yoshoku Restaurant
+            Suggested Countries: JP
+        Korean Restaurant
+        Malaysian Restaurant
+        Mongolian Restaurant
+        Noodle House
+        Thai Restaurant
+        Tibetan Restaurant
+        Vietnamese Restaurant
+    Australian Restaurant
+    Austrian Restaurant
+    BBQ Joint
+    Bagel Shop
+    Bakery
+    Belgian Restaurant
+    Bistro
+    Brazilian Restaurant
+        Acai House
+        Suggested Countries: BR
+        Baiano Restaurant
+        Suggested Countries: BR
+        Central Brazilian Restaurant
+        Suggested Countries: BR
+        Churrascaria
+        Suggested Countries: BR
+        Empada House
+        Suggested Countries: BR
+        Goiano Restaurant
+        Suggested Countries: BR
+        Mineiro Restaurant
+        Suggested Countries: BR
+        Northeastern Brazilian Restaurant
+        Suggested Countries: BR
+        Northern Brazilian Restaurant
+        Suggested Countries: BR
+        Pastelaria
+        Suggested Countries: BR
+        Southeastern Brazilian Restaurant
+        Suggested Countries: BR
+        Southern Brazilian Restaurant
+        Suggested Countries: BR
+        Tapiocaria
+        Suggested Countries: BR
+    Breakfast Spot
+    Bubble Tea Shop
+    Buffet
+    Burger Joint
+    Cafeteria
+    Café
+    Cajun / Creole Restaurant
+    Caribbean Restaurant
+    Caucasian Restaurant
+    Suggested Countries: RU
+    Chinese Restaurant
+        Anhui Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Beijing Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Cantonese Restaurant
+        Chinese Aristocrat Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Chinese Breakfast Place
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Dim Sum Restaurant
+        Dongbei Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Fujian Restaurant
+        Suggested Countries: CA, CN, HK, MO, MY, SG, TW, US
+        Guizhou Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Hainan Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Hakka Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Henan Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Hong Kong Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Huaiyang Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Hubei Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Hunan Restaurant
+        Suggested Countries: CA, CN, HK, MO, MY, SG, TW, US
+        Imperial Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Jiangsu Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Jiangxi Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Macanese Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Manchu Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Peking Duck Restaurant
+        Suggested Countries: CA, CN, HK, MO, MY, SG, TW, US
+        Shaanxi Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Shandong Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Shanghai Restaurant
+        Suggested Countries: CA, CN, HK, MO, MY, SG, TW, US
+        Shanxi Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Szechuan Restaurant
+        Taiwanese Restaurant
+        Suggested Countries: CA, CN, HK, MO, MY, SG, TW, US
+        Tianjin Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Xinjiang Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Yunnan Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+        Zhejiang Restaurant
+        Suggested Countries: CN, HK, MO, MY, SG, TW
+    Coffee Shop
+    Comfort Food Restaurant
+    Creperie
+    Czech Restaurant
+    Deli / Bodega
+    Dessert Shop
+        Cupcake Shop
+        Donut Shop
+        Frozen Yogurt
+        Ice Cream Shop
+        Pie Shop
+    Diner
+    Distillery
+    Dumpling Restaurant
+    Eastern European Restaurant
+        Belarusian Restaurant
+        Suggested Countries: AM, AZ, BY, GE, KY, KZ, MO, RU, TJ, TM, UA, UZ
+        Romanian Restaurant
+        Tatar Restaurant
+        Suggested Countries: AM, AZ, BY, GE, KY, KZ, MO, RU, TJ, TM, UA, UZ
+    English Restaurant
+    Falafel Restaurant
+    Fast Food Restaurant
+    Fish & Chips Shop
+    Fondue Restaurant
+    Food Court
+    Food Truck
+    French Restaurant
+    Fried Chicken Joint
+    Gastropub
+    German Restaurant
+    Gluten-free Restaurant
+    Greek Restaurant
+        Bougatsa Shop
+        Suggested Countries: GR
+        Cretan Restaurant
+        Suggested Countries: GR
+        Fish Taverna
+        Suggested Countries: GR
+        Grilled Meat Restaurant
+        Suggested Countries: GR
+        Kafenio
+        Suggested Countries: GR
+        Magirio
+        Suggested Countries: GR
+        Meze Restaurant
+        Suggested Countries: GR
+        Modern Greek Restaurant
+        Suggested Countries: GR
+        Ouzeri
+        Suggested Countries: GR
+        Patsa Restaurant
+        Suggested Countries: GR
+        Souvlaki Shop
+        Taverna
+        Suggested Countries: GR
+        Tsipouro Restaurant
+        Suggested Countries: GR
+    Halal Restaurant
+    Hawaiian Restaurant
+    Hot Dog Joint
+    Hungarian Restaurant
+    Indian Restaurant
+        Andhra Restaurant
+        Suggested Countries: IN
+        Awadhi Restaurant
+        Suggested Countries: IN
+        Bengali Restaurant
+        Suggested Countries: IN
+        Chaat Place
+        Chettinad Restaurant
+        Suggested Countries: IN
+        Dhaba
+        Suggested Countries: IN
+        Dosa Place
+        Suggested Countries: US
+        Goan Restaurant
+        Suggested Countries: IN
+        Gujarati Restaurant
+        Suggested Countries: IN
+        Hyderabadi Restaurant
+        Suggested Countries: IN
+        Indian Chinese Restaurant
+        Indian Sweet Shop
+        Suggested Countries: IN
+        Irani Cafe
+        Suggested Countries: IN
+        Jain Restaurant
+        Suggested Countries: IN
+        Karnataka Restaurant
+        Suggested Countries: IN
+        Kerala Restaurant
+        Suggested Countries: IN
+        Maharashtrian Restaurant
+        Suggested Countries: IN
+        Mughlai Restaurant
+        Suggested Countries: IN
+        Multicuisine Indian Restaurant
+        Suggested Countries: IN
+        North Indian Restaurant
+        Northeast Indian Restaurant
+        Suggested Countries: IN
+        Parsi Restaurant
+        Suggested Countries: IN
+        Punjabi Restaurant
+        Suggested Countries: IN
+        Rajasthani Restaurant
+        Suggested Countries: IN
+        South Indian Restaurant
+        Udupi Restaurant
+        Suggested Countries: IN
+    Indonesian Restaurant
+        Acehnese Restaurant
+        Suggested Countries: ID
+        Balinese Restaurant
+        Suggested Countries: ID
+        Betawinese Restaurant
+        Suggested Countries: ID
+        Indonesian Meatball Place
+        Suggested Countries: ID
+        Javanese Restaurant
+        Suggested Countries: ID
+        Manadonese Restaurant
+        Suggested Countries: ID
+        Padangnese Restaurant
+        Suggested Countries: ID
+        Sundanese Restaurant
+        Suggested Countries: ID
+    Irish Pub
+    Italian Restaurant
+        Abruzzo Restaurant
+        Suggested Countries: IT
+        Agriturismo
+        Suggested Countries: IT
+        Aosta Restaurant
+        Suggested Countries: IT
+        Basilicata Restaurant
+        Suggested Countries: IT
+        Calabria Restaurant
+        Suggested Countries: IT
+        Campanian Restaurant
+        Suggested Countries: IT
+        Emilia Restaurant
+        Suggested Countries: IT
+        Friuli Restaurant
+        Suggested Countries: IT
+        Ligurian Restaurant
+        Suggested Countries: IT
+        Lombard Restaurant
+        Suggested Countries: IT
+        Malga
+        Suggested Countries: IT
+        Marche Restaurant
+        Suggested Countries: IT
+        Molise Restaurant
+        Suggested Countries: IT
+        Piadineria
+        Suggested Countries: IT
+        Piedmontese Restaurant
+        Suggested Countries: IT
+        Puglia Restaurant
+        Suggested Countries: IT
+        Rifugio di Montagna
+        Suggested Countries: IT
+        Romagna Restaurant
+        Suggested Countries: IT
+        Roman Restaurant
+        Suggested Countries: IT
+        Sardinian Restaurant
+        Suggested Countries: IT
+        Sicilian Restaurant
+        Suggested Countries: IT
+        South Tyrolean Restaurant
+        Suggested Countries: IT
+        Trattoria/Osteria
+        Suggested Countries: IT
+        Trentino Restaurant
+        Suggested Countries: IT
+        Tuscan Restaurant
+        Suggested Countries: IT
+        Umbrian Restaurant
+        Suggested Countries: IT
+        Veneto Restaurant
+        Suggested Countries: IT
+    Jewish Restaurant
+        Kosher Restaurant
+    Juice Bar
+    Latin American Restaurant
+        Arepa Restaurant
+        Cuban Restaurant
+        Empanada Restaurant
+    Mac & Cheese Joint
+    Suggested Countries: CA, US
+    Mediterranean Restaurant
+        Moroccan Restaurant
+    Mexican Restaurant
+        Burrito Place
+        Taco Place
+    Middle Eastern Restaurant
+        Persian Restaurant
+    Modern European Restaurant
+    Molecular Gastronomy Restaurant
+    Pakistani Restaurant
+    Pizza Place
+    Polish Restaurant
+    Portuguese Restaurant
+    Restaurant
+    Russian Restaurant
+        Blini House
+        Suggested Countries: AM, AZ, BY, GE, KY, KZ, MO, RU, TJ, TM, UA, UZ
+        Pelmeni House
+        Suggested Countries: AM, AZ, BY, GE, KY, KZ, MO, RU, TJ, TM, UA, UZ
+    Salad Place
+    Sandwich Place
+    Scandinavian Restaurant
+    Seafood Restaurant
+    Snack Place
+    Soup Place
+    South American Restaurant
+        Argentinian Restaurant
+        Peruvian Restaurant
+    Southern / Soul Food Restaurant
+    Spanish Restaurant
+        Paella Restaurant
+        Tapas Restaurant
+    Sri Lankan Restaurant
+    Steakhouse
+    Swiss Restaurant
+    Tea Room
+    Turkish Restaurant
+        Borek Place
+        Suggested Countries: TR
+        Cigkofte Place
+        Suggested Countries: TR
+        Doner Restaurant
+        Suggested Countries: AT, BE, CA, CH, DE, DK, FR, PL, TR
+        Gozleme Place
+        Suggested Countries: TR
+        Kebab Restaurant
+        Suggested Countries: AT, AU, BE, BR, CH, CZ, DK, ES, FI, FR, IE, IT, NO, NZ, PL, SE, TR
+        Kofte Place
+        Suggested Countries: TR
+        Kokoreç Restaurant
+        Suggested Countries: TR
+        Manti Place
+        Suggested Countries: TR
+        Meyhane
+        Suggested Countries: TR
+        Pide Place
+        Suggested Countries: TR
+        Turkish Home Cooking Restaurant
+        Suggested Countries: TR
+    Ukrainian Restaurant
+        Varenyky restaurant
+        Suggested Countries: AM, AZ, BY, GE, KY, KZ, MO, RU, TJ, TM, UA, UZ
+        West-Ukrainian Restaurant
+        Suggested Countries: AM, AZ, BY, GE, KY, KZ, MO, RU, TJ, TM, UA, UZ
+    Vegetarian / Vegan Restaurant
+    Winery
+    Wings Joint
+Nightlife Spot
+    Bar
+        Beach Bar
+        Beer Garden
+        Champagne Bar
+        Suggested Countries: GB
+        Cocktail Bar
+        Dive Bar
+        Gay Bar
+        Hookah Bar
+        Hotel Bar
+        Karaoke Bar
+        Pub
+        Sake Bar
+        Sports Bar
+        Whisky Bar
+        Wine Bar
+    Brewery
+    Lounge
+    Night Market
+    Nightclub
+    Other Nightlife
+    Speakeasy
+    Strip Club
+Outdoors & Recreation
+    Athletics & Sports
+        Badminton Court
+        Baseball Field
+        Basketball Court
+        Bowling Green
+        Golf Course
+        Hockey Field
+        Paintball Field
+        Rugby Pitch
+        Skate Park
+        Skating Rink
+        Soccer Field
+        Sports Club
+        Squash Court
+        Tennis Court
+        Volleyball Court
+    Bath House
+    Bathing Area
+    Beach
+        Nudist Beach
+        Surf Spot
+    Botanical Garden
+    Bridge
+    Campground
+    Castle
+    Cemetery
+    Dive Spot
+    Dog Run
+    Farm
+    Field
+    Fishing Spot
+    Forest
+    Garden
+    Gun Range
+    Harbor / Marina
+    Hot Spring
+    Island
+    Lake
+    Lighthouse
+    Mountain
+    National Park
+    Nature Preserve
+    Other Great Outdoors
+    Palace
+    Park
+    Pedestrian Plaza
+    Playground
+    Plaza
+    Pool
+    Rafting
+    Recreation Center
+    River
+    Rock Climbing Spot
+    Scenic Lookout
+    Sculpture Garden
+    Ski Area
+        Apres Ski Bar
+        Ski Chairlift
+        Ski Chalet
+        Ski Lodge
+        Ski Trail
+    Stables
+    States & Municipalities
+        City
+        County
+        Country
+        Neighborhood
+        State
+        Town
+        Village
+    Summer Camp
+    Trail
+    Tree
+    Vineyard
+    Volcano
+    Well
+Professional & Other Places
+    Animal Shelter
+    Auditorium
+    Building
+    Club House
+    Community Center
+    Convention Center
+        Meeting Room
+    Cultural Center
+    Distribution Center
+    Event Space
+    Factory
+    Fair
+    Funeral Home
+    Government Building
+        Capitol Building
+        City Hall
+        Courthouse
+        Embassy / Consulate
+        Fire Station
+        Monument / Landmark
+        Police Station
+        Town Hall
+    Library
+    Medical Center
+        Acupuncturist
+        Alternative Healer
+        Chiropractor
+        Dentist's Office
+        Doctor's Office
+        Emergency Room
+        Eye Doctor
+        Hospital
+        Laboratory
+        Mental Health Office
+        Veterinarian
+    Military Base
+    Non-Profit
+    Office
+        Advertising Agency
+        Campaign Office
+        Conference Room
+        Corporate Cafeteria
+        Coworking Space
+        Tech Startup
+    Parking
+    Post Office
+    Prison
+    Radio Station
+    Recruiting Agency
+    School
+        Circus School
+        Driving School
+        Elementary School
+        Flight School
+        High School
+        Language School
+        Middle School
+        Music School
+        Nursery School
+        Preschool
+        Private School
+        Religious School
+        Swim School
+    Social Club
+    Spiritual Center
+        Buddhist Temple
+        Church
+        Hindu Temple
+        Monastery
+        Mosque
+        Prayer Room
+        Shrine
+        Synagogue
+        Temple
+    TV Station
+    Voting Booth
+    Warehouse
+Residence
+    Assisted Living
+    Home (private)
+    Housing Development
+    Residential Building (Apartment / Condo)
+    Trailer Park
+Shop & Service
+    ATM
+    Adult Boutique
+    Antique Shop
+    Arts & Crafts Store
+    Astrologer
+    Auto Garage
+    Automotive Shop
+    Baby Store
+    Bank
+    Betting Shop
+    Big Box Store
+    Bike Shop
+    Board Shop
+    Bookstore
+    Bridal Shop
+    Business Service
+    Camera Store
+    Candy Store
+    Car Dealership
+    Car Wash
+    Carpet Store
+    Check Cashing Service
+    Chocolate Shop
+    Christmas Market
+    Clothing Store
+        Accessories Store
+        Boutique
+        Kids Store
+        Lingerie Store
+        Men's Store
+        Shoe Store
+        Women's Store
+    Comic Shop
+    Construction & Landscaping
+    Convenience Store
+    Cosmetics Shop
+    Costume Shop
+    Credit Union
+    Daycare
+    Department Store
+    Design Studio
+    Discount Store
+    Dive Shop
+    Drugstore / Pharmacy
+    Dry Cleaner
+    EV Charging Station
+    Electronics Store
+    Event Service
+    Fabric Shop
+    Financial or Legal Service
+    Fireworks Store
+    Fishing Store
+    Flea Market
+    Flower Shop
+    Food & Drink Shop
+        Beer Store
+        Butcher
+        Cheese Shop
+        Farmers Market
+        Fish Market
+        Gourmet Shop
+        Grocery Store
+        Health Food Store
+        Liquor Store
+        Organic Grocery
+        Street Food Gathering
+        Supermarket
+        Wine Shop
+    Frame Store
+    Fruit & Vegetable Store
+    Furniture / Home Store
+        Lighting Store
+    Gaming Cafe
+    Garden Center
+    Gas Station / Garage
+    Gift Shop
+    Gun Shop
+    Gym / Fitness Center
+        Boxing Gym
+        Climbing Gym
+        Cycle Studio
+        Gym Pool
+        Gymnastics Gym
+        Gym
+        Martial Arts Dojo
+        Track
+        Yoga Studio
+    Hardware Store
+    Health & Beauty Service
+    Herbs & Spices Store
+    Hobby Shop
+    Home Service
+    Hunting Supply
+    IT Services
+    Internet Cafe
+    Jewelry Store
+    Knitting Store
+    Laundromat
+    Laundry Service
+    Lawyer
+    Leather Goods Store
+    Locksmith
+    Lottery Retailer
+    Suggested Countries: BR, HU, TR
+    Luggage Store
+    Mall
+    Marijuana Dispensary
+    Suggested Countries: US
+    Market
+    Massage Studio
+    Mattress Store
+    Miscellaneous Shop
+    Mobile Phone Shop
+    Motorcycle Shop
+    Music Store
+    Nail Salon
+    Newsstand
+    Optical Shop
+    Other Repair Shop
+    Outdoor Supply Store
+    Outlet Store
+    Paper / Office Supplies Store
+    Pawn Shop
+    Perfume Shop
+    Pet Service
+    Pet Store
+    Photography Lab
+    Photography Studio
+    Piercing Parlor
+    Pop-Up Shop
+    Print Shop
+    Real Estate Office
+    Record Shop
+    Recording Studio
+    Recycling Facility
+    Salon / Barbershop
+    Shipping Store
+    Shoe Repair
+    Smoke Shop
+    Smoothie Shop
+    Souvenir Shop
+    Spa
+    Sporting Goods Shop
+    Stationery Store
+    Storage Facility
+    Tailor Shop
+    Tanning Salon
+    Tattoo Parlor
+    Thrift / Vintage Store
+    Toy / Game Store
+    Travel Agency
+    Used Bookstore
+    Video Game Store
+    Video Store
+    Warehouse Store
+    Watch Repair Shop
+Travel & Transport
+    Airport
+        Airport Food Court
+        Airport Gate
+        Airport Lounge
+        Airport Terminal
+        Airport Tram
+        Plane
+    Bike Rental / Bike Share
+    Boat or Ferry
+    Border Crossing
+    Bus Station
+        Bus Line
+    Bus Stop
+    Cable Car
+    Cruise
+    General Travel
+    Hotel
+        Bed & Breakfast
+        Boarding House
+        Hostel
+        Hotel Pool
+        Motel
+        Resort
+        Roof Deck
+    Intersection
+    Light Rail Station
+    Metro Station
+    Moving Target
+    Pier
+    RV Park
+    Rental Car Location
+    Rest Area
+    Road
+    Street
+    Taxi Stand
+    Taxi
+    Toll Booth
+    Toll Plaza
+    Tourist Information Center
+    Train Station
+        Platform
+        Train
+    Tram Station
+    Transportation Service
+    Travel Lounge
+    Tunnel
