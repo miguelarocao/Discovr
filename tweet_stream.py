@@ -9,11 +9,10 @@ import sys
 #Variables that contains the user credentials to access Twitter API
 
 #for string matching
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
+import time
 
 def main():
-    myTweetStream=TweetStream('credentials.txt','activity_list.txt','output.txt',50000)
+    myTweetStream=TweetStream('credentials.txt','activity_list.txt','output.txt',910000)
     myTweetStream.start_stream('activity')
 
 class StdOutListener(tweepy.StreamListener):
@@ -26,22 +25,19 @@ class StdOutListener(tweepy.StreamListener):
         self.tweet_count=0
         self.activity_list=activity_list
 
-        #variables
-        self.fuzz_confidence=95
-
         #open output file
-        self.out=open(output_file,'w')
+        self.out=open(output_file,'a')
 
     def on_data(self, data):
         """Handles succesful data fetch"""
         #print data
 
         user,text,loc,time=self.parse_tweet(data)
-        self.write_out([time,loc,user,text])
+        self.write_out([time,loc,user,text]) #only write out some of the data
 
-        print "--------------------------------"
-        print "\t\t\tUser: "+str(user)+" tweeted: "
-        print "\t"+text
+        #print "--------------------------------"
+        #print "\t\t\tUser: "+str(user)+" tweeted: "
+        #print "\t"+text
         count=self.get_last_tweet(user)
 
         self.tweet_count+=count
@@ -97,26 +93,6 @@ class StdOutListener(tweepy.StreamListener):
 
         return user,text,loc,time
 
-    def check_for_activity(self,tweet):
-        """Checks tweet to see if it contains activity. Looks for best match."""
-        best_match=self.fuzz_confidence
-        best_activity=None
-        best_word=None
-        for activity in self.activity_list:
-            for word in tweet.split(" "):
-                match=fuzz.ratio(activity.lower(),word.lower())
-                if match>best_match:
-                    best_match=match
-                    best_activity=activity
-                    best_word=word
-
-        if best_activity:
-            #print best_match
-            #print best_activity
-            #print best_word
-            return True
-        return False
-
     def write_out(self,tweet):
         """Writes tweet out to file"""
         self.out.write("\n".join(tweet)+"\n\n")
@@ -135,7 +111,7 @@ class TweetStream():
         self.activity_filter=['basketball','yoga','baseball']
 
         #variables
-        num_prev=1
+        num_prev=200
 
         #initialization
         self.access_token=""
@@ -144,7 +120,7 @@ class TweetStream():
         self.consumer_secret=""
         self.stream=None
         self.activity_list=[]
-        self.load_activities(activity_file)
+        load_activities(activity_file,self.activity_list)
         self.listen = StdOutListener(num_prev,self.activity_list,output_file,tweet_max)
         self.fetch_credentials(cred_file)
         self.setup_credentials()
@@ -152,10 +128,9 @@ class TweetStream():
     def setup_credentials(self):
         """This handles Twitter authetification and the connection to Twitter Streaming API"""
 
-
         auth = tweepy.OAuthHandler(self.consumer_key, self.consumer_secret)
         auth.set_access_token(self.access_token, self.access_token_secret)
-        client = tweepy.API(auth)
+        client = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
         self.listen.set_client(client)
         self.stream = tweepy.Stream(auth, self.listen)
 
@@ -172,22 +147,27 @@ class TweetStream():
 
     def start_stream(self,mode):
         """Starts stream and filters on either activity or location"""
-        if mode=="activity":
-            self.stream.filter(track=self.activity_filter)
-        elif mode=="location":
-            self.stream.filter(locations=self.NA_bounding_box)
-        else:
-            print "start_stream error(): invalid input!"
+        try:
+            if mode=="activity":
+                self.stream.filter(track=self.activity_filter)
+            elif mode=="location":
+                self.stream.filter(locations=self.NA_bounding_box)
+            else:
+                print "start_stream error(): invalid input!"
+                raise
+        except:
+            print "Unexpected error:",sys.exc_info()[0]
+            self.listen.close_listener()
             raise
 
-    def load_activities(self,filename):
-        with open(filename,'r') as f:
-            for line in f:
-                self.activity_list.append(line.rstrip())
-                if len(line.split(" "))>1:
-                    self.activity_list.append(" ".join(line.rstrip().split(" ")[:-1])) #also remove last word
+def load_activities(filename,activity_list):
+    with open(filename,'r') as f:
+        for line in f:
+            activity_list.append(line.rstrip())
+            if len(line.split(" "))>1:
+                activity_list.append(" ".join(line.rstrip().split(" ")[:-1])) #also remove last word
 
-        f.close()
+    f.close()
 
 def parse_json(fields):
     """Groups tweets by users. Input specifies desired fields returned.
