@@ -163,9 +163,9 @@ class TweetStream():
 def load_activities(filename,activity_list):
     with open(filename,'r') as f:
         for line in f:
-            activity_list.append(line.rstrip())
-            if len(line.split(" "))>1:
-                activity_list.append(" ".join(line.rstrip().split(" ")[:-1])) #also remove last word
+            activity_list.append(line.lower().rstrip())
+            #if len(line.split(" "))>1:
+            #    activity_list.append(" ".join(line.rstrip().split(" ")[:-1])) #also remove last word
 
     f.close()
 

@@ -1,0 +1,146 @@
+Aquarium
+Arcade
+Art
+Bowling
+Casino
+Circus
+Comedy
+Concert
+Dance
+Dancing
+Disc Golf
+Exhibit
+Go Kart
+History
+Laser Tag
+Mini Golf
+Movie Theater
+Museum
+History Museum
+Planetarium
+Science Museum
+Jazz
+Performing Arts
+Dance Studio
+Indie Theater
+Opera House
+Theater
+Pool
+Public Art
+Sculpture
+Street Art
+Racecourse
+Racetrack
+Salsa
+Samba
+Baseball
+Basketball
+Cricket
+Football
+Hockey
+Rugby
+Soccer
+Tennis
+Track
+Theme Park
+Tours
+Water Park
+Zoo
+Festival
+Street Fair
+Food
+Restaurant
+Eating
+Bar
+Beach
+Hookah
+Karaoke
+Pub
+Brewery
+Lounge
+Night Market
+Clubbing
+Badminton
+Curling
+Golf
+Fitness Center
+Boxing
+Climbing
+Cycling
+Gymnastics
+Gym
+Martial Arts
+Track
+Yoga
+Hockey
+Field Hockey
+Paintball
+Rugby
+Skateboarding
+Skateboard
+Rollerblade
+Rollerblading
+Rollerskate
+Rollerskating
+Skating
+Squash
+Tennis
+Volleyball
+Surf
+Surfing
+Biking
+Botanical Garden
+Camping
+Diving
+Dive
+Farm
+Fishing
+Gardening
+Shooting
+Hiking
+Camping
+Rafting
+Rock Climbing
+Ski
+Horseback Riding
+Ballroom
+Building
+Distillery
+Library
+Circus
+Flight
+Music
+Swim
+Swimming
+Shop
+Shopping
+Antique Shop
+Car
+Comics
+Film
+Flea Market
+Farmers Market
+Gaming
+Video Game
+Hobby Shop
+Jewelry
+Knitting
+Massage
+Nail Salon
+Pet
+Photography
+Salon
+Barbershop
+Spa
+Tanning
+Tattoo
+Thrift
+Vintage
+Toys
+Reading
+Movies
+Airport
+Plane
+Boat
+Boating
+Paddleboarding

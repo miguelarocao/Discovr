@@ -15,15 +15,19 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 #confidence of matchign with a word
-FUZZ_CONFIDENCE=95
+FUZZ_CONFIDENCE=85
 
 #globals
 activity_list=[]
 
+#output pairs file
+out_pair="output_pairs.txt"
+
 def main():
     weekdays=['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
 
-    act_dict=load_activities('activity_list.txt',activity_list)
+    load_activities('mod_activity_list.txt',activity_list)
+    act_dict=build_dict()
 
     filename='output.txt'
     tweet_count=0
@@ -34,10 +38,8 @@ def main():
     with open(filename,'r') as f:
         while True:
             line=f.readline().rstrip()
-            if line=="":
-                #skip blank lines
-                continue
-            elif line[0:3] in weekdays:
+
+            if line[0:3] in weekdays:
                 #new tweet
                 tweet_count+=1
                 in_tweet=0
@@ -50,11 +52,11 @@ def main():
                     if user_count>0:
                         user_pop_dict(act_dict,user_tweets)
                         user_tweets=[] #reset user tweets
-                        break
                     user_count+=1
                     curr_user=line
-                    print curr_user
-
+                    print "user: "+curr_user
+                    if user_count>5:
+                        break
             elif in_tweet==1:
                 #location
                 pass
@@ -64,48 +66,71 @@ def main():
 
             in_tweet+=1
 
-            if tweet_count>200:
-                break
+    for key,value in act_dict.iteritems():
+        if value>0:
+            print str(key)+": "+str(value)
+
+    write_out_pairs(act_dict)
 
     print "Num tweets: "+str(tweet_count)
     print "Num users: "+str(user_count)
 
     f.close()
 
-def build_dict(activities):
-    """Returns dictionary matrix corresponding to paired activities"""
+def write_out_pairs(act_dict):
+    """Writes pairs out to output file."""
+    with open(out_pair,'w') as f_pair:
+        for key,value in act_dict.iteritems():
+            f_pair.write(" ".join([key[0],key[1],str(value)])+"\n")
+
+    f_pair.close()
+
+def build_dict():
+    """Returns dictionary corresponding to paired activities.
+    Pairs are sorted alphabetically. i.e. (Basketball, Volleyball)"""
 
     act_dict={}
-    base_dict=dict((key,0) for key in act_dict)
 
-    for activity in activities:
-        act_dict[activity]=dict(base_dict)
+    for i in range(len(activity_list)):
+        for j in range(i+1,len(activity_list)):
+            act_dict[tuple(sorted([activity_list[i],activity_list[j]]))]=0
 
     return act_dict
 
 def user_pop_dict(act_dict,tweets):
     """Populates dictionary based on tweets from a single user"""
 
-    user_act=[]
+    user_act=set()
     count=0
     for tweet in tweets:
-        user_act+=check_for_activity(tweet)
-        print count
+        user_act.update(check_for_activity(tweet))
         count+=1
 
-    print user_act
+    user_act=list(user_act)
+    for i in range(len(user_act)):
+        for j in range(i+1,len(user_act)):
+            act_dict[tuple(sorted([user_act[i],user_act[j]]))]+=1
     return
 
 def check_for_activity(tweet):
-    """Checks tweet to see if it contains activities."""
-    match_activities=[]
+    """Checks tweet to see if it contains activities. Returns set of matched activities."""
+    match_activities=set()
     match_val=[]
+    tweet=tweet.lower()
+    tweet_words=tweet.split(" ")
     for activity in activity_list:
-        for word in tweet.split(" "):
-            match=fuzz.ratio(activity.lower(),word.lower())
+        if len(activity.split(" "))>1:
+            #multiword match
+            match=fuzz.partial_ratio(activity,tweet)
             if match>FUZZ_CONFIDENCE:
-                match_activities.append(activity)
-                match_val.append(match)
+                match_activities.add(activity)
+        else:
+            for word in tweet_words:
+                #single word match
+                match=fuzz.ratio(activity,word)
+                if match>FUZZ_CONFIDENCE:
+                    match_activities.add(activity)
+                    break
 
     return match_activities
 
