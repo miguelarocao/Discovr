@@ -11,12 +11,12 @@ site = wiki.Wiki("http://en.wikipedia.org/w/api.php")
 with open('objs.pickle') as f:
     G, lst, level, id = pickle.load(f)
 
-def get_paths(act1, act2):
+# Reverse graph to get faster results
+G_rev = G.reverse()
+
+def get_paths(act):
     pg = page.Page(site, act)
-    pg2 = page.Page(site, act2)
-    
     cat = pg.getCategories()
-    cat2 = pg2.getCategories()
     
     cat_ = []
     path_ = []
@@ -29,26 +29,15 @@ def get_paths(act1, act2):
             path_.append(p)
             s = set(p)
             set_.append(s)
-    
-    cat2_ = []
-    path2_ = []
-    set2_ = []
-    for c in cat2:
-        c = c[9:]
-        if c in G:
-            cat2_.append(c)
-            p = nx.dijkstra_path(G_rev, c, root)
-            path2_.append(p)
-            s = set(p)
-            set2_.append(s)
-    
-    return [cat_, cat2_, path_, path2_, set_, set2_]
-    
+        
+    return [cat_, path_, set_]    
+
 def score(depth):
     return depth
 
 def find_best_common_path(act, act2):
-    [cat_, cat2_, path_, path2_, set_, set2_] = get_paths(act, act2)
+    [cat_, path_, set_] = get_paths(act)
+    [cat2_, path2_, set2_] = get_paths(act2)
     curr_max = score(0)
     curr_pair = [0, 0]
     for i in range(len(set_)):
@@ -64,15 +53,14 @@ def find_best_common_path(act, act2):
     
     return [curr_max, path_[curr_pair[0]], path2_[curr_pair[1]]]
 
-# Reverse graph to get faster results
-G_rev = G.reverse()
-
 root = 'Main topic classifications'
 
-act = 'Swimming (sport)'
-act2 = 'Rafting'
-act = 'Basketball'
-act2 = 'American football'
+act_pair = [
+'Archery ',
+'Shooting sport'
+]
 
-#[cat, cat2, path, path2, set1, set2] = get_paths(act, act2)
-[scor, p, p2] = find_best_common_path(act, act2)
+[cat1, path1, set1] = get_paths(act_pair[0])
+[cat2, path2, set2] = get_paths(act_pair[1])
+
+[scor, p, p2] = find_best_common_path(act_pair[0], act_pair[1])
