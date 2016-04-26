@@ -32,28 +32,129 @@ def get_paths(act):
         
     return [cat_, path_, set_]    
 
-def score(depth):
+def score_depth(depth):
     return depth
 
-def find_best_common_path(act, act2):
+def score_node_counts(node, node_counts):
+    return 1.01**(-node_counts[node])
+
+def find_best_common_path(act, act2, node_counts, use_counts):
     [cat_, path_, set_] = get_paths(act)
     [cat2_, path2_, set2_] = get_paths(act2)
-    curr_max = score(0)
-    curr_pair = [0, 0]
+    curr_max = 0
     for i in range(len(set_)):
         for j in range(len(set2_)):
             common = set_[i].intersection(set2_[j])
             #print common
             depth = len(common)
             #print depth
-            scor = score(depth)
+            if use_counts:
+                scor = score_node_counts(path_[i][-depth], node_counts)
+            else:
+                scor = score_depth(depth)
             if(scor > curr_max):
                 curr_max = scor
                 curr_pair = [i, j]
     
     return [curr_max, path_[curr_pair[0]], path2_[curr_pair[1]]]
 
+def gen_node_counts(acts):
+    cats = dict()
+    for elem in acts:
+        [cat1, path1, set1] = get_paths(elem)
+        for p in path1:
+            for e in p:
+                if e in cats:
+                    cats[e] += 1
+                else:
+                    cats[e] = 1
+    return cats
+                
 root = 'Main topic classifications'
+
+acts = [
+'Bowling',
+'Dance',
+'Disc Golf',
+'Go Kart',
+'Laser Tag',
+'Mini Golf',
+'Golf',
+'Swimming (sport)',
+'Salsa',
+'Samba',
+'Baseball',
+'Basketball',
+'Cricket',
+'American football',
+'Hockey',
+'Rugby',
+'Racquetball',
+'Association football',
+'Table Tennis',
+'Tennis',
+'Track and field',
+'Running',
+'Badminton',
+'Curling',
+'Boxing',
+'Fitness',
+'Sport Climbing',
+'Rock Climbing',
+'Cycling',
+'Gymnastics',
+'Martial Arts',
+'Yoga',
+'Paddleboarding',
+'Field Hockey',
+'Paintball',
+'Rugby',
+'Skateboarding',
+'Inline skating',
+'Roller skating',
+'Skating',
+'Squash',
+'Surfing',
+'Motorcycling',
+'Hiking',
+'Rafting',
+'Skiing',
+'Horseback Riding',
+'Volleyball',
+'Fencing',
+'Parkour',
+'Trampolining',
+'Skydiving',
+'Bungee jumping',
+'Ziplining',
+'Snowboarding',
+'Softball',
+'Archery ',
+'Shooting sport',
+'Racing',
+'Billiards',
+'Pool',
+'Paragliding',
+'Handball',
+'Pottery',
+'Photography',
+'Painting',
+'Drawing',
+'Singing',
+'Improv',
+'Comedy',
+'Theatre',
+'Origami',
+'Sculpture',
+'Karaoke',
+'Charity shop',
+'Reading',
+'Escape room',
+'Gambling ',
+'Arcade',
+]
+
+node_counts = gen_node_counts(acts)
 
 act_pair = [
 'Archery ',
@@ -63,4 +164,4 @@ act_pair = [
 [cat1, path1, set1] = get_paths(act_pair[0])
 [cat2, path2, set2] = get_paths(act_pair[1])
 
-[scor, p, p2] = find_best_common_path(act_pair[0], act_pair[1])
+[scor, p, p2] = find_best_common_path(act_pair[0], act_pair[1], node_counts, True)
