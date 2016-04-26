@@ -1,18 +1,11 @@
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      Miguel
-#
-# Created:     17/04/2016
-# Copyright:   (c) Miguel 2016
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
+#TODO: Get 100 users PER activity (20000 tweets)
+#TODO: Store tweets as json (same info, just easier to work with)
 
 from tweet_stream import load_activities
-
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
+import time
+
 
 #confidence of matchign with a word
 FUZZ_CONFIDENCE=85
@@ -21,50 +14,61 @@ FUZZ_CONFIDENCE=85
 activity_list=[]
 
 #output pairs file
-out_pair="output_pairs.txt"
+timestr=time.strftime("%Y%m%d-%H%M%S")
+out_pair="pair_data/output_pairs"+timestr+".txt"
+out_user="pair_data/user_pairs"+timestr+".txt"
 
 def main():
     weekdays=['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
+    months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 
-    load_activities('mod_activity_list.txt',activity_list)
+    load_activities('activity_list.txt',activity_list)
     act_dict=build_dict()
 
-    filename='output.txt'
+    userfile=open(out_user,'a')
+
+    filenames=['output_tweets.txt','output_tweets2.txt']
     tweet_count=0
     user_count=0
     curr_user=''
     in_tweet=0
     user_tweets=[]
-    with open(filename,'r') as f:
-        while True:
-            line=f.readline().rstrip()
+    to_print=False
+    start_time=time.clock()
+    for filename in filenames:
+        with open(filename,'r') as f:
+            while True:
+                line=f.readline()
+                if line=="":
+                    #file done!
+                    break
 
-            if line[0:3] in weekdays:
-                #new tweet
-                tweet_count+=1
-                in_tweet=0
-                if tweet_count%50000==0:
-                    print tweet_count
-            elif in_tweet==2:
-                #checks username
-                if curr_user!=line:
-                    #new user
-                    if user_count>0:
-                        user_pop_dict(act_dict,user_tweets)
-                        user_tweets=[] #reset user tweets
-                    user_count+=1
-                    curr_user=line
-                    print "user: "+curr_user
-                    if user_count>5:
-                        break
-            elif in_tweet==1:
-                #location
-                pass
-            else:
-                #tweet!
-                user_tweets.append(line)
+                #file not done
+                line=line.rstrip()
 
-            in_tweet+=1
+                if (line[0:3] in weekdays) and (line[4:7] in months) and len(line)==30:
+                    #new tweet
+                    tweet_count+=1
+                    in_tweet=0
+                elif in_tweet==2:
+                    #checks username
+                    if curr_user!=line:
+                        #new user
+                        if user_count>0:
+                            user_pop_dict(userfile,curr_user,act_dict,user_tweets)
+                            user_tweets=[] #reset user tweets
+                        user_count+=1
+                        curr_user=line
+                        print str(user_count)+": "+curr_user
+                        #return
+                elif in_tweet==1:
+                    #location
+                    pass
+                else:
+                    #tweet!
+                    user_tweets.append(line)
+
+                in_tweet+=1
 
     for key,value in act_dict.iteritems():
         if value>0:
@@ -74,16 +78,47 @@ def main():
 
     print "Num tweets: "+str(tweet_count)
     print "Num users: "+str(user_count)
+    print "Time: "+str(time.clock()-start_time)
 
     f.close()
+    userfile.close()
+
+def reparse_user_pairs(filename):
+    """Reparses user activity pairs."""
+
+    load_activities('activity_list.txt',activity_list)
+    act_dict=build_dict()
+
+    read_line=False
+
+    with open(filename,'r') as f:
+        lines=f.readlines()
+        for line in lines:
+            line=line.rstrip()
+            if line=="":
+                read_line=False
+                continue
+            if read_line:
+                #activtiies
+                activities=line.split(",")
+                for i in range(len(activities)):
+                    for j in range(i,len(activities)):
+                        act_dict[tuple(sorted([activities[i],activities[j]]))]+=1
+
+            read_line=True
+
+    f.close()
+    write_out_pairs(act_dict)
+
 
 def write_out_pairs(act_dict):
     """Writes pairs out to output file."""
     with open(out_pair,'w') as f_pair:
         for key,value in act_dict.iteritems():
-            f_pair.write(" ".join([key[0],key[1],str(value)])+"\n")
+            f_pair.write(",".join([key[0],key[1],str(value)])+"\n")
 
     f_pair.close()
+
 
 def build_dict():
     """Returns dictionary corresponding to paired activities.
@@ -92,13 +127,16 @@ def build_dict():
     act_dict={}
 
     for i in range(len(activity_list)):
-        for j in range(i+1,len(activity_list)):
+        for j in range(i,len(activity_list)):
             act_dict[tuple(sorted([activity_list[i],activity_list[j]]))]=0
 
     return act_dict
 
-def user_pop_dict(act_dict,tweets):
+def user_pop_dict(userfile,user,act_dict,tweets):
     """Populates dictionary based on tweets from a single user"""
+
+
+    userfile.write(user+'\n')
 
     user_act=set()
     count=0
@@ -107,9 +145,12 @@ def user_pop_dict(act_dict,tweets):
         count+=1
 
     user_act=list(user_act)
+    userfile.write(",".join(user_act)+'\n')
     for i in range(len(user_act)):
-        for j in range(i+1,len(user_act)):
+        for j in range(i,len(user_act)):
             act_dict[tuple(sorted([user_act[i],user_act[j]]))]+=1
+
+    userfile.write('\n')
     return
 
 def check_for_activity(tweet):
@@ -135,4 +176,5 @@ def check_for_activity(tweet):
     return match_activities
 
 if __name__ == '__main__':
-    main()
+    reparse_user_pairs("pair_data/user_pairs20160425-101756.txt")
+    #main()

@@ -12,7 +12,7 @@ import sys
 import time
 
 def main():
-    myTweetStream=TweetStream('credentials.txt','activity_list.txt','output.txt',910000)
+    myTweetStream=TweetStream('credentials.txt','activity_list.txt','output_tweets.txt',1e6)
     myTweetStream.start_stream('activity')
 
 class StdOutListener(tweepy.StreamListener):
@@ -43,6 +43,7 @@ class StdOutListener(tweepy.StreamListener):
         self.tweet_count+=count
         if (self.tweet_max) and (self.tweet_count>=self.tweet_max):
             self.close_listener()
+            print "Tweet goal reached!"
             sys.exit(0)
 
         print self.tweet_count
@@ -147,34 +148,31 @@ class TweetStream():
 
     def start_stream(self,mode):
         """Starts stream and filters on either activity or location"""
-        try:
-            if mode=="activity":
-                self.stream.filter(track=self.activity_filter)
-            elif mode=="location":
-                self.stream.filter(locations=self.NA_bounding_box)
-            else:
-                print "start_stream error(): invalid input!"
-                raise
-        except:
-            print "Unexpected error:",sys.exc_info()[0]
-            self.listen.close_listener()
-            raise
+        while True:
+            try:
+                if mode=="activity":
+                    self.stream.filter(track=self.activity_filter)
+                elif mode=="location":
+                    self.stream.filter(locations=self.NA_bounding_box)
+                else:
+                    print "start_stream error(): invalid input!"
+                    raise
+            except:
+                if type(sys.exc_info()[1])==SystemExit and sys.exc_info()[1].code==0:
+                    print "Stream complete."
+                    sys.exit(0)
+                print "Unexpected error:",sys.exc_info()[0]
+                continue
 
 def load_activities(filename,activity_list):
     with open(filename,'r') as f:
         for line in f:
-            activity_list.append(line.lower().rstrip())
-            #if len(line.split(" "))>1:
-            #    activity_list.append(" ".join(line.rstrip().split(" ")[:-1])) #also remove last word
+            if len(line.split("/"))>1:
+                activity_list+=(line.lower().rstrip().split("/"))
+            else:
+                activity_list.append(line.lower().rstrip())
 
     f.close()
-
-def parse_json(fields):
-    """Groups tweets by users. Input specifies desired fields returned.
-    Input: list of json fields returned.
-    Output: list of list of [users[tweet fields]]"""
-
-    pass
 
 def fix_activity_list():
     f1=open('activity_list.txt','r')
