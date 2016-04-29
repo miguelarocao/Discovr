@@ -12,41 +12,60 @@ import sys
 import time
 
 def main():
-    myTweetStream=TweetStream('credentials.txt','activity_list.txt','output_tweets.txt',1e6)
+    myTweetStream=TweetStream('credentials.txt','activity_list.txt',10)
     myTweetStream.start_stream('activity')
 
 class StdOutListener(tweepy.StreamListener):
     """Basic listener which prints username and Tweets"""
 
-    def __init__(self,num_prev,activity_list,output_file,tweet_max):
+    def __init__(self,num_prev,user_max):
         self.client=None
         self.num_prev=num_prev
-        self.tweet_max=tweet_max
-        self.tweet_count=0
-        self.activity_list=activity_list
+        self.user_max=user_max
+        self.user_count=0
 
         #open output file
+        self.out=None
+        self.first=False
+
+    def set_output(self,output_file):
+        #close file if necessary
+        try:
+            self.out.close()
+        except AttributeError:
+            pass
+        #set new output file
         self.out=open(output_file,'a')
+        self.out.write('[')
+        self.first=True
+
 
     def on_data(self, data):
         """Handles succesful data fetch"""
-        #print data
 
-        user,text,loc,time=self.parse_tweet(data)
-        self.write_out([time,loc,user,text]) #only write out some of the data
+        if not self.out:
+            #wait for output file to be set
+            return True
+
+        tweet_dict=self.parse_tweet(data)
+        self.write_out(tweet_dict) #only write out some of the data
 
         #print "--------------------------------"
-        #print "\t\t\tUser: "+str(user)+" tweeted: "
-        #print "\t"+text
-        count=self.get_last_tweet(user)
+        #print "\t\t\tUser: "+tweet_dict['user']+" tweeted: "
+        #print "\t"+tweet_dict['text']
+        self.get_last_tweet(tweet_dict['user'])
 
-        self.tweet_count+=count
-        if (self.tweet_max) and (self.tweet_count>=self.tweet_max):
-            self.close_listener()
-            print "Tweet goal reached!"
+        self.user_count+=1
+        print self.user_count
+
+        if (self.user_max) and (self.user_count>=self.user_max):
+            #finished with this file
+            self.out.write("]")
+            self.out.close()
+            self.out=None
+            self.user_count=0
             sys.exit(0)
 
-        print self.tweet_count
         return True
 
     def on_error(self, status):
@@ -58,58 +77,56 @@ class StdOutListener(tweepy.StreamListener):
     def get_last_tweet(self,username):
         new_tweets = self.client.user_timeline(screen_name=str(username),count=self.num_prev)
         count=0
-        for tweet in new_tweets:
-            if count==0:
-                #skip first tweet
-                count+=1
-                continue
-            user,text,loc,time=self.parse_tweet(json.dumps(tweet._json))
-            self.write_out([time,loc,user,text])
+        for tweet in new_tweets[1:]:
+            #skip first tweet
+            tweet_dict=dict(self.parse_tweet(json.dumps(tweet._json)))
+            self.write_out(tweet_dict)
             #print str(count)+":\t"+text
             #self.check_for_activity(text)
             count+=1
         return count
 
     def parse_tweet(self,tweet):
-        """Returns username,text,location,time from tweet"""
+        """Returns dictionary from tweet json"""
+        tweet_dict={}
         if (type(tweet) is str) or (type(tweet) is unicode):
             tweet_json=json.loads(tweet)
-            user=tweet_json['user']['screen_name'].encode('ascii','ignore')
-            text=tweet_json['text'].encode('ascii','ignore')
+            tweet_dict['user']=tweet_json['user']['screen_name'].encode('ascii','ignore')
+            tweet_dict['text']=tweet_json['text'].encode('ascii','ignore')
             try:
-                loc=tweet_json['user']['location'].encode('ascii','ignore')
+                tweet_dict['location']=tweet_json['user']['location'].encode('ascii','ignore')
             except AttributeError:
-                loc=""
-            time=tweet_json['created_at'].encode('ascii','ignore')
+                tweet_dict['location']=""
+            tweet_dict['time']=tweet_json['created_at'].encode('ascii','ignore')
         else:
             #tweepy.models.Status type
             try:
                 #ignores special unicode characters
-                user=tweet.author.screen_name.encode('ascii','ignore')
-                text=tweet.text.encode('ascii','ignore')
-                loc=tweet.user.location.encode('ascii','ignore')
-                time=tweet.created_at.encode('ascii','ignore')
+                tweet_dict['user']=tweet.author.screen_name.encode('ascii','ignore')
+                tweet_dict['text']=tweet.text.encode('ascii','ignore')
+                tweet_dict['location']=tweet.user.location.encode('ascii','ignore')
+                tweet_dict['time']=tweet.created_at.encode('ascii','ignore')
             except UnicodeEncodeError:
                 pass
 
-        return user,text,loc,time
+        return tweet_dict
 
     def write_out(self,tweet):
         """Writes tweet out to file"""
-        self.out.write("\n".join(tweet)+"\n\n")
-
-    def close_listener(self):
-        """Closes listener and output file"""
-        self.out.close()
+        if not self.first:
+            self.out.write(",")
+        else:
+            self.first=False
+        json.dump(tweet,self.out)
 
 
 #Stream class
 class TweetStream():
 
-    def __init__(self,cred_file,activity_file,output_file,tweet_max=None):
+    def __init__(self,cred_file,activity_file,user_max=None):
+
         #filters
         self.NA_bounding_box=[-139.7,25.5,-44.1,59.9]
-        self.activity_filter=['basketball','yoga','baseball']
 
         #variables
         num_prev=200
@@ -122,7 +139,7 @@ class TweetStream():
         self.stream=None
         self.activity_list=[]
         load_activities(activity_file,self.activity_list)
-        self.listen = StdOutListener(num_prev,self.activity_list,output_file,tweet_max)
+        self.listen = StdOutListener(num_prev,user_max)
         self.fetch_credentials(cred_file)
         self.setup_credentials()
 
@@ -148,21 +165,29 @@ class TweetStream():
 
     def start_stream(self,mode):
         """Starts stream and filters on either activity or location"""
-        while True:
-            try:
-                if mode=="activity":
-                    self.stream.filter(track=self.activity_filter)
-                elif mode=="location":
-                    self.stream.filter(locations=self.NA_bounding_box)
-                else:
-                    print "start_stream error(): invalid input!"
-                    raise
-            except:
-                if type(sys.exc_info()[1])==SystemExit and sys.exc_info()[1].code==0:
-                    print "Stream complete."
-                    sys.exit(0)
-                print "Unexpected error:",sys.exc_info()[0]
-                continue
+        for activity in self.activity_list:
+            done=False
+            while True:
+                print "Gathering data for "+activity
+                try:
+                    self.listen.set_output("tweet_by_activity/output_"+activity+".txt")
+                    if mode=="activity":
+                        self.stream.filter(track=[activity])
+                    elif mode=="location":
+                        self.stream.filter(locations=self.NA_bounding_box)
+                    else:
+                        print "start_stream error(): invalid input!"
+                        raise
+                except:
+                    if type(sys.exc_info()[1])==SystemExit and sys.exc_info()[1].code==0:
+                        print "Finished gathering tweets for "+activity
+                        self.stream.disconnect()
+                        done=True
+                    else:
+                        print "Unexpected error: "+sys.exc_info()[0]
+
+                if done:
+                    break
 
 def load_activities(filename,activity_list):
     with open(filename,'r') as f:
