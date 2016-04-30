@@ -1,14 +1,14 @@
-#TODO: Get 100 users PER activity (20000 tweets)
-#TODO: Store tweets as json (same info, just easier to work with)
-
 from tweet_stream import load_activities
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import time
-
+import json
+import sys
 
 #confidence of matchign with a word
 FUZZ_CONFIDENCE=85
+
+MAX_TWEET=200
 
 #globals
 activity_list=[]
@@ -19,60 +19,36 @@ out_pair="pair_data/output_pairs"+timestr+".txt"
 out_user="pair_data/user_pairs"+timestr+".txt"
 
 def main():
-    weekdays=['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
-    months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
-
     load_activities('activity_list.txt',activity_list)
     act_dict=build_dict()
 
     userfile=open(out_user,'a')
 
-    filenames=['output_tweets.txt','output_tweets2.txt']
     tweet_count=0
     user_count=0
-    curr_user=''
-    in_tweet=0
-    user_tweets=[]
-    to_print=False
+    user_count=0
     start_time=time.clock()
-    for filename in filenames:
+    curr_user=None
+    user_tweets=[]
+    for activity in activity_list:
+        filename="tweet_by_activity/output_"+activity+".txt"
         with open(filename,'r') as f:
-            while True:
-                line=f.readline()
-                if line=="":
-                    #file done!
-                    break
+            tweet_list=json.load(f)
+            curr_user=tweet_list[0]["user"]
+            user_list=[]
+            for tweet in tweet_list:
+                if (str(tweet['user'])!=curr_user or
+                    len(user_tweets)>MAX_TWEET or tweet_count==len(tweet_list)-1):
+                    user_pop_dict(activity,userfile,curr_user,act_dict,user_tweets)
+                    print str(user_count)+" ("+activity+"): "+curr_user
+                    user_count+=1
+                    user_tweets=[]
+                    curr_user=tweet['user']
 
-                #file not done
-                line=line.rstrip()
+                user_tweets.append(tweet["text"])
+                tweet_count+=1
 
-                if (line[0:3] in weekdays) and (line[4:7] in months) and len(line)==30:
-                    #new tweet
-                    tweet_count+=1
-                    in_tweet=0
-                elif in_tweet==2:
-                    #checks username
-                    if curr_user!=line:
-                        #new user
-                        if user_count>0:
-                            user_pop_dict(userfile,curr_user,act_dict,user_tweets)
-                            user_tweets=[] #reset user tweets
-                        user_count+=1
-                        curr_user=line
-                        print str(user_count)+": "+curr_user
-                        #return
-                elif in_tweet==1:
-                    #location
-                    pass
-                else:
-                    #tweet!
-                    user_tweets.append(line)
-
-                in_tweet+=1
-
-    for key,value in act_dict.iteritems():
-        if value>0:
-            print str(key)+": "+str(value)
+        f.close()
 
     write_out_pairs(act_dict)
 
@@ -80,7 +56,7 @@ def main():
     print "Num users: "+str(user_count)
     print "Time: "+str(time.clock()-start_time)
 
-    f.close()
+
     userfile.close()
 
 def reparse_user_pairs(filename):
@@ -127,18 +103,19 @@ def build_dict():
     act_dict={}
 
     for i in range(len(activity_list)):
-        for j in range(i,len(activity_list)):
-            act_dict[tuple(sorted([activity_list[i],activity_list[j]]))]=0
+        for j in range(len(activity_list)):
+            act_dict[tuple([activity_list[i],activity_list[j]])]=0
 
     return act_dict
 
-def user_pop_dict(userfile,user,act_dict,tweets):
-    """Populates dictionary based on tweets from a single user"""
-
+def user_pop_dict(primary,userfile,user,act_dict,tweets):
+    """Populates dictionary based on tweets from a single user.
+    Also writes out user pairs."""
 
     userfile.write(user+'\n')
+    userfile.write(primary+'\n')
 
-    user_act=set()
+    user_act=set([primary])
     count=0
     for tweet in tweets:
         user_act.update(check_for_activity(tweet))
@@ -147,8 +124,8 @@ def user_pop_dict(userfile,user,act_dict,tweets):
     user_act=list(user_act)
     userfile.write(",".join(user_act)+'\n')
     for i in range(len(user_act)):
-        for j in range(i,len(user_act)):
-            act_dict[tuple(sorted([user_act[i],user_act[j]]))]+=1
+        for j in range(len(user_act)):
+            act_dict[tuple([user_act[i],user_act[j]])]+=1
 
     userfile.write('\n')
     return
@@ -176,5 +153,5 @@ def check_for_activity(tweet):
     return match_activities
 
 if __name__ == '__main__':
-    reparse_user_pairs("pair_data/user_pairs20160425-101756.txt")
-    #main()
+    #reparse_user_pairs("pair_data/user_pairs20160425-101756.txt")
+    main()
