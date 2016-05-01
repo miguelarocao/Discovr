@@ -34,5 +34,5 @@ act.corr=xtabs(act.short$normalized ~ act.short$activity_1 + act.short$activity_
 library(corrplot)
 
 M <- cor(act.corr)
-corrplot(M,methods="circle",margin=margin(10,0,10,0))
-
+corrplot(M,method="color",type="upper",tl.srt=45)
+  
