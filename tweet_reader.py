@@ -5,8 +5,12 @@ import time
 import json
 import sys
 
+#TO DO: fix hockey and field hockey correlation and basketball vs BBall
+#TO DO: look at hockey and field hockey pair, weird correlation
+#TO DO: Parse new json format
+
 #confidence of matchign with a word
-FUZZ_CONFIDENCE=85
+FUZZ_CONFIDENCE=90
 
 MAX_TWEET=200
 
@@ -31,16 +35,17 @@ def main():
     curr_user=None
     user_tweets=[]
     for activity in activity_list:
-        filename="tweet_by_activity/output_"+activity+".txt"
+        filename="tweet_by_activity/old/output_"+activity+".txt" #TODO: Change back
         with open(filename,'r') as f:
             tweet_list=json.load(f)
             curr_user=tweet_list[0]["user"]
             user_list=[]
             for tweet in tweet_list:
                 if (str(tweet['user'])!=curr_user or
-                    len(user_tweets)>MAX_TWEET or tweet_count==len(tweet_list)-1):
+                    len(user_tweets)>=MAX_TWEET or tweet_count==(len(tweet_list)-1)):
                     user_pop_dict(activity,userfile,curr_user,act_dict,user_tweets)
-                    print str(user_count)+" ("+activity+"): "+curr_user
+                    print str(user_count)+" ("+activity+"): "+curr_user+" "+str(len(user_tweets))
+                    #print user_tweets[0]
                     user_count+=1
                     user_tweets=[]
                     curr_user=tweet['user']
@@ -49,6 +54,7 @@ def main():
                 tweet_count+=1
 
         f.close()
+        user_count=0
 
     write_out_pairs(act_dict)
 
@@ -124,8 +130,7 @@ def user_pop_dict(primary,userfile,user,act_dict,tweets):
     user_act=list(user_act)
     userfile.write(",".join(user_act)+'\n')
     for i in range(len(user_act)):
-        for j in range(len(user_act)):
-            act_dict[tuple([user_act[i],user_act[j]])]+=1
+        act_dict[tuple([primary,user_act[i]])]+=1
 
     userfile.write('\n')
     return

@@ -2,6 +2,8 @@
 #Modified from: http://adilmoujahid.com/posts/2014/07/twitter-analytics/
 #Bounding box: http://stackoverflow.com/questions/22889122/how-to-add-a-location-filter-to-tweepy-module
 
+#TO DO: Account for double accounts!
+
 #Import the necessary methods from tweepy library
 import tweepy
 import json
@@ -12,7 +14,7 @@ import sys
 import time
 
 def main():
-    myTweetStream=TweetStream('credentials.txt','activity_list.txt',10)
+    myTweetStream=TweetStream('credentials.txt','mod_activity_list.txt',10) #to do: change back
     myTweetStream.start_stream('activity')
 
 class StdOutListener(tweepy.StreamListener):
@@ -27,6 +29,7 @@ class StdOutListener(tweepy.StreamListener):
         #open output file
         self.out=None
         self.first=False
+        self.user_set=set()
 
     def set_output(self,output_file):
         #close file if necessary
@@ -36,9 +39,7 @@ class StdOutListener(tweepy.StreamListener):
             pass
         #set new output file
         self.out=open(output_file,'a')
-        self.out.write('[')
-        self.first=True
-
+        self.user_set=set()
 
     def on_data(self, data):
         """Handles succesful data fetch"""
@@ -48,6 +49,10 @@ class StdOutListener(tweepy.StreamListener):
             return True
 
         tweet_dict=self.parse_tweet(data)
+
+        if tweet_dict['user'] in self.user_set:
+            return True
+
         self.write_out(tweet_dict) #only write out some of the data
 
         #print "--------------------------------"
@@ -55,12 +60,12 @@ class StdOutListener(tweepy.StreamListener):
         #print "\t"+tweet_dict['text']
         self.get_last_tweet(tweet_dict['user'])
 
+        self.user_set.add(tweet_dict['user'])
         self.user_count+=1
-        print self.user_count
+        print str(self.user_count)+": "+str(tweet_dict['user'])
 
         if (self.user_max) and (self.user_count>=self.user_max):
             #finished with this file
-            self.out.write("]")
             self.out.close()
             self.out=None
             self.user_count=0
@@ -113,11 +118,8 @@ class StdOutListener(tweepy.StreamListener):
 
     def write_out(self,tweet):
         """Writes tweet out to file"""
-        if not self.first:
-            self.out.write(",")
-        else:
-            self.first=False
         json.dump(tweet,self.out)
+        self.out.write("\n") #one json per line
 
 
 #Stream class
@@ -184,7 +186,7 @@ class TweetStream():
                         self.stream.disconnect()
                         done=True
                     else:
-                        print "Unexpected error: "+sys.exc_info()[0]
+                        print "Unexpected error: "+str(sys.exc_info()[0])+str(sys.exc_info()[1])
 
                 if done:
                     break
