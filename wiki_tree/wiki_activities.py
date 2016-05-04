@@ -21,8 +21,8 @@ class Wiki_Activities:
         self.acts = acts
         self.site = wiki.Wiki("http://en.wikipedia.org/w/api.php")        
         self.root = 'Main topic classifications'
-        self.score_count_base = 5
-        self.score_depth_exponent = 1.5
+        self.score_count_base = 10
+        self.score_depth_exponent = 2
         self.G = G
         self.G_rev = G_rev
         
@@ -103,8 +103,8 @@ class Wiki_Activities:
                     curr_depth = depth
                     curr_node = node
         
-        print 'Paired "' + cat_[curr_pair[0]] + '" with "' + cat2_[curr_pair[1]] + '" node = "' + \
-            curr_node + '" at depth = ' + str(curr_depth) + ' score = ' + str(curr_max)
+     #   print 'Paired "' + cat_[curr_pair[0]] + '" with "' + cat2_[curr_pair[1]] + '" node = "' + \
+      #      curr_node + '" at depth = ' + str(curr_depth) + ' score = ' + str(curr_max)
         return [curr_max, curr_pair[0], curr_pair[1]]
     
     # Get the best common path between two activities
@@ -146,14 +146,13 @@ acts = [
 'Mini Golf',
 'Golf',
 'Swimming (sport)',
-'Salsa',
+'Salsa (dance)',
 'Samba',
 'Baseball',
 'Basketball',
 'Cricket',
 'American football',
 'Hockey',
-'Rugby',
 'Racquetball',
 'Association football',
 'Table Tennis',
@@ -163,7 +162,7 @@ acts = [
 'Badminton',
 'Curling',
 'Boxing',
-'Fitness',
+'Physical fitness',
 'Sport Climbing',
 'Rock Climbing',
 'Cycling',
@@ -173,12 +172,11 @@ acts = [
 'Paddleboarding',
 'Field Hockey',
 'Paintball',
-'Rugby',
+'Rugby football',
 'Skateboarding',
 'Inline skating',
 'Roller skating',
-'Skating',
-'Squash',
+'Squash (sport)',
 'Surfing',
 'Motorcycling',
 'Hiking',
@@ -198,7 +196,7 @@ acts = [
 'Shooting sport',
 'Racing',
 'Billiards',
-'Pool',
+'Pool (cue sports)',
 'Paragliding',
 'Handball',
 'Pottery',
@@ -206,33 +204,40 @@ acts = [
 'Painting',
 'Drawing',
 'Singing',
-'Improv',
+'Improvisational theatre',
 'Comedy',
 'Theatre',
 'Origami',
 'Sculpture',
 'Karaoke',
 'Charity shop',
-'Reading',
+'Reading (process)',
 'Escape room',
 'Gambling ',
-'Arcade',
+'Arcade game',
 ]
 
 wiki_obj = Wiki_Activities(acts)
 node_counts = wiki_obj.node_counts
 node_freqs = wiki_obj.node_freqs
-
-act_pair = [
-'Drawing',
-'Painting',
-]
-
-[cat1, path1, set1] = wiki_obj.get_paths(act_pair[0])
-[cat2, path2, set2] = wiki_obj.get_paths(act_pair[1])
-
-# [scor, p, p2] = wiki_obj.find_best_common_path(act_pair[0], act_pair[1])
-score = wiki_obj.find_score(act_pair[0], act_pair[1])
-
+dict_final = {}
+for i in range(0,len(acts)):
+    dict_activity = {}
+    sum_activity = 0
+    for j in range(0,len(acts)):
+        if j != i:
+            act_pair = [ acts[i], acts[j] ]
+            [cat1, path1, set1] = wiki_obj.get_paths(act_pair[0])
+            [cat2, path2, set2] = wiki_obj.get_paths(act_pair[1])
+            # [scor, p, p2] = wiki_obj.find_best_common_path(act_pair[0], act_pair[1])
+            score = wiki_obj.find_score(act_pair[0], act_pair[1])
+            dict_activity[acts[j]] = score
+            sum_activity = sum_activity + score
+    dict_activity.update((x, y/sum_activity) for x, y in dict_activity.items())
+    print dict_activity
+    print acts[i]
+    dict_final[acts[i]] = dict_activity
+    
+    
 #if __name__ == '__main__':
 #    main()
