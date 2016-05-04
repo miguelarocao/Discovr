@@ -5,10 +5,6 @@ import time
 import json
 import sys
 
-#TO DO: fix hockey and field hockey correlation and basketball vs BBall
-#TO DO: look at hockey and field hockey pair, weird correlation
-#TO DO: Parse new json format
-
 #confidence of matchign with a word
 FUZZ_CONFIDENCE=90
 
@@ -32,20 +28,20 @@ def main():
     user_count=0
     user_count=0
     start_time=time.clock()
-    curr_user=None
     user_tweets=[]
     for activity in activity_list:
-        filename="tweet_by_activity/old/output_"+activity+".txt" #TODO: Change back
+        filename="tweet_by_activity/output_"+activity+".txt"
+        curr_user=None
         with open(filename,'r') as f:
-            tweet_list=json.load(f)
-            curr_user=tweet_list[0]["user"]
-            user_list=[]
-            for tweet in tweet_list:
-                if (str(tweet['user'])!=curr_user or
-                    len(user_tweets)>=MAX_TWEET or tweet_count==(len(tweet_list)-1)):
+            for line in f:
+                tweet=json.loads(line)
+                if not curr_user:
+                    #initialization
+                    curr_user=tweet['user']
+                elif str(tweet['user'])!=curr_user:
                     user_pop_dict(activity,userfile,curr_user,act_dict,user_tweets)
-                    print str(user_count)+" ("+activity+"): "+curr_user+" "+str(len(user_tweets))
                     #print user_tweets[0]
+                    print str(user_count)+" ("+activity+"): "+curr_user+" "+str(len(user_tweets))
                     user_count+=1
                     user_tweets=[]
                     curr_user=tweet['user']
@@ -53,13 +49,16 @@ def main():
                 user_tweets.append(tweet["text"])
                 tweet_count+=1
 
+            #done getting lines, parse last user set
+            user_pop_dict(activity,userfile,curr_user,act_dict,user_tweets)
+            print str(user_count)+" ("+activity+"): "+curr_user+" "+str(len(user_tweets))
+
         f.close()
         user_count=0
 
     write_out_pairs(act_dict)
 
     print "Num tweets: "+str(tweet_count)
-    print "Num users: "+str(user_count)
     print "Time: "+str(time.clock()-start_time)
 
 
