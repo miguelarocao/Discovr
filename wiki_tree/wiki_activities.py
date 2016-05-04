@@ -4,6 +4,7 @@ import networkx as nx
 import pickle
 from wikitools import wiki
 from wikitools import page
+from copy import deepcopy
 # from wikitools import category
 
 # Load the graph
@@ -12,15 +13,16 @@ with open('objs.pickle') as f:
 # Reverse graph to get faster results
 G_rev = G.reverse()
 
-
-
+# Class which process the activities to generate weights between
+# all pairs of activities
 class Wiki_Activities:
 
     def __init__(self, acts):
         self.acts = acts
         self.site = wiki.Wiki("http://en.wikipedia.org/w/api.php")        
         self.root = 'Main topic classifications'
-        self.score_exponent = 1.1
+        self.score_count_base = 5
+        self.score_depth_exponent = 1.5
         self.G = G
         self.G_rev = G_rev
         
@@ -33,7 +35,16 @@ class Wiki_Activities:
         
         # Get category counts
         self.node_counts = self.gen_node_counts()
+        self.node_freqs = deepcopy(self.node_counts)
+        factor = max(self.node_freqs.itervalues())
+        for elem in self.node_freqs:
+            self.node_freqs[elem] = float(self.node_freqs[elem])/factor
 
+    # Function which gives a score based on the node and its depth
+    def score_node_counts(self, node, depth):
+        return (self.score_count_base**(1-self.node_freqs[node]) - 1) + \
+            depth**self.score_depth_exponent
+            
     # Get the parent categories and related information for
     # an activity
     def get_paths(self, act):
@@ -67,12 +78,6 @@ class Wiki_Activities:
                     else:
                         cats[e] = 1
         return cats
-    
-    def score_depth(depth):
-        return depth
-    
-    def score_node_counts(self, node, depth):
-        return self.score_exponent**(-self.node_counts[node])
         
     # Get the best common path between two parent categories
     def find_best_common_category(self, act_data, act_data2):
@@ -99,7 +104,7 @@ class Wiki_Activities:
                     curr_node = node
         
         print 'Paired "' + cat_[curr_pair[0]] + '" with "' + cat2_[curr_pair[1]] + '" node = "' + \
-            curr_node + '" at depth = ' + str(curr_depth)
+            curr_node + '" at depth = ' + str(curr_depth) + ' score = ' + str(curr_max)
         return [curr_max, curr_pair[0], curr_pair[1]]
     
     # Get the best common path between two activities
@@ -107,9 +112,10 @@ class Wiki_Activities:
         [score, p1, p2] = self.find_best_common_category(self.act_data[act], self.act_data[act2])        
         return [score, self.act_data[act][1][p1], self.act_data[act2][1][p2]]
         
+    # Calculate the overall score of two activities
     def find_score(self, act, act2):
-        [cat_, path_, set_] = self.act_data[act]
-        [cat2_, path2_, set2_] = self.act_data[act2]
+        [cat_, path_, set_] = deepcopy(self.act_data[act])
+        [cat2_, path2_, set2_] = deepcopy(self.act_data[act2])
         
         m = len(cat_)
         n = len(cat2_)        
@@ -213,13 +219,14 @@ acts = [
 'Arcade',
 ]
 
-act_pair = [
-'Bowling',
-'Curling',
-]
-
 wiki_obj = Wiki_Activities(acts)
 node_counts = wiki_obj.node_counts
+node_freqs = wiki_obj.node_freqs
+
+act_pair = [
+'Drawing',
+'Painting',
+]
 
 [cat1, path1, set1] = wiki_obj.get_paths(act_pair[0])
 [cat2, path2, set2] = wiki_obj.get_paths(act_pair[1])
