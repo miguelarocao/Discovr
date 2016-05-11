@@ -2,8 +2,6 @@
 #Modified from: http://adilmoujahid.com/posts/2014/07/twitter-analytics/
 #Bounding box: http://stackoverflow.com/questions/22889122/how-to-add-a-location-filter-to-tweepy-module
 
-#TO DO: Account for double accounts!
-
 #Import the necessary methods from tweepy library
 import tweepy
 import json
@@ -13,9 +11,14 @@ import sys
 #for string matching
 import time
 
+cred_file='credentials.txt'
+act_file='activity_list.txt'
+user_file='user_set.txt'
+
 def main():
-    myTweetStream=TweetStream('credentials.txt','mod_activity_list.txt',10) #to do: change back
-    myTweetStream.start_stream('activity')
+    myTweetReader=TweetReader(cred_file,act_file,'rest',10)
+    #myTweetReader.start_stream('activity')
+    myTweetReader.search_rest()
 
 class StdOutListener(tweepy.StreamListener):
     """Basic listener which prints username and Tweets"""
@@ -29,7 +32,7 @@ class StdOutListener(tweepy.StreamListener):
         #open output file
         self.out=None
         self.first=False
-        self.user_set=set()
+        self.user_set=load_users()
 
     def set_output(self,output_file):
         #close file if necessary
@@ -60,8 +63,12 @@ class StdOutListener(tweepy.StreamListener):
         #print "\t"+tweet_dict['text']
         self.get_last_tweet(tweet_dict['user'])
 
+        #prevents current user from getting mined twice in this session
+        # or in next sessions
         self.user_set.add(tweet_dict['user'])
+        self.write_user(tweet_dict['user'])
         self.user_count+=1
+
         print str(self.user_count)+": "+str(tweet_dict['user'])
 
         if (self.user_max) and (self.user_count>=self.user_max):
@@ -121,19 +128,26 @@ class StdOutListener(tweepy.StreamListener):
         json.dump(tweet,self.out)
         self.out.write("\n") #one json per line
 
+    def write_user(self,user):
+        """Adds user to user file. This avoids loading him in the future"""
+        with open(user_file,'a') as f:
+            f.write(user+'\n')
+
+        f.close()
 
 #Stream class
-class TweetStream():
+class TweetReader():
 
-    def __init__(self,cred_file,activity_file,user_max=None):
+    def __init__(self,cred_file,activity_file,mode,user_max=None):
 
         #filters
         self.NA_bounding_box=[-139.7,25.5,-44.1,59.9]
 
         #variables
-        num_prev=200
+        num_prev=200 #rate limit
 
         #initialization
+        self.mode=mode
         self.access_token=""
         self.access_token_secret=""
         self.consumer_key=""
@@ -141,18 +155,23 @@ class TweetStream():
         self.stream=None
         self.activity_list=[]
         load_activities(activity_file,self.activity_list)
-        self.listen = StdOutListener(num_prev,user_max)
         self.fetch_credentials(cred_file)
-        self.setup_credentials()
+        self.client=None
+        self.handler = StdOutListener(num_prev,user_max)
+        self.init()
+        if self.mode not in ['stream','rest']:
+            print "Invalid mode!"
+            raise (AssertionError)
 
-    def setup_credentials(self):
+    def init(self):
         """This handles Twitter authetification and the connection to Twitter Streaming API"""
 
         auth = tweepy.OAuthHandler(self.consumer_key, self.consumer_secret)
         auth.set_access_token(self.access_token, self.access_token_secret)
-        client = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
-        self.listen.set_client(client)
-        self.stream = tweepy.Stream(auth, self.listen)
+        self.client = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
+        self.handler.set_client(self.client)
+        if self.mode=='stream':
+            self.stream = tweepy.Stream(auth, self.handler)
 
     def fetch_credentials(self,filename):
         """Read from credential file"""
@@ -165,21 +184,65 @@ class TweetStream():
 
         f.close()
 
-    def start_stream(self,mode):
+    def search_rest(self):
+        """Uses the REST API to search for activities"""
+        if self.mode!='rest':
+            print "Invalid mode!"
+            return
+
+        goal_users=200
+        max_tweets=100
+        user_set=load_users()
+
+        for activity in self.activity_list:
+            print "Gathering data for "+activity
+            self.handler.set_output("tweet_by_activity/output_"+activity+".txt")
+            user_count=0
+            max_id=None
+            while True:
+                try:
+                    if not max_id:
+                        #get all new tweets
+                        results = self.client.search(activity,lang='en',count=max_tweets)
+                    else:
+                        #get subsequent tweets (older than max id, i.e. smaller)
+                        results = self.client.search(activity,lang='en',count=max_tweets,max_id=str(max_id-1))
+                    for tweet in results:
+                        tweet_dict=self.handler.parse_tweet(json.dumps(tweet._json))
+                        user=tweet_dict['user']
+                        max_id=tweet.id
+                        if user not in user_set: #TO DO: FIx and reset
+                            self.handler.write_out(tweet_dict)
+                            count=self.handler.get_last_tweet(user)
+                            self.handler.write_user(user)
+                            user_set.add(user)
+                            print str(user_count)+": "+tweet_dict['user']+" "+str(count)
+                            user_count+=1
+                        if user_count==goal_users:
+                            break
+                    if user_count==goal_users:
+                        break
+                except tweepy.TweepError, e:
+                    print e
+
+    def start_stream(self,type_filter):
         """Starts stream and filters on either activity or location"""
+        if self.mode!='stream':
+            print "Invalid mode!"
+            return
         for activity in self.activity_list:
             done=False
             while True:
                 print "Gathering data for "+activity
                 try:
-                    self.listen.set_output("tweet_by_activity/output_"+activity+".txt")
-                    if mode=="activity":
+                    self.handler.set_output("tweet_by_activity/output_"+activity+".txt")
+                    if type_filter=="activity":
                         self.stream.filter(track=[activity])
-                    elif mode=="location":
+                    elif type_filter=="location":
                         self.stream.filter(locations=self.NA_bounding_box)
                     else:
                         print "start_stream error(): invalid input!"
-                        raise
+                        raise (AssertionError)
                 except:
                     if type(sys.exc_info()[1])==SystemExit and sys.exc_info()[1].code==0:
                         print "Finished gathering tweets for "+activity
@@ -190,6 +253,14 @@ class TweetStream():
 
                 if done:
                     break
+
+def load_users():
+    with open(user_file,'r') as f:
+        users=set(f.readlines())
+
+    f.close()
+
+    return users
 
 def load_activities(filename,activity_list):
     with open(filename,'r') as f:

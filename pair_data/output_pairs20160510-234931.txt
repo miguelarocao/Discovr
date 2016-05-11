@@ -1,0 +1,9409 @@
+singing,cycle,3
+hockey,hockey,210
+football,cricket,7
+draw,billiards,0
+cycling,paragliding,1
+mini golf,climb,5
+paintball,trampolining,0
+swim,curling,0
+bowling,climb,5
+snowboarding,cricket,1
+rollerskating,dance,63
+boxe,comedy,11
+softball,thrift,1
+archery,gambling,3
+ski,boxing,8
+rock climbing,golfing,1
+bowling,ski,2
+racing,fitness,27
+football,biking,3
+skiing,samba,0
+table tennis,bike,16
+mini golf,badminton,2
+snowboarding,mini golf,4
+theatre,swim,5
+table tennis,trampolining,2
+hiking,surfing,6
+field hockey,racing,11
+curling,comedy,6
+ziplining,gymnastics,1
+dancing,thrifting,0
+bowling,rollerblade,0
+curling,escape room,2
+mini golf,rollerblade,0
+parkour,snowboarding,1
+skating,snowboarding,2
+billiards,swimming,8
+sing,skate,1
+rollerblade,martial arts,2
+rollerskate,climb,5
+swim,golf,15
+rollerblade,golfing,2
+gambling,hike,5
+go kart,thrifting,0
+rollerskating,draw,13
+gambling,hiking,2
+arcade,surf,2
+fencing,skiing,2
+thrifting,running,58
+skating,parkour,2
+shooting,thrift,1
+rafting,racquetball,0
+cycling,disc golf,0
+skateboard,hike,5
+escape room,rock climbing,4
+boxe,snowboarding,1
+gymnastics,softball,5
+thrifting,squash,1
+tennis,soccer,33
+martial arts,paragliding,0
+cycling,dancing,12
+sing,yoga,4
+origami,arcade,3
+skiing,fitness,7
+theatre,samba,1
+softball,paintball,1
+skydiving,sing,19
+laser tag,drawing,11
+reading,swimming,10
+dancing,hike,0
+surf,paragliding,1
+disc golf,laser tag,2
+gambling,yoga,6
+cycle,hike,1
+thrift,skating,2
+surf,squash,5
+improv,climbing,10
+rugby,bowling,18
+origami,biking,3
+handball,paintball,1
+volleyball,karaoke,3
+rock climbing,boxing,6
+escape room,volleyball,4
+pottery,thrifting,0
+golf,rollerskating,0
+boxe,football,16
+rock climbing,hiking,23
+hiking,pool,18
+paddleboarding,ziplining,0
+pool,painting,14
+racing,archery,6
+painting,volleyball,2
+laser tag,skiing,2
+squash,boxing,6
+rugby,drawing,25
+arcade,climb,2
+thrifting,table tennis,1
+squash,rugby,4
+squash,samba,1
+tennis,comedy,9
+golfing,baseball,29
+hiking,volleyball,7
+cycle,sculpture,4
+table tennis,rollerblade,0
+cycling,badminton,3
+trampolining,hiking,1
+draw,thrift,1
+dancing,paragliding,0
+reading,thrift,1
+escape room,softball,0
+mini golf,karaoke,3
+reading,rugby,5
+trampolining,fitness,31
+karaoke,rollerblade,0
+paintball,boxe,0
+volleyball,softball,19
+bowling,snowboard,0
+cricket,drawing,14
+yoga,singing,19
+bungee jumping,swimming,15
+basketball,thrifting,0
+hockey,archery,1
+drawing,swimming,1
+go kart,pottery,10
+boxe,golfing,0
+football,climb,4
+surfing,singing,17
+snowboard,cycle,4
+skateboarding,snowboard,11
+pool,arcade,3
+paintball,rollerblade,0
+arcade,dance,30
+salsa,rollerskating,0
+boxing,martial arts,8
+snowboarding,salsa,5
+yoga,thrifting,0
+cycle,improv,31
+laser tag,hike,3
+basketball,softball,9
+running,parkour,3
+running,rafting,5
+ziplining,yoga,12
+improv,track,41
+climb,theatre,2
+golfing,racing,12
+archery,climb,12
+handball,paragliding,1
+rollerskate,mini golf,0
+biking,samba,0
+sing,swim,5
+swim,cycling,11
+rugby,pottery,42
+go kart,shooting,18
+football,salsa,0
+disc golf,horseback riding,2
+skateboard,climb,8
+racing,rafting,6
+soccer,rollerblade,1
+skateboard,karaoke,4
+skate,skateboard,35
+track,origami,0
+golfing,football,42
+arcade,hike,1
+ski,skydiving,0
+squash,table tennis,2
+hiking,singing,23
+paint,skiing,0
+fitness,disc golf,0
+snowboarding,skating,10
+fitness,swim,10
+soccer,boxe,0
+skateboarding,archery,3
+billiards,paintball,1
+arcade,volleyball,2
+thrift,paintball,0
+improv,cycle,11
+rock climbing,running,70
+golf,paragliding,0
+thrifting,bungee jumping,2
+yoga,football,31
+ski,curling,3
+salsa,karaoke,4
+skydiving,skate,3
+draw,rafting,6
+laser tag,reading,40
+shooting,handball,0
+escape room,basketball,11
+dancing,dancing,210
+mini golf,sculpture,4
+boxing,bungee jumping,0
+baseball,boxe,0
+pool,skating,1
+disc golf,baseball,34
+cycle,martial arts,3
+running,running,210
+horseback riding,hiking,14
+gymnastics,running,15
+paragliding,painting,17
+skating,martial arts,2
+racquetball,samba,1
+painting,swimming,18
+boxe,archery,1
+comedy,sing,27
+paintball,rugby,3
+climb,boxe,0
+swim,surf,3
+samba,painting,11
+boxe,singing,7
+thrifting,singing,20
+ski,laser tag,3
+ski,rollerskating,0
+rock climbing,paint,14
+curling,climbing,1
+rollerblading,singing,24
+swim,skateboard,2
+biking,go kart,3
+cricket,draw,21
+reading,biking,2
+hiking,bungee jumping,1
+laser tag,cricket,4
+rugby,racing,146
+trampolining,climb,12
+go kart,field hockey,0
+theatre,surf,1
+golfing,squash,1
+snowboarding,hockey,10
+shooting,biking,3
+karaoke,painting,7
+track,handball,0
+laser tag,shooting,12
+go kart,sing,16
+trampolining,pool,17
+soccer,rock climbing,2
+laser tag,salsa,3
+paddleboarding,skateboard,5
+softball,bungee jumping,1
+skateboard,football,24
+climbing,basketball,17
+racing,snowboarding,0
+squash,surf,13
+shooting,table tennis,1
+billiards,climbing,4
+trampolining,salsa,0
+table tennis,fitness,13
+archery,hike,2
+running,swimming,8
+go kart,volleyball,9
+rock climbing,martial arts,0
+trampolining,laser tag,0
+drawing,climb,5
+rafting,skateboard,3
+martial arts,tennis,6
+photography,paintball,0
+go kart,sculpture,2
+theatre,gymnastics,3
+golf,rock climbing,0
+thrifting,theatre,6
+billiards,mini golf,0
+photography,martial arts,4
+cycle,football,21
+softball,martial arts,3
+escape room,singing,24
+curling,pool,17
+baseball,field hockey,3
+origami,trampolining,0
+pool,thrifting,0
+hiking,gymnastics,1
+trampolining,comedy,13
+karaoke,fitness,8
+golf,snowboarding,2
+racing,badminton,3
+pottery,pool,18
+rollerblading,rollerblade,8
+climb,laser tag,3
+karaoke,squash,0
+skiing,golf,16
+rafting,football,44
+sculpture,hike,3
+shooting,gambling,1
+soccer,photography,11
+rock climbing,gymnastics,4
+shooting,surf,1
+racing,paint,16
+bowling,racing,27
+hike,escape room,3
+boxe,cycle,4
+rollerskate,salsa,3
+golf,skiing,4
+trampolining,swim,11
+singing,martial arts,4
+gymnastics,sing,3
+curling,skateboard,3
+volleyball,bungee jumping,0
+paint,dance,29
+volleyball,ziplining,0
+photography,pottery,2
+rollerblade,disc golf,4
+baseball,paragliding,0
+karaoke,rafting,4
+badminton,racing,30
+snowboarding,cycling,6
+horseback riding,paintball,1
+fitness,hike,6
+draw,climbing,1
+golfing,sing,12
+sculpture,skate,4
+volleyball,pottery,3
+tennis,rugby,11
+skate,skate,210
+go kart,surfing,6
+soccer,climbing,3
+climb,hike,30
+dance,pool,9
+horseback riding,cycling,6
+field hockey,painting,9
+gambling,gymnastics,0
+badminton,skating,2
+basketball,ziplining,0
+golfing,tennis,12
+skating,paragliding,0
+track,karaoke,2
+baseball,hiking,3
+bike,table tennis,1
+rugby,racquetball,0
+climb,shooting,14
+paragliding,bike,34
+thrifting,curling,3
+skateboarding,gymnastics,2
+biking,draw,14
+rock climbing,skating,0
+dance,parkour,2
+surfing,ziplining,0
+handball,thrift,0
+badminton,paintball,0
+sculpture,boxing,12
+dancing,arcade,1
+ziplining,bike,21
+thrifting,badminton,0
+boxe,snowboard,2
+dance,dancing,33
+thrifting,hiking,8
+boxe,drawing,16
+softball,squash,2
+hike,table tennis,0
+swimming,escape room,9
+surf,origami,1
+drawing,escape room,7
+yoga,paddleboarding,0
+bungee jumping,rollerblading,0
+surf,curling,0
+escape room,mini golf,2
+swimming,surfing,3
+ziplining,draw,12
+origami,skiing,1
+racing,billiards,0
+snowboarding,rollerskating,0
+rugby,go kart,0
+singing,field hockey,4
+cycling,bowling,8
+rollerskating,arcade,3
+theatre,bowling,6
+cycle,horseback riding,0
+skiing,origami,0
+skydiving,curling,1
+climbing,running,59
+paragliding,escape room,4
+badminton,paragliding,0
+disc golf,racquetball,1
+skate,gambling,1
+racing,racquetball,0
+go kart,skateboard,3
+karaoke,paint,5
+gymnastics,surfing,1
+drawing,skate,3
+ski,fencing,0
+squash,rollerskate,1
+handball,shooting,17
+golfing,cycling,7
+thrifting,dancing,19
+paintball,racing,14
+skate,badminton,2
+sing,rugby,2
+trampolining,rugby,21
+horseback riding,draw,13
+surfing,gymnastics,3
+paintball,singing,16
+dance,trampolining,0
+field hockey,surfing,2
+bungee jumping,boxe,0
+skating,skydiving,1
+surfing,arcade,4
+bungee jumping,surfing,3
+disc golf,go kart,4
+biking,parkour,2
+racing,yoga,9
+snowboarding,skydiving,5
+football,pool,12
+shooting,curling,1
+basketball,gymnastics,4
+rafting,cycle,8
+curling,handball,2
+comedy,horseback riding,1
+rollerskate,gambling,1
+karaoke,bungee jumping,11
+running,boxe,0
+martial arts,climbing,5
+dancing,skiing,1
+football,arcade,0
+shooting,bowling,5
+snowboarding,paint,14
+archery,curling,1
+snowboarding,running,52
+martial arts,escape room,7
+draw,skiing,0
+squash,painting,18
+skating,golfing,0
+drawing,paddleboarding,0
+boxing,boxing,210
+skydiving,pottery,12
+horseback riding,tennis,6
+racing,climb,10
+curling,skateboarding,1
+horseback riding,mini golf,2
+ziplining,shooting,27
+billiards,pool,75
+gambling,golfing,3
+laser tag,cycle,2
+thrifting,mini golf,2
+bike,samba,0
+squash,bike,26
+cricket,volleyball,2
+surf,martial arts,4
+sing,golfing,0
+rollerblade,bungee jumping,2
+golf,paintball,0
+yoga,reading,20
+racing,boxing,12
+photography,skating,2
+racing,rollerblading,0
+arcade,paint,11
+bungee jumping,softball,0
+theatre,parkour,0
+bowling,sing,15
+skating,comedy,5
+volleyball,photography,3
+golf,hiking,5
+skating,disc golf,1
+climb,swim,5
+tennis,field hockey,3
+fencing,biking,2
+painting,boxe,0
+swim,trampolining,0
+dancing,racing,12
+origami,rafting,7
+bike,horseback riding,2
+field hockey,improv,19
+badminton,badminton,210
+boxing,boxe,1
+climb,thrift,1
+thrifting,cycling,1
+rollerskate,disc golf,0
+racing,rugby,11
+horseback riding,billiards,0
+horseback riding,samba,1
+softball,cycle,8
+fitness,bike,43
+samba,origami,1
+ski,paint,16
+gymnastics,field hockey,0
+rollerblading,skiing,4
+cricket,reading,31
+climbing,handball,2
+dance,track,42
+basketball,trampolining,0
+rollerskating,swim,6
+sculpture,skydiving,0
+handball,hiking,0
+skate,skydiving,1
+rugby,skydiving,0
+bowling,cricket,4
+football,skiing,2
+archery,fencing,3
+ski,surf,10
+boxe,arcade,1
+singing,boxe,0
+swimming,surf,3
+soccer,thrifting,0
+cycle,boxing,3
+pottery,climbing,0
+dancing,shooting,13
+rafting,racing,16
+trampolining,softball,1
+squash,rafting,24
+horseback riding,football,19
+surfing,trampolining,0
+gymnastics,paintball,0
+skateboard,samba,1
+boxe,golf,11
+golfing,rollerskate,0
+squash,basketball,12
+billiards,racing,15
+hockey,track,23
+rollerblade,soccer,18
+thrift,improv,13
+billiards,laser tag,2
+yoga,rollerskate,0
+mini golf,paddleboarding,0
+softball,disc golf,3
+surf,karaoke,2
+rollerskating,archery,3
+fencing,ziplining,0
+fitness,trampolining,0
+surf,climbing,4
+escape room,golfing,1
+paintball,reading,35
+yoga,comedy,5
+samba,paintball,0
+escape room,shooting,28
+cricket,improv,18
+arcade,ziplining,0
+sing,pool,6
+rollerskating,tennis,11
+horseback riding,snowboarding,6
+skating,reading,23
+cricket,arcade,2
+escape room,escape room,210
+paint,comedy,9
+climbing,skating,3
+rafting,baseball,13
+dance,karaoke,1
+shooting,billiards,0
+rollerblading,boxing,5
+salsa,basketball,21
+bungee jumping,bowling,2
+basketball,comedy,5
+skiing,climbing,7
+dance,climbing,2
+painting,mini golf,2
+skateboard,archery,1
+fitness,swimming,11
+table tennis,basketball,17
+golfing,curling,2
+draw,hockey,8
+basketball,boxe,0
+salsa,disc golf,0
+paintball,tennis,7
+paddleboarding,tennis,11
+mini golf,samba,0
+martial arts,fitness,46
+parkour,theatre,7
+rock climbing,pottery,9
+climbing,reading,38
+badminton,boxing,6
+cycle,biking,7
+bungee jumping,racing,7
+handball,trampolining,0
+photography,cycling,8
+go kart,swimming,9
+golf,ziplining,0
+tennis,bowling,5
+table tennis,dance,48
+skate,softball,3
+basketball,climb,4
+laser tag,boxe,0
+skateboard,go kart,0
+skateboard,disc golf,0
+badminton,ski,3
+badminton,karaoke,2
+football,track,18
+painting,photography,56
+ski,rafting,4
+paintball,shooting,38
+pool,singing,20
+disc golf,ski,20
+draw,rollerblading,0
+comedy,surfing,3
+salsa,fitness,26
+horseback riding,salsa,5
+billiards,photography,19
+handball,skydiving,1
+table tennis,rock climbing,8
+disc golf,swim,21
+surfing,track,21
+racing,track,71
+racing,theatre,5
+golfing,boxing,6
+theatre,karaoke,4
+disc golf,gymnastics,5
+drawing,swim,0
+origami,rollerskating,0
+trampolining,dancing,37
+running,cycle,7
+football,baseball,82
+billiards,skateboarding,1
+tennis,paragliding,0
+golf,singing,27
+skateboarding,biking,2
+racquetball,soccer,59
+swim,reading,38
+arcade,baseball,11
+running,badminton,0
+skydiving,climbing,3
+rugby,billiards,2
+badminton,hockey,11
+paintball,pottery,16
+rafting,paint,20
+snowboarding,rugby,7
+dance,hike,0
+billiards,softball,4
+bike,snowboarding,0
+paint,golf,9
+paddleboarding,horseback riding,2
+sing,draw,12
+martial arts,parkour,3
+tennis,photography,17
+swimming,drawing,8
+dancing,comedy,7
+snowboarding,theatre,2
+drawing,horseback riding,4
+rafting,climb,10
+ziplining,comedy,17
+volleyball,laser tag,1
+theatre,photography,32
+hike,sculpture,1
+bungee jumping,skateboard,2
+running,sculpture,5
+golfing,cricket,3
+golf,tennis,28
+climb,volleyball,1
+cricket,sculpture,3
+curling,skydiving,1
+boxing,sculpture,3
+boxe,swimming,7
+mini golf,rollerblading,0
+parkour,bungee jumping,3
+painting,golf,10
+golfing,disc golf,0
+swimming,samba,1
+origami,track,27
+parkour,skateboarding,1
+fitness,dancing,14
+billiards,theatre,8
+badminton,running,50
+rafting,golf,13
+arcade,archery,2
+samba,archery,2
+skiing,skateboarding,3
+cricket,swim,1
+trampolining,improv,15
+rafting,gambling,3
+thrift,martial arts,3
+dancing,horseback riding,4
+skydiving,photography,14
+karaoke,photography,8
+pottery,bungee jumping,0
+snowboard,soccer,24
+pool,tennis,7
+rollerskate,thrifting,0
+biking,dance,44
+skiing,badminton,1
+shooting,running,53
+paragliding,laser tag,2
+archery,skate,5
+dance,racing,5
+ziplining,swimming,20
+dancing,hiking,1
+ziplining,thrifting,0
+skydiving,gambling,3
+paint,parkour,0
+fitness,singing,10
+racquetball,theatre,6
+gambling,snowboarding,0
+field hockey,golfing,0
+samba,hiking,7
+singing,karaoke,11
+fencing,handball,1
+swimming,hockey,10
+swimming,swim,25
+softball,improv,12
+skateboarding,badminton,0
+shooting,baseball,18
+snowboard,origami,2
+skating,badminton,0
+hockey,skateboarding,1
+bike,bungee jumping,1
+boxe,hike,3
+rugby,fitness,118
+dance,boxe,0
+cricket,samba,0
+parkour,bowling,4
+singing,snowboard,0
+soccer,baseball,40
+boxing,tennis,5
+cricket,tennis,30
+baseball,painting,11
+baseball,badminton,2
+biking,racquetball,1
+skateboard,track,54
+cycling,rugby,23
+yoga,paint,10
+skate,rollerskate,1
+go kart,biking,3
+disc golf,sculpture,9
+curling,climb,6
+drawing,table tennis,5
+escape room,thrift,2
+skateboard,painting,13
+reading,field hockey,3
+mini golf,skiing,2
+salsa,football,27
+running,surfing,1
+skating,origami,0
+dance,swimming,2
+sculpture,salsa,0
+paragliding,cycling,12
+boxing,shooting,21
+gambling,baseball,18
+fencing,parkour,1
+sing,dance,57
+basketball,paint,12
+martial arts,salsa,4
+rollerblading,disc golf,1
+snowboarding,paintball,8
+rock climbing,parkour,5
+draw,laser tag,1
+rugby,basketball,78
+rollerskating,rollerskating,210
+badminton,skiing,2
+rollerskate,martial arts,5
+climbing,field hockey,0
+gymnastics,table tennis,5
+badminton,track,43
+ziplining,soccer,16
+dancing,laser tag,3
+curling,running,61
+skateboard,rock climbing,0
+basketball,thrift,0
+ziplining,sculpture,8
+skateboard,softball,1
+skiing,parkour,1
+rollerblade,cycling,5
+draw,pool,3
+tennis,handball,3
+skydiving,trampolining,1
+fencing,origami,1
+sculpture,skiing,3
+rollerblading,paddleboarding,1
+go kart,handball,0
+singing,boxing,3
+golfing,billiards,1
+snowboarding,laser tag,4
+gambling,volleyball,2
+squash,boxe,0
+cycle,rock climbing,1
+hiking,reading,37
+gambling,rafting,4
+skydiving,snowboard,2
+hiking,fencing,0
+cycling,escape room,1
+rollerskate,billiards,2
+climbing,mini golf,0
+boxe,boxing,35
+field hockey,archery,2
+climbing,paragliding,0
+skydiving,rugby,3
+ski,comedy,9
+skateboard,rollerblading,0
+pottery,track,28
+martial arts,snowboarding,1
+photography,sculpture,16
+squash,archery,1
+dance,field hockey,4
+shooting,paragliding,1
+disc golf,basketball,29
+rafting,trampolining,0
+bungee jumping,rollerskating,0
+racquetball,bungee jumping,0
+improv,racquetball,0
+skating,pool,15
+painting,sing,8
+rafting,bike,27
+laser tag,track,44
+skateboarding,parkour,2
+salsa,skydiving,0
+bungee jumping,drawing,13
+curling,boxing,4
+singing,gambling,2
+golf,dance,35
+thrifting,trampolining,0
+cycle,shooting,10
+trampolining,paragliding,2
+rollerblade,paintball,1
+skydiving,skateboarding,0
+golfing,samba,1
+surf,field hockey,1
+photography,gymnastics,0
+rollerskate,football,24
+theatre,rock climbing,1
+fitness,archery,1
+badminton,bowling,11
+thrifting,pottery,11
+skateboarding,rock climbing,4
+draw,fitness,9
+photography,parkour,1
+arcade,dancing,13
+surfing,table tennis,2
+swimming,skiing,1
+shooting,rollerskate,0
+reading,surfing,3
+salsa,martial arts,0
+rollerskating,squash,3
+archery,singing,24
+golf,bike,9
+reading,salsa,3
+curling,skate,3
+karaoke,pottery,10
+theatre,comedy,45
+tennis,racquetball,10
+karaoke,paintball,0
+skating,volleyball,6
+fencing,dance,46
+cycle,parkour,0
+sing,hiking,1
+ziplining,arcade,0
+samba,singing,15
+fitness,go kart,0
+arcade,thrifting,0
+boxing,snowboarding,0
+skating,draw,5
+parkour,surfing,4
+pottery,paragliding,0
+fencing,thrifting,0
+gymnastics,karaoke,1
+rock climbing,comedy,6
+swimming,salsa,1
+track,snowboarding,0
+gambling,rollerskate,0
+arcade,rock climbing,0
+cricket,thrifting,0
+badminton,thrifting,0
+table tennis,hockey,13
+archery,cycle,11
+skate,fencing,0
+tennis,boxing,6
+martial arts,surf,5
+hike,thrifting,1
+thrift,samba,1
+racquetball,skate,7
+fitness,paddleboarding,0
+field hockey,escape room,1
+laser tag,singing,26
+billiards,racquetball,1
+curling,cycling,4
+drawing,archery,2
+cycling,rollerskating,0
+origami,badminton,1
+archery,golf,26
+boxing,skiing,1
+racing,baseball,10
+go kart,cycling,2
+fitness,soccer,7
+swimming,track,23
+drawing,track,17
+paint,dancing,15
+shooting,snowboarding,0
+ziplining,skydiving,7
+racing,swim,4
+rollerskating,swimming,13
+skate,bowling,2
+ziplining,ski,13
+handball,cycle,6
+tennis,pottery,7
+softball,volleyball,13
+surf,surfing,37
+table tennis,cycle,9
+volleyball,bowling,8
+rollerblade,horseback riding,3
+sculpture,volleyball,1
+paint,boxing,4
+rock climbing,skydiving,2
+ziplining,rollerblade,0
+ski,draw,6
+surfing,racing,13
+hike,skydiving,1
+gambling,fitness,10
+shooting,go kart,0
+bike,paragliding,0
+paintball,cycle,2
+photography,ski,2
+singing,volleyball,2
+gambling,badminton,2
+soccer,gymnastics,1
+horseback riding,pottery,7
+soccer,boxing,6
+parkour,archery,1
+martial arts,racquetball,0
+reading,hike,3
+racquetball,escape room,4
+swimming,football,16
+pottery,rollerblading,0
+archery,softball,4
+theatre,cycle,20
+hike,martial arts,2
+arcade,skiing,1
+archery,sculpture,10
+fencing,climbing,10
+ski,handball,0
+golf,drawing,9
+skydiving,rollerskate,0
+climbing,parkour,0
+skate,golf,18
+boxe,skate,6
+improv,soccer,11
+skateboard,billiards,1
+drawing,rollerskate,0
+comedy,trampolining,1
+badminton,painting,11
+bungee jumping,snowboarding,2
+salsa,racquetball,0
+rollerblading,racquetball,0
+gymnastics,snowboard,1
+swimming,pool,47
+field hockey,yoga,10
+fitness,snowboarding,1
+comedy,archery,2
+sing,cycling,3
+swim,sing,21
+improv,handball,1
+field hockey,hockey,204
+football,surf,2
+paintball,thrift,1
+theatre,handball,0
+painting,soccer,8
+racing,climbing,4
+rock climbing,painting,15
+snowboarding,bowling,3
+photography,photography,210
+improv,running,52
+improv,pottery,13
+martial arts,archery,0
+sculpture,surf,1
+dance,rollerblading,0
+hockey,climb,5
+bungee jumping,snowboard,0
+rollerblade,dance,56
+karaoke,origami,0
+paint,trampolining,0
+skating,singing,22
+karaoke,racing,6
+table tennis,skateboarding,2
+golfing,shooting,20
+bike,trampolining,0
+skydiving,swim,12
+biking,biking,210
+billiards,surf,1
+cricket,squash,3
+paddleboarding,hockey,12
+ziplining,dance,49
+photography,shooting,17
+thrifting,horseback riding,3
+field hockey,parkour,0
+track,field hockey,3
+soccer,archery,5
+track,rollerblade,0
+sculpture,paintball,0
+billiards,painting,26
+parkour,rollerblade,1
+skydiving,baseball,18
+field hockey,tennis,31
+go kart,hiking,6
+basketball,martial arts,1
+skate,basketball,17
+skating,fencing,0
+softball,snowboarding,1
+curling,parkour,0
+racquetball,rollerblading,0
+parkour,billiards,0
+yoga,running,65
+track,gymnastics,1
+skateboard,golfing,0
+hike,tennis,3
+hike,dancing,17
+running,samba,1
+paintball,surf,7
+climb,pottery,4
+hike,samba,0
+cycling,table tennis,2
+billiards,gymnastics,1
+martial arts,skating,3
+swimming,baseball,5
+rugby,snowboard,2
+hike,pottery,5
+golfing,pool,15
+skate,yoga,8
+mini golf,dancing,19
+skateboarding,surf,13
+hiking,squash,2
+paddleboarding,samba,1
+mini golf,tennis,9
+sing,karaoke,4
+trampolining,boxing,12
+dancing,surf,2
+horseback riding,martial arts,2
+trampolining,dance,54
+sing,climbing,2
+draw,improv,14
+ziplining,cycle,8
+baseball,rugby,5
+swimming,archery,4
+tennis,skydiving,2
+karaoke,hike,0
+boxe,tennis,6
+thrift,golfing,0
+theatre,climb,4
+pottery,fencing,6
+skating,basketball,16
+thrift,biking,2
+billiards,horseback riding,2
+gymnastics,tennis,8
+baseball,karaoke,2
+gambling,swim,2
+samba,rafting,2
+mini golf,cycle,3
+hike,rollerskate,0
+swimming,horseback riding,7
+pottery,field hockey,0
+rock climbing,ski,10
+swimming,rafting,10
+hockey,disc golf,1
+archery,skateboard,2
+volleyball,reading,28
+football,rollerblading,0
+cycling,samba,2
+racquetball,cricket,31
+running,table tennis,3
+softball,karaoke,4
+snowboard,field hockey,0
+archery,salsa,3
+sculpture,drawing,53
+sculpture,thrifting,0
+ski,surfing,6
+samba,hockey,3
+painting,archery,3
+ski,salsa,2
+bungee jumping,dance,54
+climb,track,50
+fitness,billiards,3
+volleyball,gambling,1
+photography,yoga,9
+rollerblade,ski,3
+drawing,rollerblade,0
+reading,martial arts,2
+biking,paddleboarding,2
+cricket,dancing,16
+golfing,racquetball,0
+skateboard,surf,7
+basketball,pottery,7
+gymnastics,track,10
+soccer,bike,13
+snowboard,fencing,0
+table tennis,swimming,20
+skydiving,fencing,0
+go kart,billiards,0
+thrifting,paragliding,0
+rollerskating,curling,1
+sculpture,escape room,5
+golf,skateboarding,2
+sculpture,comedy,8
+rock climbing,go kart,3
+cycling,hockey,6
+pool,snowboarding,0
+climb,snowboard,0
+rafting,pool,22
+skate,hiking,10
+comedy,running,58
+improv,rock climbing,4
+cycling,rollerblade,0
+badminton,archery,3
+climbing,trampolining,0
+paintball,curling,1
+cycle,baseball,12
+volleyball,draw,9
+climb,origami,0
+baseball,rollerblade,0
+bowling,rollerskate,0
+tennis,paddleboarding,0
+snowboarding,badminton,1
+go kart,skating,6
+skate,soccer,12
+samba,thrift,1
+salsa,pottery,10
+field hockey,theatre,6
+rollerskating,boxe,0
+trampolining,snowboard,1
+samba,draw,11
+racing,laser tag,1
+softball,photography,11
+horseback riding,skating,3
+pool,samba,1
+soccer,snowboarding,0
+climb,basketball,10
+boxing,bike,9
+thrifting,golf,4
+cycling,salsa,2
+paragliding,racing,13
+climb,salsa,1
+drawing,biking,1
+volleyball,rugby,14
+bowling,drawing,8
+climb,sculpture,3
+dancing,badminton,1
+golf,bowling,5
+thrifting,golfing,0
+go kart,paintball,2
+snowboard,pool,18
+ziplining,racing,11
+pottery,surf,2
+draw,badminton,2
+dancing,skate,4
+rugby,rollerskating,4
+hike,golf,13
+softball,archery,4
+drawing,drawing,210
+bungee jumping,fitness,9
+gymnastics,paddleboarding,0
+singing,reading,38
+racing,parkour,0
+thrift,salsa,5
+laser tag,surf,1
+boxing,pottery,3
+comedy,parkour,0
+hike,arcade,1
+skateboard,rollerskate,0
+yoga,hike,3
+volleyball,trampolining,0
+reading,improv,16
+skiing,basketball,33
+comedy,skydiving,2
+golfing,origami,0
+shooting,cycling,3
+track,rollerblading,0
+skateboarding,origami,1
+baseball,laser tag,0
+table tennis,skydiving,1
+field hockey,climbing,5
+arcade,gymnastics,3
+gymnastics,paint,7
+skating,laser tag,1
+rollerskating,table tennis,2
+gymnastics,martial arts,4
+pool,pool,210
+bungee jumping,baseball,6
+tennis,arcade,0
+salsa,bowling,7
+martial arts,painting,14
+mini golf,go kart,2
+paddleboarding,paintball,2
+drawing,photography,21
+origami,comedy,8
+rollerskate,pottery,12
+ziplining,golfing,0
+salsa,dancing,32
+shooting,racing,9
+fitness,running,98
+baseball,skiing,2
+skydiving,painting,16
+sculpture,karaoke,4
+swim,laser tag,1
+dancing,painting,13
+cycling,cricket,14
+rollerskate,biking,3
+racquetball,hike,6
+bike,baseball,19
+cycling,football,34
+origami,bowling,3
+softball,golfing,3
+climbing,bike,18
+snowboarding,gambling,2
+cycling,skiing,5
+snowboard,hike,6
+volleyball,arcade,0
+skateboard,escape room,3
+draw,paddleboarding,0
+thrifting,skiing,0
+tennis,football,52
+rollerskating,cycling,10
+gambling,comedy,11
+cricket,skateboard,0
+thrift,hike,5
+swim,sculpture,0
+skating,ski,3
+karaoke,arcade,3
+hike,skating,2
+painting,cycling,2
+rollerblading,shooting,17
+football,football,210
+archery,bowling,4
+paragliding,origami,0
+trampolining,martial arts,3
+hockey,escape room,5
+hiking,gambling,0
+badminton,fencing,1
+rugby,handball,12
+softball,shooting,28
+field hockey,draw,10
+cycle,escape room,1
+surf,improv,8
+table tennis,sing,8
+surf,skate,20
+pottery,billiards,0
+handball,rugby,8
+golf,rollerblade,0
+sculpture,gymnastics,3
+paint,rugby,4
+shooting,pool,14
+basketball,photography,17
+karaoke,trampolining,2
+yoga,skating,0
+billiards,yoga,5
+boxe,skateboard,5
+sing,trampolining,0
+skate,paddleboarding,1
+parkour,skate,3
+archery,snowboard,7
+field hockey,hike,6
+sculpture,paint,36
+cricket,curling,1
+skating,boxe,0
+rafting,rollerblading,0
+thrift,photography,19
+skiing,skate,6
+billiards,football,28
+swim,gambling,1
+sculpture,ski,4
+rafting,hike,10
+escape room,swimming,13
+baseball,bowling,7
+cricket,hiking,0
+running,laser tag,5
+hockey,ziplining,0
+running,handball,0
+rock climbing,dancing,20
+skating,hike,3
+climb,bungee jumping,3
+golf,surfing,5
+samba,golf,14
+yoga,boxing,7
+theatre,escape room,1
+fencing,paragliding,0
+archery,thrifting,0
+yoga,dance,55
+billiards,singing,14
+racquetball,salsa,4
+soccer,painting,10
+shooting,skateboarding,0
+rugby,hiking,14
+comedy,softball,0
+skiing,billiards,4
+rock climbing,theatre,7
+basketball,boxing,13
+karaoke,skating,1
+paint,field hockey,1
+rugby,gambling,22
+racing,bungee jumping,1
+soccer,track,43
+improv,boxe,0
+hockey,skate,28
+mini golf,swim,7
+climb,reading,34
+rafting,bowling,6
+rollerblading,field hockey,0
+comedy,theatre,38
+tennis,skating,2
+paddleboarding,rollerblading,1
+dancing,football,21
+snowboarding,escape room,3
+mini golf,pottery,10
+hockey,martial arts,1
+badminton,comedy,21
+soccer,cycling,1
+running,hike,0
+paddleboarding,dance,42
+bowling,origami,0
+table tennis,thrifting,0
+yoga,arcade,4
+snowboard,salsa,3
+cycle,bike,41
+bike,paddleboarding,2
+skating,theatre,5
+skydiving,improv,6
+archery,martial arts,5
+cycling,archery,3
+soccer,ziplining,0
+karaoke,pool,12
+pool,escape room,3
+billiards,escape room,1
+field hockey,singing,20
+swimming,climb,8
+bowling,basketball,23
+badminton,volleyball,8
+gymnastics,curling,1
+boxing,climbing,2
+paintball,go kart,3
+horseback riding,reading,27
+samba,disc golf,2
+drawing,football,12
+skateboarding,disc golf,4
+swim,theatre,5
+theatre,draw,14
+golf,improv,20
+climbing,baseball,14
+theatre,painting,21
+thrifting,swim,6
+thrifting,hockey,7
+paintball,bowling,12
+boxing,rollerskate,0
+table tennis,volleyball,15
+skateboarding,skateboarding,210
+racing,ziplining,0
+parkour,thrifting,0
+painting,hiking,1
+comedy,drawing,18
+go kart,boxing,2
+singing,disc golf,4
+running,rollerskating,0
+rugby,horseback riding,2
+surf,hockey,9
+singing,bowling,7
+go kart,surf,3
+rock climbing,bungee jumping,1
+hike,swimming,11
+trampolining,climbing,8
+dancing,boxing,1
+mini golf,laser tag,5
+thrift,tennis,3
+dance,fitness,7
+surfing,squash,1
+parkour,snowboard,2
+rafting,dance,38
+gymnastics,rafting,0
+climbing,archery,7
+golfing,biking,2
+paddleboarding,ski,6
+climb,samba,0
+ski,thrifting,0
+skydiving,thrift,0
+gambling,paragliding,1
+paragliding,billiards,0
+sing,disc golf,2
+reading,parkour,1
+cricket,cycling,4
+football,photography,68
+salsa,pool,18
+arcade,disc golf,1
+arcade,parkour,2
+painting,sculpture,38
+rollerskate,paintball,0
+skydiving,golf,8
+parkour,surf,2
+surfing,soccer,14
+softball,climbing,2
+pool,reading,37
+ziplining,improv,10
+paddleboarding,curling,0
+rollerskate,hiking,6
+salsa,curling,2
+gymnastics,golfing,0
+football,basketball,34
+badminton,laser tag,3
+football,handball,0
+running,dance,52
+volleyball,dance,54
+paintball,skiing,2
+field hockey,field hockey,210
+field hockey,rollerblade,0
+rock climbing,bike,31
+paddleboarding,hiking,26
+horseback riding,thrifting,1
+mini golf,drawing,7
+thrift,squash,2
+rollerskate,skating,25
+comedy,draw,10
+field hockey,rollerskate,0
+bike,gymnastics,0
+fencing,rollerblading,0
+escape room,rollerblading,0
+singing,singing,210
+tennis,cycle,10
+track,surf,2
+skating,paintball,0
+rock climbing,laser tag,0
+paddleboarding,squash,4
+draw,parkour,1
+snowboard,photography,19
+rollerblading,go kart,0
+badminton,bike,10
+arcade,hiking,1
+football,cycle,1
+soccer,hiking,4
+swim,hiking,1
+golfing,fitness,20
+escape room,snowboard,0
+mini golf,billiards,1
+rollerblade,swim,10
+painting,rollerskate,0
+escape room,thrifting,0
+paint,swim,7
+snowboard,paddleboarding,2
+running,reading,37
+swim,paintball,0
+origami,origami,210
+rollerblading,rugby,1
+running,fencing,0
+skateboarding,hike,4
+table tennis,photography,16
+sing,skiing,2
+paint,ski,2
+photography,sing,9
+painting,dance,46
+draw,skateboarding,0
+karaoke,skiing,0
+baseball,rollerskating,0
+bungee jumping,draw,12
+swim,draw,21
+bowling,rock climbing,0
+arcade,yoga,3
+rugby,biking,14
+rollerblade,surfing,3
+boxing,hike,1
+softball,track,49
+rock climbing,tennis,7
+karaoke,table tennis,11
+fencing,yoga,5
+draw,yoga,4
+yoga,pottery,5
+hockey,snowboarding,0
+baseball,improv,15
+surfing,samba,1
+rollerskate,gymnastics,2
+salsa,reading,33
+origami,archery,4
+yoga,samba,0
+golfing,basketball,28
+sculpture,improv,16
+boxing,trampolining,0
+skateboard,draw,17
+snowboarding,tennis,10
+painting,snowboard,0
+golfing,skydiving,0
+golfing,laser tag,1
+rock climbing,surfing,8
+sing,hike,2
+paint,laser tag,2
+racquetball,rafting,1
+volleyball,fitness,8
+climbing,racing,18
+skating,shooting,12
+parkour,ziplining,0
+rock climbing,pool,22
+rollerskate,theatre,10
+horseback riding,biking,6
+cricket,billiards,0
+martial arts,disc golf,2
+singing,comedy,8
+trampolining,baseball,2
+climbing,singing,37
+boxe,yoga,38
+rock climbing,karaoke,5
+mini golf,table tennis,1
+climb,paragliding,1
+pool,volleyball,2
+volleyball,hiking,4
+fencing,billiards,2
+pool,trampolining,0
+comedy,cycling,6
+rollerskate,surfing,3
+skate,mini golf,0
+basketball,gambling,2
+swimming,hike,2
+football,samba,0
+sing,rollerblading,0
+football,skateboarding,0
+hockey,photography,7
+skiing,table tennis,1
+rollerskate,cycling,8
+thrifting,laser tag,1
+arcade,swimming,4
+swim,mini golf,2
+sing,skateboard,1
+football,pottery,7
+reading,paint,11
+paintball,hockey,10
+photography,field hockey,4
+sing,ski,0
+climb,paintball,0
+shooting,pottery,1
+swim,go kart,1
+thrifting,paint,18
+racing,samba,1
+gambling,rollerblade,0
+skydiving,skateboard,4
+racing,skating,0
+volleyball,fencing,1
+reading,squash,0
+climbing,thrifting,0
+escape room,gambling,4
+paddleboarding,swimming,28
+hockey,soccer,19
+gymnastics,swimming,8
+volleyball,handball,0
+sculpture,track,25
+laser tag,rollerskate,0
+origami,paintball,1
+fencing,golf,12
+bungee jumping,paddleboarding,0
+rugby,gymnastics,12
+martial arts,badminton,2
+bowling,cycling,1
+sing,photography,7
+painting,skate,3
+drawing,cycle,6
+photography,climb,8
+go kart,swim,9
+surf,paintball,0
+rugby,paragliding,0
+skiing,hockey,14
+rafting,surfing,6
+cycle,surfing,4
+samba,paint,8
+origami,escape room,5
+softball,yoga,6
+basketball,skateboard,1
+cycle,yoga,10
+improv,curling,1
+skateboard,swimming,9
+softball,racquetball,0
+laser tag,curling,1
+handball,paint,4
+paintball,ski,3
+sing,hockey,5
+drawing,theatre,5
+trampolining,arcade,0
+go kart,snowboarding,2
+dancing,soccer,6
+disc golf,hiking,11
+reading,dance,38
+pottery,basketball,18
+reading,drawing,19
+thrifting,gambling,1
+origami,surf,8
+skateboarding,basketball,20
+table tennis,ski,3
+skateboard,yoga,8
+fencing,paint,21
+skydiving,skiing,4
+arcade,soccer,10
+horseback riding,badminton,3
+hike,hiking,45
+drawing,sculpture,6
+dance,squash,0
+photography,hiking,7
+bowling,skateboarding,0
+draw,pottery,8
+drawing,sing,30
+basketball,hockey,55
+track,improv,10
+softball,parkour,3
+dancing,pottery,7
+surf,bungee jumping,1
+racing,horseback riding,1
+softball,rollerblading,1
+squash,gymnastics,3
+draw,climb,6
+gymnastics,squash,0
+cycling,racquetball,0
+snowboard,comedy,13
+gymnastics,pottery,1
+dance,skate,2
+ski,disc golf,3
+bungee jumping,track,27
+horseback riding,gambling,1
+photography,arcade,5
+sing,skydiving,0
+swimming,handball,0
+track,sculpture,2
+laser tag,rafting,4
+photography,surfing,3
+laser tag,horseback riding,1
+disc golf,softball,10
+fitness,curling,1
+hike,volleyball,5
+reading,paintball,0
+running,volleyball,6
+paragliding,dance,25
+fencing,improv,25
+cricket,badminton,17
+paragliding,soccer,6
+snowboarding,arcade,8
+climb,parkour,0
+parkour,skating,3
+photography,fitness,15
+surfing,yoga,7
+sing,martial arts,2
+snowboard,table tennis,3
+skating,surf,1
+handball,badminton,5
+hike,softball,11
+hiking,hockey,6
+arcade,rollerblade,0
+biking,sing,10
+squash,tennis,15
+soccer,comedy,5
+martial arts,billiards,1
+field hockey,pool,17
+volleyball,bike,7
+softball,paddleboarding,0
+gambling,ziplining,1
+draw,cricket,5
+ski,badminton,0
+volleyball,martial arts,1
+laser tag,baseball,22
+climbing,yoga,11
+improv,gambling,3
+salsa,salsa,210
+thrifting,escape room,3
+rollerblading,cycling,1
+biking,theatre,6
+horseback riding,go kart,4
+yoga,go kart,1
+yoga,cycling,9
+squash,biking,8
+softball,football,72
+squash,cycle,15
+hike,theatre,6
+snowboarding,fencing,0
+thrift,ski,5
+ski,origami,3
+rock climbing,racing,15
+climbing,pool,7
+golf,skate,4
+cycling,rollerskate,0
+thrift,rollerblading,0
+ziplining,go kart,0
+paddleboarding,basketball,8
+comedy,thrift,0
+trampolining,skate,0
+hike,sing,18
+billiards,hike,0
+paint,singing,14
+draw,snowboard,0
+boxing,fencing,1
+laser tag,snowboarding,0
+field hockey,rollerskating,0
+horseback riding,escape room,4
+swim,tennis,7
+biking,disc golf,2
+skydiving,shooting,15
+hike,cycling,7
+arcade,skateboard,6
+soccer,gambling,4
+bowling,hockey,14
+singing,squash,1
+skate,skiing,0
+skating,samba,2
+surf,rollerblading,0
+martial arts,drawing,9
+racing,escape room,3
+mini golf,rollerskate,0
+snowboard,bungee jumping,0
+laser tag,rock climbing,2
+paragliding,rugby,4
+swim,fencing,1
+boxing,hiking,6
+boxe,improv,72
+theatre,rugby,9
+curling,yoga,7
+soccer,reading,26
+skydiving,drawing,8
+thrift,baseball,14
+go kart,track,46
+field hockey,trampolining,0
+fitness,reading,24
+rollerblading,table tennis,0
+karaoke,ziplining,0
+field hockey,paragliding,0
+sing,parkour,1
+gambling,improv,18
+sing,racquetball,0
+golf,horseback riding,1
+comedy,tennis,5
+paddleboarding,fencing,0
+skateboard,fencing,0
+trampolining,football,41
+squash,softball,8
+football,billiards,1
+laser tag,climbing,0
+rugby,sing,72
+painting,badminton,0
+track,ski,1
+bungee jumping,trampolining,0
+skiing,rollerblade,0
+biking,badminton,3
+rollerblading,snowboard,0
+improv,drawing,18
+rollerblading,hockey,19
+track,softball,10
+tennis,rollerskate,0
+fitness,thrifting,0
+shooting,rock climbing,0
+rugby,reading,118
+cycling,laser tag,0
+rollerblading,yoga,6
+paragliding,curling,2
+paintball,swimming,2
+climbing,track,34
+bungee jumping,hike,3
+go kart,ziplining,0
+cycle,paintball,0
+cycle,fencing,0
+cycling,parkour,0
+photography,go kart,4
+softball,biking,0
+gymnastics,reading,118
+thrifting,racquetball,0
+ski,rock climbing,3
+improv,hike,2
+sculpture,martial arts,3
+fencing,archery,5
+arcade,racing,19
+rollerblade,dancing,25
+handball,table tennis,3
+arcade,horseback riding,1
+golf,basketball,39
+gambling,cricket,12
+singing,swimming,11
+painting,racing,8
+rollerblading,basketball,37
+karaoke,hockey,7
+skateboard,paintball,1
+shooting,rugby,3
+cycle,field hockey,0
+improv,softball,1
+paragliding,rafting,10
+bungee jumping,golfing,0
+origami,golfing,0
+reading,go kart,3
+soccer,rollerskating,0
+baseball,baseball,210
+theatre,skating,1
+mini golf,rollerskating,0
+comedy,dance,53
+horseback riding,surfing,3
+cycling,hike,2
+swimming,thrift,1
+origami,drawing,27
+snowboard,football,36
+football,hiking,2
+cycle,rafting,4
+surfing,improv,19
+snowboarding,hiking,22
+field hockey,track,46
+badminton,parkour,0
+martial arts,rafting,4
+gymnastics,go kart,0
+surfing,draw,10
+draw,skate,4
+soccer,paddleboarding,0
+hiking,martial arts,0
+swimming,paddleboarding,0
+paintball,martial arts,2
+archery,thrift,2
+skiing,snowboard,5
+climb,running,63
+rafting,mini golf,0
+hike,ziplining,0
+table tennis,squash,4
+rollerblading,karaoke,5
+swim,yoga,12
+hiking,basketball,19
+improv,squash,1
+fitness,climb,2
+tennis,horseback riding,3
+skate,rollerskating,2
+origami,boxing,3
+skiing,trampolining,0
+improv,golf,19
+snowboarding,yoga,8
+fitness,ski,7
+swimming,bungee jumping,7
+volleyball,racquetball,0
+paint,volleyball,2
+reading,surf,2
+hockey,rollerblading,0
+rollerblade,volleyball,6
+singing,racing,5
+rollerblading,dance,41
+skate,rock climbing,1
+surfing,biking,2
+badminton,field hockey,1
+squash,fencing,1
+shooting,rafting,3
+softball,theatre,5
+gymnastics,soccer,3
+singing,pool,8
+thrift,go kart,3
+salsa,boxing,4
+martial arts,karaoke,1
+snowboard,rollerskate,0
+racing,sculpture,2
+golf,skydiving,0
+comedy,photography,23
+thrifting,skating,3
+boxe,rafting,2
+biking,rock climbing,4
+swim,archery,1
+baseball,fitness,9
+cycling,ski,4
+paragliding,gambling,0
+singing,paintball,0
+escape room,arcade,14
+handball,rollerblade,0
+bungee jumping,cycle,4
+bungee jumping,fencing,0
+rollerblading,skate,8
+martial arts,theatre,7
+rollerblading,improv,8
+boxe,sculpture,3
+parkour,trampolining,0
+cycle,rugby,7
+snowboarding,parkour,5
+bowling,fencing,0
+rollerskate,sing,16
+football,volleyball,4
+pottery,cycling,5
+skateboarding,ziplining,0
+laser tag,sculpture,4
+surfing,go kart,2
+ziplining,gambling,3
+paint,pool,8
+drawing,bowling,12
+swim,parkour,0
+skydiving,paint,15
+fitness,salsa,11
+arcade,bike,11
+painting,boxing,7
+rafting,fitness,9
+hike,photography,20
+skateboard,rugby,2
+dancing,martial arts,2
+go kart,curling,1
+running,gambling,1
+racquetball,volleyball,7
+skydiving,cycle,10
+gymnastics,photography,148
+photography,comedy,8
+paintball,pool,15
+badminton,rollerskating,0
+comedy,skate,7
+ziplining,photography,26
+theatre,paint,14
+fencing,dancing,13
+paddleboarding,biking,7
+rock climbing,golf,11
+skateboarding,boxe,0
+boxing,karaoke,4
+basketball,golfing,0
+curling,reading,40
+fitness,snowboard,1
+gymnastics,snowboarding,0
+hiking,boxe,0
+bike,hiking,9
+hockey,samba,0
+go kart,racing,54
+track,ziplining,0
+improv,skateboarding,2
+paintball,fitness,23
+baseball,rollerblading,1
+paintball,skateboard,3
+photography,dancing,15
+fencing,skating,1
+karaoke,paddleboarding,0
+badminton,surfing,2
+badminton,squash,13
+snowboarding,draw,9
+skiing,reading,34
+track,paragliding,0
+sing,dancing,35
+handball,baseball,19
+dance,snowboarding,0
+swimming,skateboarding,0
+basketball,skating,1
+racquetball,parkour,1
+karaoke,soccer,15
+table tennis,skateboard,1
+field hockey,arcade,0
+dance,softball,6
+ski,skateboarding,1
+rollerblade,paragliding,0
+racquetball,golf,31
+ski,volleyball,2
+rollerblading,cycle,12
+badminton,climb,4
+squash,rollerblading,0
+climbing,table tennis,0
+curling,shooting,7
+hiking,climb,10
+snowboard,baseball,31
+laser tag,hockey,7
+biking,swimming,33
+gambling,pool,26
+skating,gymnastics,1
+bowling,disc golf,0
+theatre,improv,18
+mini golf,snowboard,0
+mini golf,hockey,17
+singing,curling,2
+baseball,skateboarding,2
+climb,skating,1
+track,pottery,6
+baseball,singing,15
+running,biking,2
+martial arts,gambling,1
+comedy,rollerskating,0
+bowling,pool,10
+fencing,draw,18
+hockey,painting,5
+samba,gymnastics,1
+biking,thrift,3
+rafting,cricket,8
+track,drawing,6
+trampolining,volleyball,2
+salsa,photography,14
+paragliding,softball,1
+running,curling,2
+dance,golfing,1
+thrift,ziplining,0
+laser tag,ski,3
+skate,disc golf,1
+biking,fitness,27
+skateboarding,sing,13
+rollerskating,golf,6
+escape room,rollerblade,0
+swim,ziplining,0
+golf,parkour,1
+singing,photography,13
+horseback riding,baseball,14
+skiing,escape room,1
+paintball,hiking,5
+rollerblade,mini golf,5
+hiking,skydiving,4
+baseball,cycling,4
+boxing,table tennis,0
+mini golf,cricket,4
+laser tag,rollerblading,0
+escape room,boxe,0
+dance,cycle,2
+racing,boxe,1
+disc golf,painting,19
+singing,archery,0
+rafting,reading,44
+billiards,improv,8
+billiards,skate,20
+paragliding,karaoke,0
+swimming,billiards,2
+painting,skydiving,0
+softball,ski,2
+photography,squash,0
+thrift,arcade,3
+surf,tennis,9
+singing,gymnastics,0
+thrifting,arcade,3
+racing,rollerblade,0
+bike,pool,10
+rollerblading,archery,1
+curling,paintball,0
+skateboard,cricket,10
+mini golf,pool,22
+samba,reading,18
+reading,tennis,4
+painting,curling,1
+skiing,golfing,3
+draw,running,54
+origami,curling,1
+gambling,handball,0
+racquetball,table tennis,4
+gymnastics,billiards,0
+pool,billiards,3
+handball,paddleboarding,0
+go kart,drawing,12
+samba,biking,0
+reading,softball,1
+shooting,ziplining,0
+cycle,running,58
+archery,skiing,3
+table tennis,salsa,2
+sing,handball,0
+salsa,thrift,0
+skateboarding,softball,2
+soccer,squash,0
+basketball,swimming,3
+disc golf,biking,4
+tennis,skate,3
+climbing,biking,10
+ski,swimming,13
+ski,singing,18
+thrift,field hockey,3
+cycle,bungee jumping,0
+drawing,hockey,6
+softball,rollerskate,0
+painting,rollerskating,0
+rollerskate,photography,26
+improv,rugby,3
+paintball,salsa,8
+horseback riding,comedy,8
+table tennis,origami,1
+bike,volleyball,14
+skateboard,running,57
+thrifting,paintball,0
+surf,thrift,2
+paint,pottery,8
+billiards,field hockey,2
+bowling,rugby,2
+go kart,comedy,5
+tennis,dance,44
+archery,bungee jumping,0
+rollerskating,volleyball,1
+improv,sing,22
+thrift,table tennis,2
+skateboard,skydiving,1
+climb,arcade,4
+paddleboarding,boxing,5
+fitness,cycle,9
+paintball,origami,1
+baseball,yoga,2
+handball,curling,1
+mini golf,skate,5
+boxe,paintball,1
+thrifting,thrift,45
+bungee jumping,ski,1
+rollerblading,horseback riding,0
+dancing,hockey,4
+volleyball,rollerskate,0
+hiking,theatre,18
+theatre,archery,1
+skydiving,softball,5
+baseball,photography,16
+skydiving,salsa,3
+biking,skating,3
+shooting,field hockey,0
+singing,cycling,5
+rock climbing,thrift,2
+sculpture,photography,59
+comedy,badminton,2
+bowling,hike,2
+tennis,archery,2
+mini golf,singing,23
+laser tag,football,23
+handball,arcade,1
+boxing,rock climbing,0
+cycle,paragliding,0
+snowboarding,photography,21
+gymnastics,climb,0
+draw,karaoke,3
+salsa,rugby,2
+rafting,skiing,2
+hike,basketball,21
+curling,mini golf,2
+paint,running,35
+gymnastics,ski,1
+handball,rollerskating,0
+biking,paintball,3
+hockey,go kart,1
+trampolining,field hockey,0
+paintball,cycling,5
+skateboard,rollerskating,1
+ziplining,billiards,1
+thrifting,sculpture,1
+parkour,rafting,5
+gymnastics,rollerblading,0
+baseball,skateboard,3
+skydiving,rafting,6
+go kart,gambling,1
+skiing,pottery,9
+billiards,hockey,15
+skiing,paragliding,0
+samba,climb,3
+gymnastics,mini golf,0
+handball,gymnastics,2
+swimming,ski,5
+archery,running,35
+skiing,pool,13
+samba,laser tag,1
+table tennis,cycling,6
+hockey,draw,15
+tennis,basketball,40
+karaoke,boxing,1
+billiards,archery,5
+skateboarding,skateboard,77
+pottery,drawing,14
+rollerblade,football,28
+go kart,reading,39
+softball,sculpture,3
+paintball,handball,1
+archery,rugby,13
+field hockey,fencing,0
+skating,tennis,4
+soccer,fencing,1
+singing,snowboarding,0
+snowboard,skiing,21
+mini golf,skating,5
+gymnastics,basketball,10
+archery,paragliding,0
+sculpture,go kart,1
+parkour,go kart,1
+football,hockey,11
+paddleboarding,fitness,36
+pottery,cricket,5
+curling,cycle,5
+laser tag,squash,0
+tennis,hockey,26
+rollerblade,pool,19
+tennis,snowboard,0
+rollerblade,billiards,2
+photography,swimming,3
+photography,paint,14
+ziplining,horseback riding,7
+swimming,skate,4
+football,hike,2
+boxe,hockey,7
+escape room,sculpture,6
+go kart,karaoke,2
+rollerblading,golf,12
+bungee jumping,basketball,14
+samba,racing,13
+parkour,draw,9
+cricket,climb,10
+photography,golfing,0
+billiards,skydiving,0
+trampolining,track,35
+skateboard,gambling,2
+gambling,rock climbing,1
+thrifting,parkour,1
+boxe,pool,7
+dance,drawing,6
+billiards,drawing,10
+dance,curling,3
+samba,bungee jumping,1
+climbing,drawing,14
+disc golf,fitness,24
+reading,bungee jumping,2
+field hockey,squash,3
+bungee jumping,badminton,0
+disc golf,thrift,0
+horseback riding,shooting,16
+volleyball,soccer,22
+baseball,racquetball,0
+arcade,painting,10
+origami,racing,17
+skiing,rugby,8
+cycling,painting,9
+boxe,laser tag,1
+yoga,golf,13
+curling,disc golf,2
+karaoke,cricket,10
+cycle,gambling,0
+dance,skydiving,1
+boxe,parkour,0
+mini golf,gymnastics,0
+sing,skateboarding,1
+thrifting,skateboarding,1
+comedy,paddleboarding,0
+skydiving,dancing,24
+archery,table tennis,3
+skate,rugby,3
+paint,golfing,0
+gymnastics,racing,6
+salsa,field hockey,0
+handball,ziplining,0
+hike,skateboard,0
+running,skateboard,2
+racing,drawing,5
+bungee jumping,climbing,8
+pottery,squash,2
+rock climbing,rock climbing,210
+trampolining,bowling,11
+golf,bungee jumping,0
+thrifting,yoga,10
+swim,rugby,4
+hiking,parkour,0
+parkour,pool,8
+soccer,escape room,2
+badminton,sculpture,3
+trampolining,thrifting,0
+thrift,rugby,2
+painting,fencing,2
+disc golf,bungee jumping,1
+boxing,skateboarding,1
+squash,racing,20
+billiards,comedy,11
+racquetball,football,68
+disc golf,skydiving,1
+horseback riding,racing,17
+skiing,paintball,0
+paddleboarding,surf,30
+hockey,climbing,0
+theatre,dancing,34
+climb,baseball,11
+samba,bowling,3
+biking,cricket,3
+soccer,paint,5
+karaoke,golf,12
+fitness,sing,8
+fitness,samba,0
+salsa,table tennis,0
+cycle,basketball,12
+laser tag,racing,25
+running,football,33
+shooting,thrifting,1
+archery,field hockey,0
+arcade,sculpture,6
+parkour,improv,8
+field hockey,rollerblading,0
+pottery,bowling,4
+martial arts,rollerskating,0
+boxing,soccer,20
+pottery,curling,3
+snowboard,hockey,18
+biking,rollerskate,0
+fitness,football,14
+billiards,sculpture,7
+fitness,cricket,7
+track,soccer,13
+yoga,drawing,9
+disc golf,boxing,5
+biking,arcade,2
+rollerblade,arcade,4
+draw,thrifting,0
+drawing,salsa,1
+pool,gambling,0
+hockey,dancing,15
+soccer,climb,6
+baseball,salsa,0
+boxe,skiing,2
+ziplining,handball,0
+pottery,handball,0
+draw,biking,1
+drawing,go kart,5
+fitness,martial arts,8
+archery,rollerblade,0
+martial arts,dance,44
+pottery,paint,38
+snowboard,ski,58
+boxing,go kart,0
+skiing,mini golf,2
+rollerblade,singing,22
+reading,rollerblading,0
+rafting,paragliding,0
+skiing,track,33
+snowboarding,surf,12
+soccer,curling,3
+mini golf,horseback riding,0
+snowboard,boxing,11
+ziplining,swim,6
+painting,paint,58
+skateboarding,swimming,10
+football,skateboard,2
+paintball,climb,3
+snowboarding,climb,10
+surf,golf,16
+rollerblading,theatre,7
+paragliding,biking,13
+salsa,ski,2
+football,rollerblade,0
+thrifting,field hockey,2
+draw,paintball,0
+softball,rafting,4
+billiards,cycle,8
+hiking,swimming,18
+rafting,rollerblade,0
+trampolining,table tennis,7
+boxing,squash,1
+paragliding,pottery,4
+arcade,paintball,1
+table tennis,climb,5
+rollerskating,climb,6
+salsa,rollerblade,3
+go kart,mini golf,6
+table tennis,golfing,0
+samba,cycling,11
+sculpture,parkour,2
+cricket,rollerskating,0
+golf,rugby,8
+photography,skateboard,1
+biking,archery,1
+volleyball,boxe,0
+disc golf,climb,3
+table tennis,rollerblading,1
+dancing,snowboard,1
+disc golf,karaoke,8
+badminton,climbing,6
+ziplining,cycling,6
+billiards,paragliding,0
+paintball,golfing,3
+softball,ziplining,0
+climb,table tennis,2
+improv,snowboarding,0
+sing,rock climbing,2
+thrifting,boxing,1
+skate,bike,19
+badminton,baseball,10
+arcade,swim,2
+photography,origami,1
+shooting,surfing,1
+basketball,skate,5
+bowling,yoga,5
+arcade,ski,1
+ziplining,racquetball,0
+rollerblading,rollerskate,0
+baseball,hike,1
+photography,disc golf,4
+skydiving,bowling,2
+skating,escape room,0
+football,gambling,4
+track,curling,0
+reading,pottery,10
+reading,paragliding,0
+racquetball,yoga,21
+pottery,arcade,8
+reading,golf,5
+baseball,theatre,4
+swim,thrift,1
+climb,squash,1
+shooting,hike,4
+boxe,climbing,5
+singing,biking,1
+climb,boxing,4
+pottery,golf,12
+track,arcade,4
+cycling,billiards,2
+tennis,table tennis,39
+biking,running,71
+draw,mini golf,2
+go kart,baseball,22
+golf,archery,1
+sculpture,rafting,8
+ski,hike,5
+boxing,drawing,8
+bike,laser tag,1
+fitness,handball,0
+improv,trampolining,0
+biking,skydiving,1
+cycle,mini golf,3
+photography,boxe,0
+draw,cycle,5
+squash,improv,33
+thrift,bungee jumping,2
+laser tag,improv,2
+golf,rollerblading,0
+horseback riding,parkour,2
+bowling,rollerblading,0
+basketball,dancing,8
+drawing,rugby,3
+fencing,arcade,3
+bowling,dancing,21
+pool,theatre,9
+baseball,softball,37
+paint,martial arts,3
+yoga,track,24
+fitness,tennis,9
+martial arts,fencing,1
+field hockey,football,47
+badminton,go kart,4
+climbing,paddleboarding,2
+shooting,dance,41
+hockey,laser tag,0
+billiards,rugby,4
+escape room,yoga,14
+curling,trampolining,0
+drawing,bike,1
+skateboard,mini golf,0
+hockey,arcade,1
+pool,dancing,13
+trampolining,golf,14
+gambling,paintball,1
+cycling,snowboard,1
+go kart,horseback riding,0
+dance,bike,2
+ski,baseball,21
+rollerskate,rollerblading,2
+rollerblading,laser tag,0
+martial arts,curling,0
+snowboarding,billiards,2
+swimming,snowboarding,0
+climb,biking,2
+rafting,field hockey,0
+dancing,gambling,0
+rollerblading,parkour,1
+improv,paragliding,0
+hockey,curling,4
+laser tag,photography,5
+gymnastics,trampolining,0
+biking,rollerskating,0
+soccer,handball,3
+archery,boxe,0
+dancing,sing,34
+skating,hiking,3
+football,rollerskating,0
+martial arts,arcade,2
+skateboarding,photography,19
+dancing,reading,30
+hiking,samba,0
+thrift,soccer,5
+climbing,ziplining,0
+draw,skydiving,0
+golfing,paint,11
+hiking,cycling,33
+karaoke,ski,1
+football,rollerskate,0
+cricket,swimming,5
+rollerblade,yoga,12
+bungee jumping,table tennis,2
+soccer,dancing,19
+dancing,sculpture,0
+racing,gambling,8
+rollerskating,gymnastics,2
+climbing,sculpture,7
+track,bungee jumping,1
+drawing,rafting,1
+volleyball,rollerskating,0
+mini golf,climbing,6
+baseball,horseback riding,0
+football,swimming,2
+baseball,cycle,8
+escape room,samba,0
+rollerblading,ski,3
+golfing,soccer,18
+basketball,laser tag,0
+yoga,yoga,210
+paddleboarding,racquetball,0
+soccer,badminton,1
+billiards,skating,3
+curling,sing,14
+sing,cricket,5
+gambling,skateboarding,0
+climb,bike,14
+hike,origami,0
+theatre,volleyball,2
+drawing,hiking,2
+cricket,martial arts,4
+yoga,biking,4
+swim,photography,12
+sculpture,swim,9
+archery,pool,16
+rollerskate,drawing,15
+disc golf,origami,1
+rollerskating,climbing,6
+golfing,yoga,8
+track,billiards,0
+salsa,snowboarding,1
+laser tag,bike,25
+rafting,track,42
+dance,fencing,0
+draw,origami,1
+karaoke,go kart,11
+comedy,sculpture,4
+table tennis,football,39
+rock climbing,photography,46
+badminton,swimming,11
+golf,running,59
+soccer,origami,0
+skate,snowboard,1
+arcade,origami,1
+tennis,baseball,40
+baseball,arcade,0
+karaoke,basketball,9
+skateboard,photography,38
+trampolining,bike,11
+drawing,arcade,4
+rugby,dance,134
+rollerblade,salsa,4
+dancing,rollerskating,0
+trampolining,surf,2
+photography,rollerskate,0
+paintball,football,48
+snowboard,skating,8
+hockey,baseball,68
+rugby,badminton,26
+badminton,cycling,3
+paddleboarding,origami,1
+pottery,dancing,13
+disc golf,surf,8
+baseball,skate,2
+racquetball,singing,18
+rollerskating,photography,13
+skate,cycle,8
+hockey,swim,7
+billiards,dance,34
+laser tag,cycling,4
+pool,parkour,0
+hiking,rollerblading,0
+swim,karaoke,3
+skateboard,surfing,1
+boxe,origami,1
+golfing,dancing,14
+cycling,skate,5
+painting,drawing,59
+skiing,boxing,3
+rock climbing,improv,27
+origami,climb,7
+cycling,skateboarding,1
+bowling,archery,0
+painting,climb,1
+snowboarding,basketball,27
+ski,bike,28
+photography,rugby,5
+handball,snowboarding,0
+salsa,trampolining,0
+pool,mini golf,2
+paddleboarding,badminton,1
+go kart,arcade,8
+go kart,fencing,1
+ziplining,track,31
+baseball,fencing,0
+bungee jumping,karaoke,4
+softball,billiards,0
+draw,tennis,13
+singing,horseback riding,5
+paragliding,track,39
+surf,skiing,5
+racing,snowboard,0
+trampolining,golfing,3
+basketball,mini golf,0
+salsa,soccer,6
+bowling,go kart,2
+painting,comedy,13
+disc golf,mini golf,3
+curling,draw,31
+boxe,paddleboarding,1
+gymnastics,climbing,2
+running,snowboarding,0
+boxing,curling,1
+badminton,dancing,28
+biking,basketball,29
+samba,running,44
+surfing,rafting,8
+ski,sing,12
+surf,singing,17
+photography,boxing,6
+go kart,gymnastics,1
+archery,trampolining,0
+paddleboarding,handball,1
+escape room,biking,3
+running,climb,6
+disc golf,racing,13
+yoga,surfing,3
+sculpture,gambling,5
+climbing,ski,10
+racquetball,field hockey,0
+horseback riding,gymnastics,2
+badminton,theatre,12
+climbing,snowboard,0
+cricket,track,40
+skateboard,laser tag,0
+surfing,tennis,5
+trampolining,racing,13
+field hockey,cycle,6
+bowling,paddleboarding,0
+rock climbing,paddleboarding,1
+pottery,martial arts,0
+parkour,escape room,5
+skateboarding,rollerskate,0
+cycling,dance,20
+hiking,biking,12
+swim,rollerblade,0
+golf,laser tag,1
+softball,skating,2
+fencing,rollerskating,0
+bowling,soccer,13
+pool,rollerskate,0
+skateboard,reading,31
+surfing,snowboard,5
+rugby,skateboard,4
+skate,rollerblade,0
+painting,squash,1
+surf,softball,5
+paint,bungee jumping,1
+softball,drawing,5
+pool,skateboarding,1
+pool,football,23
+boxe,painting,14
+skate,rafting,3
+gambling,boxing,11
+baseball,sing,12
+paint,football,20
+running,skydiving,0
+ziplining,trampolining,1
+go kart,bungee jumping,1
+fitness,table tennis,0
+snowboarding,painting,6
+laser tag,volleyball,5
+skateboarding,cycling,6
+pottery,ziplining,0
+thrifting,softball,2
+cycle,rollerskate,1
+baseball,swim,5
+skateboarding,samba,2
+ski,gymnastics,0
+parkour,rollerblading,0
+rollerskating,martial arts,2
+snowboarding,track,32
+skateboarding,dancing,17
+salsa,painting,16
+escape room,ziplining,0
+skateboarding,tennis,13
+paddleboarding,shooting,24
+surfing,thrift,0
+track,skate,2
+salsa,shooting,10
+yoga,improv,28
+origami,disc golf,1
+mini golf,football,27
+improv,racing,17
+cycle,boxe,0
+soccer,skateboard,2
+fencing,escape room,2
+paint,baseball,6
+rollerblading,cricket,3
+rollerskate,origami,1
+skate,thrifting,0
+dance,sculpture,0
+skateboarding,theatre,3
+skateboard,martial arts,2
+trampolining,billiards,0
+volleyball,biking,0
+comedy,climb,5
+hockey,racing,14
+laser tag,laser tag,210
+arcade,climbing,1
+yoga,rock climbing,8
+rafting,swim,5
+table tennis,hike,2
+rollerskate,parkour,0
+basketball,table tennis,1
+snowboard,go kart,0
+painting,biking,1
+rollerblade,sculpture,4
+draw,soccer,13
+swim,martial arts,4
+racquetball,surfing,2
+snowboard,basketball,25
+boxing,golfing,1
+cricket,photography,15
+surf,paint,8
+theatre,paddleboarding,1
+archery,bike,24
+golf,origami,0
+climbing,dance,49
+go kart,climb,4
+bowling,photography,2
+dance,tennis,2
+paragliding,improv,14
+paddleboarding,reading,24
+paint,horseback riding,1
+salsa,paddleboarding,0
+thrifting,football,8
+cycle,theatre,9
+singing,golf,6
+skydiving,arcade,0
+swimming,snowboard,0
+racing,mini golf,2
+rollerblading,fitness,8
+volleyball,cycling,0
+racquetball,paintball,2
+comedy,boxe,0
+drawing,yoga,4
+theatre,skate,2
+origami,golf,10
+hockey,thrifting,0
+martial arts,photography,17
+skate,cycling,3
+skateboarding,volleyball,1
+drawing,hike,2
+running,horseback riding,4
+dance,cycling,0
+painting,handball,0
+hockey,sing,16
+improv,boxing,6
+laser tag,bungee jumping,2
+snowboard,rock climbing,3
+climbing,golfing,1
+curling,dancing,26
+paintball,golf,17
+paintball,skate,11
+reading,pool,9
+pool,climbing,7
+skateboard,thrifting,1
+track,go kart,3
+swimming,racing,16
+reading,skateboarding,1
+fitness,karaoke,2
+salsa,rock climbing,0
+pool,field hockey,2
+paintball,arcade,1
+snowboarding,thrifting,0
+cricket,paint,7
+rafting,boxe,0
+rugby,sculpture,10
+ziplining,reading,31
+bowling,skydiving,0
+gambling,draw,22
+handball,cricket,13
+bowling,hiking,7
+drawing,parkour,0
+golfing,boxe,0
+skateboarding,skydiving,5
+climb,field hockey,2
+squash,bungee jumping,1
+paddleboarding,archery,5
+skateboarding,hiking,8
+comedy,climbing,4
+ziplining,disc golf,0
+singing,tennis,3
+shooting,improv,10
+table tennis,soccer,5
+handball,volleyball,15
+archery,escape room,5
+boxing,salsa,5
+pottery,sing,7
+horseback riding,drawing,14
+paddleboarding,comedy,4
+theatre,tennis,6
+martial arts,go kart,2
+skate,sing,16
+boxe,dancing,11
+parkour,paint,13
+boxe,rollerblading,0
+field hockey,curling,2
+thrifting,salsa,2
+table tennis,handball,6
+shooting,skiing,1
+paintball,paddleboarding,0
+rollerblading,rafting,3
+yoga,paragliding,0
+bike,curling,13
+bungee jumping,shooting,10
+thrifting,tennis,3
+origami,mini golf,2
+skiing,field hockey,1
+skydiving,surfing,3
+disc golf,dance,46
+field hockey,skydiving,0
+paint,climbing,1
+volleyball,running,41
+rollerskating,skateboard,4
+bike,rugby,5
+thrift,karaoke,5
+laser tag,theatre,7
+surfing,dance,44
+rock climbing,squash,0
+rafting,paddleboarding,1
+ski,swim,9
+photography,bowling,3
+running,photography,8
+samba,salsa,7
+paint,hike,2
+rollerblading,skating,7
+ziplining,escape room,1
+hockey,paddleboarding,0
+baseball,hockey,37
+paragliding,skateboard,2
+photography,badminton,2
+skateboard,hiking,9
+handball,golf,10
+pool,rafting,4
+pool,cycle,10
+mini golf,racing,13
+pottery,fitness,6
+rollerskate,escape room,2
+paddleboarding,skydiving,1
+golf,gymnastics,5
+bungee jumping,curling,0
+thrift,bike,12
+reading,table tennis,2
+bike,field hockey,1
+fencing,thrift,0
+baseball,paintball,1
+soccer,samba,0
+arcade,rollerskate,0
+karaoke,comedy,21
+theatre,yoga,6
+arcade,thrift,0
+softball,fitness,6
+shooting,dancing,20
+rollerskating,hiking,8
+swim,swimming,40
+soccer,swimming,2
+hike,rock climbing,0
+hiking,dance,38
+samba,thrifting,0
+bowling,dance,38
+bowling,bowling,210
+skate,curling,0
+gymnastics,hike,1
+samba,rugby,4
+fitness,rollerskate,0
+skydiving,hike,5
+soccer,horseback riding,2
+rugby,paint,36
+comedy,rollerblading,0
+cycle,table tennis,3
+ski,archery,1
+rafting,surf,5
+hike,parkour,1
+baseball,go kart,0
+surf,boxe,0
+ziplining,baseball,26
+skydiving,sculpture,2
+improv,rollerskating,0
+paintball,cricket,4
+draw,table tennis,1
+softball,snowboard,1
+curling,samba,0
+snowboard,handball,0
+fitness,drawing,5
+bungee jumping,field hockey,4
+gambling,soccer,23
+soccer,rugby,4
+tennis,shooting,35
+comedy,golfing,1
+gambling,horseback riding,1
+reading,reading,210
+rafting,snowboard,3
+salsa,swimming,11
+trampolining,soccer,3
+skateboard,golf,10
+photography,baseball,6
+shooting,golf,7
+skate,photography,18
+paragliding,field hockey,2
+photography,draw,11
+golfing,hiking,5
+mini golf,thrifting,0
+swimming,dance,40
+draw,hike,0
+salsa,rollerskate,1
+martial arts,draw,11
+basketball,rollerskating,0
+trampolining,hockey,9
+mini golf,squash,1
+parkour,parkour,210
+hiking,tennis,9
+track,tennis,7
+rugby,cycling,58
+trampolining,draw,21
+rollerskating,paint,8
+martial arts,hockey,12
+climbing,bungee jumping,0
+track,dancing,36
+boxing,handball,3
+skydiving,yoga,4
+horseback riding,paddleboarding,2
+dancing,samba,0
+cycle,racquetball,0
+shooting,bungee jumping,0
+origami,draw,14
+pottery,gambling,5
+bowling,skiing,0
+singing,hockey,1
+baseball,parkour,0
+boxe,paragliding,0
+skydiving,rollerskating,1
+volleyball,skydiving,1
+bungee jumping,golf,4
+sing,swimming,4
+racing,fencing,1
+sculpture,dance,36
+swimming,soccer,8
+bike,surfing,8
+ski,soccer,9
+swimming,improv,21
+fitness,arcade,5
+skateboard,ski,4
+photography,rafting,4
+skateboard,basketball,22
+climb,horseback riding,2
+billiards,boxing,7
+dance,skiing,1
+skydiving,badminton,1
+basketball,painting,5
+paint,improv,16
+boxing,paddleboarding,0
+reading,boxe,0
+salsa,singing,33
+theatre,rollerskate,0
+softball,pool,7
+mini golf,field hockey,0
+swim,disc golf,1
+martial arts,ski,6
+gymnastics,golf,8
+rugby,swim,36
+ziplining,pottery,15
+horseback riding,origami,0
+rollerskate,golfing,2
+dancing,swim,3
+cycling,theatre,9
+cycling,golf,19
+drawing,pottery,4
+hockey,hike,1
+basketball,running,49
+drawing,rock climbing,4
+hike,badminton,1
+pool,rollerblade,0
+karaoke,shooting,25
+dance,gambling,2
+rafting,thrift,2
+rollerblading,paragliding,0
+trampolining,drawing,12
+cricket,surf,1
+boxe,karaoke,1
+gymnastics,ziplining,0
+volleyball,football,41
+go kart,soccer,20
+biking,sculpture,4
+laser tag,archery,5
+drawing,field hockey,4
+skiing,bike,18
+billiards,boxe,0
+basketball,baseball,77
+improv,skating,2
+skydiving,running,51
+parkour,rollerskate,0
+biking,escape room,3
+ziplining,rollerskate,0
+disc golf,parkour,1
+yoga,baseball,12
+skate,billiards,5
+disc golf,comedy,8
+archery,golfing,3
+basketball,handball,0
+skydiving,track,24
+thrift,boxing,2
+field hockey,bowling,11
+yoga,bungee jumping,1
+soccer,arcade,2
+skiing,hike,4
+bungee jumping,ziplining,2
+sculpture,paddleboarding,1
+thrift,gambling,2
+dance,paragliding,0
+sculpture,skateboard,3
+parkour,hike,5
+laser tag,go kart,3
+samba,samba,210
+reading,rock climbing,7
+karaoke,skateboard,1
+shooting,arcade,0
+climbing,squash,2
+racing,gymnastics,2
+snowboard,thrift,1
+ski,snowboarding,6
+laser tag,basketball,21
+ziplining,drawing,17
+hike,disc golf,0
+tennis,boxe,1
+thrift,paddleboarding,0
+surfing,billiards,0
+climb,rollerskate,0
+laser tag,skydiving,1
+painting,rollerblading,0
+rollerskating,samba,0
+draw,paragliding,0
+ziplining,samba,0
+basketball,volleyball,8
+table tennis,billiards,2
+ski,golf,18
+trampolining,skiing,7
+painting,track,19
+archery,theatre,6
+paddleboarding,volleyball,5
+swim,field hockey,1
+cricket,bike,9
+squash,rollerblade,0
+salsa,golfing,0
+martial arts,skiing,3
+dancing,squash,2
+climbing,rollerblading,0
+dancing,ski,3
+pool,salsa,2
+handball,hockey,16
+rugby,golfing,2
+golfing,singing,13
+samba,swim,7
+dance,pottery,7
+baseball,dancing,18
+soccer,ski,2
+escape room,climbing,9
+rock climbing,singing,21
+thrifting,climb,4
+field hockey,rafting,2
+badminton,rollerskate,0
+horseback riding,running,45
+field hockey,volleyball,17
+rafting,golfing,1
+paint,hockey,6
+martial arts,bike,10
+paddleboarding,cricket,9
+ziplining,mini golf,1
+skating,painting,10
+boxe,table tennis,2
+sculpture,rollerskating,0
+skateboarding,billiards,2
+mini golf,shooting,18
+shooting,rollerblade,0
+painting,cricket,8
+theatre,paragliding,0
+rollerskating,billiards,0
+samba,skateboard,3
+racquetball,go kart,0
+gambling,cycling,14
+surf,rock climbing,2
+martial arts,sculpture,4
+comedy,skateboard,0
+arcade,cricket,2
+skiing,skating,3
+gymnastics,bike,9
+swim,painting,14
+racquetball,basketball,65
+parkour,golf,10
+racing,painting,16
+rafting,skateboarding,0
+disc golf,disc golf,210
+mini golf,rugby,3
+rafting,bungee jumping,1
+golf,draw,26
+field hockey,cricket,4
+squash,climbing,4
+softball,thrifting,0
+surfing,archery,2
+cricket,surfing,0
+swim,skateboarding,0
+snowboard,golfing,1
+rollerblading,football,35
+pottery,boxe,1
+parkour,karaoke,5
+go kart,skydiving,1
+martial arts,mini golf,2
+cricket,escape room,0
+swim,gymnastics,0
+bungee jumping,bike,10
+paragliding,salsa,4
+paint,climb,6
+theatre,gambling,3
+sculpture,ziplining,1
+badminton,swim,7
+disc golf,shooting,18
+snowboarding,football,22
+climb,comedy,7
+fencing,gymnastics,6
+fitness,paint,10
+football,racing,10
+salsa,laser tag,0
+skateboarding,skating,61
+surf,rafting,2
+comedy,skating,2
+escape room,swim,9
+ski,martial arts,5
+paragliding,gymnastics,0
+thrift,handball,0
+skiing,football,38
+racquetball,thrifting,0
+parkour,softball,4
+theatre,skydiving,0
+snowboard,skateboarding,8
+basketball,cricket,2
+escape room,baseball,11
+origami,swimming,11
+rafting,karaoke,6
+thrift,track,38
+paragliding,rollerblade,0
+table tennis,karaoke,2
+dance,racquetball,1
+paint,drawing,36
+laser tag,painting,14
+cricket,ziplining,0
+skateboarding,paintball,1
+rugby,surf,14
+skating,ziplining,0
+tennis,martial arts,3
+paragliding,snowboard,4
+singing,surf,1
+rollerskate,badminton,0
+climb,golfing,1
+boxing,rollerblading,0
+trampolining,gymnastics,16
+rock climbing,draw,9
+baseball,skydiving,0
+curling,drawing,13
+archery,improv,47
+cycling,running,73
+horseback riding,singing,30
+paintball,karaoke,1
+singing,bungee jumping,4
+billiards,gambling,2
+cycle,skating,0
+hockey,table tennis,0
+draw,dancing,12
+swim,skating,3
+track,thrifting,0
+golfing,volleyball,6
+skateboard,trampolining,0
+hiking,racquetball,0
+boxe,reading,25
+track,gambling,1
+rugby,fencing,0
+karaoke,horseback riding,11
+boxing,track,34
+climbing,volleyball,4
+surfing,badminton,0
+salsa,surfing,2
+samba,yoga,2
+badminton,tennis,31
+climbing,rafting,8
+theatre,snowboarding,0
+paragliding,skating,3
+gambling,golf,11
+skateboard,skating,12
+skiing,painting,15
+pottery,mini golf,0
+squash,soccer,9
+yoga,skateboarding,1
+skateboarding,arcade,6
+football,badminton,3
+singing,rollerskate,0
+thrifting,bike,8
+sing,golf,7
+improv,golfing,0
+ski,sculpture,1
+hiking,pottery,14
+golf,squash,0
+rollerskating,bike,9
+ski,reading,21
+surf,painting,13
+skateboarding,golf,18
+parkour,cycle,4
+squash,handball,1
+horseback riding,sing,23
+racquetball,paragliding,0
+parkour,table tennis,1
+salsa,climb,4
+trampolining,bungee jumping,4
+curling,hike,2
+track,bowling,7
+singing,drawing,10
+running,rollerblading,1
+snowboarding,rollerblading,2
+samba,parkour,1
+archery,surfing,2
+skating,rollerblading,1
+go kart,pool,10
+paddleboarding,bungee jumping,2
+yoga,trampolining,0
+rollerblading,boxe,0
+climb,yoga,10
+handball,bowling,6
+softball,boxing,4
+samba,dancing,26
+salsa,boxe,0
+theatre,trampolining,0
+rafting,boxing,7
+yoga,bike,23
+handball,biking,4
+thrifting,hike,7
+salsa,hockey,6
+ski,rollerskate,1
+rugby,rafting,16
+salsa,cycle,6
+paddleboarding,running,59
+rugby,volleyball,28
+photography,mini golf,4
+table tennis,track,27
+table tennis,badminton,8
+archery,rock climbing,0
+sculpture,climbing,6
+rock climbing,climbing,204
+martial arts,boxe,1
+disc golf,photography,14
+gambling,shooting,20
+squash,snowboard,1
+volleyball,surf,1
+karaoke,sing,47
+golf,hike,5
+laser tag,racquetball,0
+sculpture,singing,13
+racquetball,mini golf,1
+basketball,paintball,1
+paintball,badminton,6
+fencing,skydiving,0
+sing,gymnastics,0
+comedy,racquetball,0
+squash,origami,2
+pottery,paintball,1
+rugby,salsa,14
+running,martial arts,3
+comedy,cricket,12
+arcade,trampolining,0
+rollerblading,salsa,4
+rafting,curling,1
+archery,hockey,17
+surf,skating,3
+paintball,dancing,8
+dance,badminton,0
+surfing,ski,6
+cycling,thrifting,0
+track,skydiving,0
+basketball,racquetball,0
+gambling,samba,1
+racing,thrift,1
+fencing,martial arts,2
+dancing,origami,1
+swimming,paragliding,0
+sing,reading,29
+parkour,horseback riding,1
+photography,surf,7
+gambling,boxe,0
+skateboarding,table tennis,5
+squash,football,18
+fitness,cycling,13
+cricket,theatre,13
+sculpture,softball,3
+paddleboarding,rollerskating,0
+fitness,golfing,1
+fencing,track,31
+rollerskating,ziplining,0
+table tennis,rollerskate,0
+volleyball,rollerblade,0
+go kart,martial arts,2
+curling,salsa,0
+martial arts,reading,39
+mini golf,track,27
+rock climbing,track,40
+skydiving,paragliding,2
+handball,dance,21
+rollerblading,bowling,6
+painting,hike,2
+comedy,snowboard,1
+samba,snowboard,0
+cycling,rock climbing,1
+rafting,sing,20
+squash,pool,18
+comedy,soccer,10
+football,mini golf,1
+climb,rock climbing,5
+arcade,samba,0
+reading,escape room,2
+sing,squash,1
+hiking,billiards,2
+cricket,softball,1
+hike,billiards,0
+swimming,softball,1
+pool,baseball,4
+singing,hiking,0
+racquetball,baseball,66
+hike,surf,1
+skydiving,karaoke,2
+fitness,skateboarding,1
+singing,track,28
+boxing,fitness,19
+skateboarding,pottery,5
+pool,karaoke,9
+field hockey,dancing,16
+badminton,football,30
+skate,hockey,15
+bowling,golf,14
+pottery,shooting,6
+origami,handball,0
+climbing,draw,20
+karaoke,paragliding,0
+reading,skating,0
+biking,yoga,10
+cycle,dancing,19
+softball,tennis,23
+samba,photography,16
+track,swim,3
+skateboarding,escape room,3
+samba,theatre,11
+go kart,bike,35
+fencing,badminton,1
+surf,skateboarding,5
+martial arts,golf,9
+ziplining,rollerskating,0
+martial arts,martial arts,210
+yoga,bowling,6
+laser tag,parkour,0
+billiards,skiing,1
+sing,comedy,9
+yoga,climbing,17
+swim,golfing,2
+paint,fitness,5
+hiking,ziplining,0
+golf,swim,7
+samba,handball,2
+comedy,pottery,7
+comedy,salsa,4
+origami,rollerskate,0
+disc golf,skating,7
+running,thrifting,0
+escape room,horseback riding,3
+trampolining,ski,6
+rock climbing,rafting,9
+paint,track,22
+theatre,ziplining,0
+dance,shooting,19
+baseball,paint,8
+running,fitness,8
+paragliding,bowling,10
+pottery,reading,25
+mini golf,paint,20
+field hockey,dance,38
+basketball,fencing,0
+biking,rollerblading,1
+archery,skateboarding,1
+bowling,track,35
+rafting,horseback riding,1
+tennis,skiing,1
+laser tag,yoga,9
+paintball,rafting,8
+thrifting,painting,13
+softball,rollerblade,0
+escape room,theatre,18
+skating,biking,4
+boxe,surfing,4
+boxe,squash,1
+thrift,climbing,4
+photography,racquetball,0
+table tennis,golf,10
+paragliding,climbing,27
+mini golf,yoga,6
+skydiving,golfing,1
+swim,boxing,5
+painting,disc golf,1
+biking,climb,17
+skating,pottery,9
+samba,rollerblade,0
+comedy,gambling,5
+photography,salsa,2
+paddleboarding,surfing,33
+boxe,theatre,4
+skateboarding,martial arts,6
+rollerskate,skydiving,1
+thrift,boxe,0
+singing,dance,59
+paragliding,paint,10
+rafting,shooting,15
+softball,comedy,5
+racquetball,billiards,1
+fitness,racquetball,0
+table tennis,tennis,204
+billiards,sing,12
+football,cycling,4
+rollerskate,running,46
+paddleboarding,theatre,6
+golf,skateboard,3
+arcade,softball,1
+skydiving,comedy,7
+karaoke,disc golf,10
+skateboarding,running,47
+skateboard,volleyball,1
+running,draw,11
+racquetball,laser tag,0
+samba,baseball,15
+climbing,climbing,210
+handball,handball,210
+curling,archery,0
+paintball,dance,35
+cycle,swimming,17
+billiards,parkour,0
+pottery,biking,1
+drawing,singing,39
+disc golf,sing,10
+cycle,snowboard,1
+rock climbing,rollerskate,0
+surf,table tennis,2
+biking,boxe,0
+theatre,origami,5
+fitness,hockey,2
+bungee jumping,go kart,3
+origami,fitness,11
+rafting,skate,3
+pottery,pottery,210
+snowboard,cricket,4
+rock climbing,mini golf,0
+football,ski,2
+handball,soccer,27
+ski,samba,1
+improv,comedy,112
+table tennis,disc golf,7
+thrifting,paddleboarding,0
+origami,photography,39
+snowboard,shooting,17
+painting,horseback riding,0
+billiards,track,22
+paddleboarding,thrift,3
+salsa,volleyball,6
+paint,yoga,5
+track,rafting,3
+rugby,cycle,44
+origami,samba,0
+drawing,gymnastics,1
+salsa,rafting,2
+cycling,sculpture,4
+racquetball,skating,1
+paintball,snowboarding,0
+mini golf,rafting,2
+dancing,singing,42
+tennis,climbing,2
+painting,origami,3
+fitness,rollerskating,0
+rollerskating,softball,3
+martial arts,running,51
+pottery,horseback riding,0
+ziplining,ziplining,210
+rugby,boxe,0
+skateboarding,thrifting,0
+draw,football,44
+snowboarding,climbing,17
+mini golf,escape room,5
+laser tag,karaoke,3
+singing,origami,1
+boxe,bungee jumping,1
+sculpture,mini golf,1
+bowling,thrifting,0
+snowboard,golf,45
+samba,dance,55
+snowboard,skate,20
+badminton,table tennis,4
+dance,comedy,5
+billiards,origami,5
+field hockey,golf,22
+volleyball,drawing,5
+biking,horseback riding,2
+table tennis,climbing,1
+biking,fencing,0
+rugby,climb,28
+rollerskate,horseback riding,1
+rafting,soccer,14
+yoga,cricket,3
+skydiving,reading,37
+laser tag,surfing,2
+curling,field hockey,2
+samba,rock climbing,1
+improv,skydiving,1
+skateboard,badminton,0
+surf,boxing,5
+gambling,bungee jumping,1
+field hockey,karaoke,4
+bike,softball,6
+origami,pool,13
+running,salsa,3
+rollerskate,tennis,5
+salsa,skate,5
+paintball,paint,32
+thrift,cycling,2
+track,bike,9
+curling,swim,5
+archery,arcade,0
+basketball,rollerskate,0
+rollerskate,samba,2
+racquetball,gymnastics,6
+rollerblade,laser tag,3
+squash,squash,210
+snowboard,ziplining,1
+swim,rollerskating,0
+squash,paragliding,0
+football,skating,1
+hike,shooting,21
+improv,draw,18
+football,improv,70
+salsa,fencing,1
+mini golf,bowling,8
+samba,surfing,2
+surfing,thrifting,1
+origami,rollerblade,0
+pool,basketball,5
+painting,baseball,13
+sing,singing,64
+dance,hiking,3
+basketball,yoga,2
+dancing,fitness,5
+escape room,climb,7
+cycle,skateboarding,1
+origami,go kart,2
+archery,drawing,13
+dancing,skateboarding,0
+singing,handball,0
+biking,golf,34
+bowling,sculpture,1
+tennis,cricket,10
+pottery,running,31
+baseball,football,86
+photography,rollerskating,0
+paddleboarding,laser tag,2
+gymnastics,hiking,2
+draw,salsa,1
+painting,rock climbing,0
+rollerblade,skating,8
+dancing,baseball,7
+squash,field hockey,1
+skiing,boxe,0
+rock climbing,swim,7
+field hockey,snowboarding,3
+singing,soccer,12
+comedy,rollerskate,0
+skydiving,horseback riding,5
+rollerblading,mini golf,1
+climb,draw,10
+samba,swimming,4
+reading,skydiving,0
+pottery,yoga,13
+basketball,parkour,2
+surf,archery,3
+arcade,fencing,1
+field hockey,gambling,5
+baseball,origami,0
+softball,climb,7
+climb,fitness,9
+gambling,skate,1
+surf,running,37
+ziplining,hiking,20
+rugby,laser tag,2
+billiards,bungee jumping,1
+badminton,rollerblade,0
+improv,basketball,20
+reading,basketball,7
+rugby,samba,2
+improv,go kart,1
+laser tag,fitness,9
+table tennis,surf,3
+escape room,racquetball,0
+horseback riding,rollerblading,0
+improv,badminton,1
+cycling,softball,5
+sing,running,45
+football,soccer,25
+photography,snowboard,0
+origami,paint,29
+badminton,paint,6
+field hockey,table tennis,1
+paddleboarding,gambling,0
+fitness,fencing,0
+photography,horseback riding,4
+escape room,billiards,1
+rollerblade,gymnastics,4
+horseback riding,squash,1
+softball,bike,12
+basketball,fitness,17
+improv,paddleboarding,1
+swimming,bowling,5
+karaoke,samba,1
+trampolining,sing,25
+hike,skate,6
+bowling,salsa,2
+billiards,dancing,14
+hike,paragliding,0
+skate,racing,9
+samba,field hockey,1
+field hockey,thrifting,0
+painting,draw,19
+paint,karaoke,4
+pottery,baseball,57
+karaoke,tennis,6
+basketball,badminton,0
+skiing,laser tag,1
+volleyball,baseball,23
+laser tag,martial arts,3
+paragliding,sculpture,7
+theatre,bungee jumping,1
+cycle,ski,5
+boxe,cricket,1
+boxe,skateboarding,0
+thrift,singing,14
+softball,skateboarding,0
+surfing,golfing,1
+martial arts,skateboard,4
+painting,climbing,1
+ziplining,field hockey,0
+photography,track,17
+gymnastics,thrifting,0
+baseball,handball,0
+gymnastics,cricket,1
+skiing,volleyball,13
+surf,laser tag,2
+basketball,paddleboarding,0
+biking,rugby,4
+ski,skating,3
+rollerblade,samba,2
+bike,rollerskate,0
+swimming,shooting,12
+paint,samba,0
+shooting,rollerblading,0
+comedy,disc golf,0
+theatre,sculpture,9
+drawing,thrifting,0
+paragliding,dancing,17
+swimming,thrifting,0
+drawing,cricket,2
+escape room,laser tag,3
+soccer,cricket,2
+cycle,hockey,6
+hockey,origami,0
+improv,skate,5
+improv,improv,210
+cycling,rafting,3
+dance,singing,41
+painting,racquetball,0
+football,snowboarding,2
+paintball,billiards,0
+skiing,surfing,5
+hike,horseback riding,1
+hike,track,38
+yoga,rugby,2
+go kart,thrift,0
+arcade,draw,21
+escape room,paint,28
+boxe,thrifting,0
+football,running,37
+bike,racing,28
+skateboarding,sculpture,5
+skateboarding,track,39
+bike,ziplining,0
+paintball,racquetball,0
+badminton,gambling,5
+horseback riding,skydiving,6
+drawing,billiards,0
+hockey,badminton,1
+biking,tennis,10
+paint,rock climbing,1
+boxe,pottery,3
+photography,climbing,5
+baseball,bungee jumping,0
+climb,hiking,5
+golfing,swim,2
+parkour,thrift,0
+racquetball,surf,4
+dance,skateboarding,0
+racing,singing,9
+badminton,reading,25
+trampolining,cricket,11
+photography,reading,30
+basketball,theatre,3
+rollerblading,bungee jumping,1
+paint,soccer,4
+paragliding,paragliding,210
+drawing,trampolining,0
+surf,snowboarding,5
+surf,paddleboarding,3
+singing,skating,0
+samba,mini golf,2
+hike,biking,10
+paint,cycle,5
+golfing,ziplining,1
+squash,ski,5
+skate,origami,0
+improv,ski,0
+cycle,climbing,6
+reading,cycle,11
+reading,rafting,7
+fitness,pool,16
+paint,surf,1
+arcade,running,39
+baseball,boxing,10
+karaoke,improv,7
+volleyball,disc golf,1
+escape room,snowboarding,0
+boxing,football,50
+parkour,tennis,6
+bungee jumping,gambling,2
+sing,thrift,0
+climb,surfing,3
+yoga,ziplining,0
+rafting,hockey,5
+bowling,gambling,1
+pool,soccer,7
+cricket,paintball,0
+painting,skateboarding,0
+hike,field hockey,1
+tennis,ski,4
+hiking,surf,4
+dancing,snowboarding,0
+racing,table tennis,2
+bowling,surf,2
+skydiving,squash,0
+pool,squash,1
+rugby,singing,70
+singing,cricket,4
+skate,rollerblading,1
+disc golf,boxe,0
+rollerskate,karaoke,2
+bike,hockey,8
+reading,swim,5
+surf,salsa,4
+thrift,volleyball,1
+archery,dancing,13
+rollerblade,pottery,8
+field hockey,samba,0
+rafting,ski,8
+theatre,thrift,1
+surf,theatre,4
+billiards,arcade,6
+skiing,salsa,4
+squash,mini golf,1
+horseback riding,horseback riding,210
+curling,football,22
+laser tag,hiking,10
+racing,basketball,16
+yoga,squash,0
+table tennis,bowling,7
+swimming,origami,1
+martial arts,thrift,0
+paragliding,rock climbing,5
+paddleboarding,paragliding,0
+mini golf,mini golf,210
+cycle,swim,8
+gambling,photography,15
+golf,curling,1
+boxe,ski,3
+surfing,fencing,0
+rollerskate,paragliding,0
+rugby,swimming,52
+field hockey,paddleboarding,1
+basketball,samba,0
+paint,racing,12
+field hockey,swim,13
+mini golf,handball,0
+pool,paddleboarding,0
+drawing,skating,3
+rollerblade,shooting,7
+baseball,biking,1
+badminton,disc golf,1
+fitness,rugby,7
+dance,basketball,16
+track,table tennis,4
+skydiving,racing,9
+billiards,rollerskate,0
+hockey,ski,2
+reading,bike,6
+cycling,squash,2
+surf,dance,30
+ziplining,biking,6
+climbing,fencing,2
+samba,volleyball,1
+martial arts,snowboard,3
+handball,bike,1
+surfing,field hockey,2
+softball,basketball,59
+table tennis,rafting,2
+softball,cricket,4
+boxe,escape room,2
+painting,parkour,2
+origami,snowboard,1
+paragliding,go kart,1
+billiards,basketball,27
+snowboard,paragliding,2
+biking,thrifting,0
+rafting,draw,21
+soccer,golfing,0
+billiards,rollerblade,0
+sing,basketball,5
+fencing,go kart,0
+basketball,swim,1
+theatre,rafting,7
+gambling,origami,1
+gymnastics,drawing,3
+squash,sculpture,3
+cycle,bowling,3
+singing,table tennis,4
+sculpture,swimming,8
+running,basketball,24
+racing,softball,2
+skateboarding,fencing,1
+tennis,ziplining,0
+shooting,golfing,0
+comedy,fencing,0
+cycle,arcade,2
+comedy,reading,40
+mini golf,draw,9
+samba,pool,10
+yoga,sing,18
+football,ziplining,0
+improv,fitness,26
+draw,golf,4
+trampolining,curling,3
+escape room,archery,2
+golf,paint,11
+snowboarding,rock climbing,7
+thrift,paragliding,0
+skydiving,gymnastics,0
+escape room,rugby,3
+mini golf,paintball,1
+rafting,squash,2
+salsa,skateboarding,1
+volleyball,tennis,16
+rollerskating,racquetball,0
+laser tag,disc golf,1
+fitness,rafting,4
+karaoke,baseball,8
+skateboard,arcade,0
+draw,surf,2
+paint,surfing,2
+thrift,cricket,2
+racquetball,painting,12
+sing,field hockey,3
+golfing,surf,1
+running,archery,0
+boxe,basketball,6
+cricket,racing,11
+skate,drawing,3
+surf,bike,18
+boxing,racing,15
+improv,table tennis,2
+yoga,skateboard,4
+pottery,rock climbing,1
+escape room,rafting,7
+gambling,field hockey,1
+handball,golfing,0
+basketball,surfing,0
+karaoke,yoga,3
+swim,improv,13
+football,escape room,0
+laser tag,origami,1
+snowboarding,go kart,4
+bungee jumping,squash,1
+badminton,salsa,1
+skiing,surf,4
+photography,fencing,0
+cycling,basketball,9
+rollerskating,paintball,1
+racing,rock climbing,1
+cricket,rollerblading,0
+badminton,mini golf,1
+badminton,hike,1
+bowling,bike,7
+golfing,paddleboarding,0
+tennis,escape room,14
+yoga,volleyball,5
+table tennis,theatre,9
+thrift,surf,2
+archery,dance,34
+surfing,origami,0
+baseball,gambling,1
+pottery,bike,31
+climb,racquetball,0
+disc golf,cycle,13
+skating,swim,9
+boxing,cycle,2
+football,drawing,4
+boxe,badminton,2
+swim,dance,34
+sing,thrifting,0
+bike,boxing,7
+parkour,rugby,1
+golfing,rollerskating,0
+curling,origami,0
+pottery,karaoke,2
+dancing,ziplining,1
+biking,painting,7
+origami,gambling,1
+escape room,fitness,19
+table tennis,racing,14
+ziplining,rugby,5
+bike,bowling,5
+cycle,paddleboarding,0
+salsa,sculpture,1
+golf,thrifting,0
+baseball,table tennis,1
+mini golf,salsa,5
+hiking,escape room,1
+running,drawing,8
+hockey,golfing,3
+rugby,rock climbing,0
+rollerblading,rock climbing,1
+football,rugby,11
+rollerskating,origami,0
+boxing,cricket,2
+surf,mini golf,1
+horseback riding,table tennis,2
+soccer,racquetball,1
+archery,rafting,3
+go kart,escape room,2
+yoga,gambling,0
+running,bowling,4
+photography,cycle,9
+yoga,racquetball,0
+basketball,improv,9
+badminton,drawing,3
+squash,dancing,11
+boxing,horseback riding,0
+running,billiards,1
+dancing,escape room,1
+rollerblading,comedy,21
+hike,gymnastics,3
+skateboard,origami,1
+rollerblade,painting,15
+mini golf,theatre,20
+dance,go kart,4
+paintball,rollerskating,0
+football,paintball,1
+sing,surfing,1
+sculpture,trampolining,0
+comedy,swim,8
+skiing,cycle,8
+skiing,rafting,4
+rugby,paddleboarding,0
+bowling,skating,0
+bike,thrifting,0
+sculpture,skating,6
+gambling,surfing,2
+bowling,cycle,4
+racing,running,62
+samba,golfing,0
+climb,skateboarding,0
+theatre,arcade,4
+boxing,softball,1
+dance,rollerskating,0
+snowboarding,rollerskate,0
+karaoke,rock climbing,11
+rollerskate,ski,3
+go kart,go kart,210
+swim,biking,3
+hiking,cycle,12
+swim,bike,20
+laser tag,gambling,2
+salsa,improv,17
+archery,paintball,3
+baseball,escape room,1
+pool,drawing,5
+dancing,photography,10
+boxe,trampolining,0
+boxe,curling,3
+golfing,photography,14
+pottery,racing,35
+rollerskating,pottery,7
+swim,pottery,8
+cycling,boxe,0
+softball,singing,19
+gambling,climb,9
+swim,origami,0
+bungee jumping,horseback riding,4
+hockey,hiking,3
+volleyball,gymnastics,3
+snowboard,archery,7
+escape room,dancing,21
+dancing,basketball,13
+track,basketball,24
+yoga,sculpture,14
+track,skiing,0
+softball,racing,10
+bowling,football,39
+rafting,singing,21
+samba,track,22
+skating,curling,3
+racquetball,skydiving,1
+handball,draw,26
+sing,boxe,0
+running,skiing,3
+paint,curling,1
+field hockey,sing,16
+rafting,tennis,13
+skateboard,pottery,7
+basketball,surf,4
+biking,ski,13
+comedy,laser tag,0
+golf,volleyball,8
+rugby,shooting,42
+skydiving,cricket,2
+arcade,gambling,8
+rock climbing,ziplining,3
+hiking,fitness,40
+draw,skateboard,2
+snowboarding,disc golf,4
+thrift,hockey,5
+parkour,cricket,2
+field hockey,reading,45
+running,singing,28
+rugby,painting,34
+pottery,thrift,0
+dancing,skateboard,2
+skateboard,dancing,39
+martial arts,thrifting,0
+skateboard,tennis,11
+origami,hike,2
+rollerblading,reading,59
+swim,snowboarding,0
+shooting,photography,16
+cycling,shooting,12
+rollerskating,racing,7
+fencing,squash,1
+singing,ski,1
+cricket,painting,10
+soccer,running,65
+rock climbing,skate,8
+snowboarding,skateboard,10
+rafting,archery,1
+singing,racquetball,0
+boxing,paint,9
+badminton,martial arts,1
+karaoke,archery,0
+paddleboarding,snowboarding,6
+salsa,skateboard,0
+disc golf,arcade,2
+skating,field hockey,0
+skateboard,racing,20
+cycle,pottery,7
+skating,climb,5
+go kart,draw,10
+salsa,snowboard,0
+parkour,paintball,1
+hockey,boxing,8
+cricket,gymnastics,10
+rollerblade,trampolining,0
+rollerskate,paddleboarding,1
+theatre,skiing,2
+baseball,surf,1
+draw,softball,3
+draw,skating,0
+gambling,curling,2
+rafting,go kart,1
+boxe,track,69
+table tennis,baseball,12
+golf,disc golf,1
+surf,surf,212
+tennis,track,61
+climb,fencing,1
+climbing,tennis,5
+mini golf,bike,18
+surfing,bike,9
+karaoke,bowling,4
+trampolining,rollerblade,0
+trampolining,paintball,1
+thrift,billiards,0
+origami,field hockey,1
+paragliding,tennis,7
+ziplining,origami,0
+snowboarding,hike,11
+cricket,climbing,2
+track,racing,11
+rugby,draw,110
+painting,gambling,1
+surfing,rollerskate,0
+hiking,hiking,210
+laser tag,rollerblade,0
+mini golf,parkour,1
+rollerblade,thrifting,0
+rugby,soccer,96
+thrift,laser tag,2
+horseback riding,golfing,2
+soccer,parkour,3
+volleyball,thrift,1
+martial arts,origami,0
+ziplining,basketball,23
+skiing,improv,8
+dance,improv,3
+cycling,photography,24
+swim,comedy,7
+photography,pool,10
+gymnastics,gambling,1
+running,origami,1
+curling,rollerskating,0
+climbing,improv,17
+rollerblade,paint,16
+track,boxe,0
+singing,paddleboarding,0
+golfing,skating,0
+table tennis,horseback riding,8
+hockey,bungee jumping,1
+fitness,draw,9
+hockey,cycling,1
+skydiving,rollerblade,0
+swimming,martial arts,7
+gambling,snowboard,0
+squash,go kart,0
+paddleboarding,soccer,8
+arcade,skateboarding,4
+paint,sing,10
+improv,parkour,0
+rollerskate,fitness,9
+softball,field hockey,2
+arcade,skate,4
+surfing,handball,0
+table tennis,samba,1
+volleyball,sing,21
+skydiving,boxing,6
+boxing,ski,2
+rugby,comedy,30
+cycle,squash,1
+arcade,laser tag,1
+disc golf,volleyball,8
+table tennis,pottery,4
+ziplining,fitness,23
+rugby,disc golf,0
+golfing,dance,27
+draw,singing,16
+singing,skiing,0
+shooting,origami,0
+reading,hiking,4
+bike,cricket,11
+painting,gymnastics,2
+boxing,thrift,0
+bowling,handball,0
+karaoke,curling,0
+sing,football,18
+karaoke,drawing,12
+climb,bowling,4
+pool,fencing,0
+racing,surfing,2
+dance,disc golf,3
+softball,baseball,100
+cricket,pottery,1
+go kart,dancing,14
+fitness,rollerblading,0
+mini golf,running,46
+laser tag,skateboarding,1
+climbing,hike,7
+climb,go kart,2
+parkour,swimming,14
+gambling,thrift,0
+rock climbing,snowboard,6
+bowling,tennis,6
+skydiving,skating,2
+table tennis,go kart,7
+bike,soccer,16
+hike,snowboard,0
+soccer,racing,17
+escape room,track,31
+parkour,samba,1
+skate,surfing,10
+rugby,dancing,42
+archery,soccer,11
+swimming,bike,14
+field hockey,baseball,51
+rugby,snowboarding,2
+thrifting,samba,0
+racquetball,tennis,61
+billiards,hiking,8
+go kart,cycle,9
+theatre,hockey,5
+football,bowling,3
+rollerskating,running,60
+rafting,improv,11
+skate,pool,30
+fitness,badminton,1
+cycle,cricket,9
+horseback riding,thrift,1
+disc golf,theatre,5
+cricket,snowboarding,0
+rollerskating,track,33
+rollerblade,swimming,12
+painting,thrift,2
+thrifting,thrifting,210
+dance,boxing,1
+rollerskating,painting,8
+paddleboarding,gymnastics,0
+disc golf,rugby,5
+rafting,rock climbing,2
+surf,snowboard,5
+boxing,dance,38
+field hockey,horseback riding,1
+skate,cricket,0
+ski,track,40
+horseback riding,curling,3
+gymnastics,skydiving,0
+surf,comedy,6
+bike,golf,45
+paint,thrift,0
+curling,hiking,3
+singing,shooting,20
+gambling,dance,44
+sculpture,handball,1
+theatre,hiking,2
+yoga,mini golf,1
+racquetball,rollerblade,0
+sing,salsa,0
+handball,field hockey,4
+softball,reading,24
+skateboard,skateboarding,21
+pool,improv,6
+football,tennis,12
+thrift,snowboard,0
+ziplining,fencing,0
+volleyball,rock climbing,4
+reading,laser tag,2
+sculpture,baseball,21
+softball,rollerskating,0
+hiking,skateboard,2
+surfing,gambling,2
+golfing,mini golf,6
+tennis,thrift,0
+racing,field hockey,2
+rollerskating,rollerblading,3
+snowboard,thrifting,0
+football,fencing,0
+tennis,swim,9
+sing,volleyball,2
+paddleboarding,skating,3
+skiing,running,52
+bowling,skate,6
+photography,skydiving,1
+bungee jumping,origami,0
+swim,rollerskate,0
+cricket,soccer,8
+paintball,photography,12
+racing,paintball,0
+samba,climbing,1
+hiking,photography,22
+billiards,disc golf,2
+skate,pottery,3
+racing,volleyball,0
+draw,hiking,0
+swimming,boxe,0
+draw,boxing,7
+basketball,dance,30
+golf,climb,4
+rollerblade,fencing,0
+curling,boxe,0
+soccer,drawing,14
+ski,billiards,2
+badminton,yoga,4
+origami,skateboard,2
+yoga,fitness,58
+climb,golf,5
+laser tag,dance,58
+bungee jumping,martial arts,3
+fitness,yoga,52
+skateboarding,cycle,8
+trampolining,rafting,4
+pottery,swim,3
+surf,parkour,2
+reading,disc golf,2
+boxing,snowboard,0
+biking,origami,1
+paddleboarding,singing,20
+rock climbing,yoga,13
+hike,fitness,12
+archery,ziplining,0
+rollerskate,ziplining,0
+rugby,archery,14
+basketball,soccer,33
+baseball,shooting,29
+bike,skydiving,1
+hiking,golf,17
+rollerblading,painting,11
+biking,surfing,24
+samba,horseback riding,1
+field hockey,boxe,0
+handball,surfing,2
+karaoke,draw,10
+mini golf,ski,3
+dancing,fencing,2
+skiing,yoga,9
+golf,martial arts,2
+paint,photography,21
+shooting,ski,0
+comedy,mini golf,0
+baseball,pool,9
+horseback riding,basketball,14
+parkour,salsa,3
+volleyball,horseback riding,4
+climb,dancing,18
+rollerblading,hiking,2
+thrifting,cycle,3
+sing,painting,10
+paddleboarding,snowboard,6
+boxe,softball,2
+boxe,swim,3
+archery,rollerblading,0
+go kart,squash,1
+squash,drawing,13
+surf,yoga,16
+gambling,painting,15
+singing,sculpture,2
+theatre,cycling,16
+basketball,salsa,1
+swim,volleyball,8
+karaoke,golfing,0
+cycle,paint,18
+sing,paragliding,0
+curling,rollerblading,0
+pool,curling,0
+hike,rollerskating,1
+dancing,karaoke,2
+improv,escape room,4
+skateboard,hockey,11
+boxe,field hockey,1
+rock climbing,billiards,1
+rollerskating,snowboarding,2
+ski,drawing,6
+disc golf,archery,5
+rugby,rollerblade,0
+singing,samba,0
+pottery,singing,9
+ski,climb,10
+ziplining,cricket,2
+paintball,rollerblading,0
+painting,bike,5
+squash,billiards,11
+skateboarding,yoga,8
+surfing,salsa,6
+theatre,boxe,0
+horseback riding,archery,4
+tennis,skateboarding,10
+skydiving,snowboarding,1
+skiing,rollerblading,0
+paragliding,cricket,31
+skiing,dancing,22
+martial arts,skate,7
+rugby,ski,16
+paddleboarding,cycling,19
+martial arts,skateboarding,0
+skateboard,snowboarding,1
+horseback riding,disc golf,2
+basketball,track,36
+photography,snowboarding,0
+snowboarding,gymnastics,0
+pool,golf,9
+biking,laser tag,3
+trampolining,running,85
+gymnastics,skiing,0
+softball,trampolining,0
+skateboard,shooting,20
+rollerblading,softball,7
+skiing,thrifting,0
+go kart,climbing,6
+hiking,sing,15
+bungee jumping,skating,0
+football,snowboard,3
+painting,fitness,15
+climbing,bowling,4
+horseback riding,bungee jumping,2
+running,surf,1
+basketball,snowboarding,1
+disc golf,pool,15
+cricket,bowling,78
+climb,rugby,6
+fencing,cycling,6
+cycle,snowboarding,1
+bowling,table tennis,0
+sculpture,sing,10
+draw,cycling,5
+hockey,handball,0
+surf,thrifting,0
+handball,racing,11
+rollerblade,origami,2
+skydiving,pool,17
+improv,ziplining,0
+skateboarding,rollerblading,0
+dance,martial arts,3
+skiing,hiking,15
+rock climbing,skateboarding,5
+baseball,climb,3
+handball,singing,16
+trampolining,hike,6
+tennis,karaoke,2
+thrifting,snowboard,0
+skateboard,drawing,11
+curling,softball,4
+snowboarding,karaoke,2
+thrift,dance,37
+field hockey,basketball,58
+bowling,boxing,8
+climb,drawing,9
+paint,billiards,1
+football,karaoke,1
+volleyball,archery,4
+skateboarding,climb,6
+drawing,surfing,0
+badminton,skateboard,1
+theatre,rollerblading,0
+thrift,cycle,3
+soccer,improv,20
+volleyball,golfing,1
+arcade,biking,0
+rollerskating,soccer,8
+pool,track,35
+snowboarding,racquetball,1
+karaoke,thrifting,0
+parkour,reading,33
+ski,squash,0
+cycling,swimming,19
+trampolining,rollerskating,0
+baseball,comedy,4
+skateboarding,snowboarding,11
+hike,go kart,0
+gymnastics,disc golf,0
+tennis,surf,1
+table tennis,snowboard,0
+dance,ziplining,0
+bike,archery,2
+soccer,snowboard,0
+samba,fitness,14
+draw,bike,10
+golf,arcade,1
+skateboard,comedy,18
+skiing,sculpture,5
+escape room,gymnastics,1
+climb,escape room,7
+swimming,paint,11
+rugby,table tennis,2
+shooting,samba,0
+golf,surf,3
+sculpture,snowboard,0
+baseball,rock climbing,0
+fitness,photography,14
+surf,volleyball,1
+mini golf,soccer,26
+skating,skateboard,17
+thrift,yoga,10
+hockey,cycle,9
+photography,archery,2
+escape room,comedy,23
+mini golf,disc golf,1
+racquetball,swimming,8
+paragliding,rollerblading,0
+rollerblade,cricket,6
+hike,archery,5
+ski,paragliding,1
+dancing,volleyball,4
+samba,rollerblading,0
+track,rollerskate,0
+disc golf,ziplining,1
+rugby,bike,84
+hockey,reading,28
+gambling,running,46
+squash,arcade,1
+pottery,boxing,1
+boxe,martial arts,5
+pool,cycling,8
+pottery,dance,22
+martial arts,swimming,12
+paragliding,sing,5
+escape room,paddleboarding,0
+origami,cycle,10
+salsa,paintball,0
+rollerblading,racing,8
+sculpture,basketball,19
+improv,surf,2
+trampolining,rollerblading,0
+tennis,bungee jumping,2
+rollerblading,gambling,1
+go kart,paint,18
+paintball,skateboarding,0
+hockey,gambling,3
+rollerskate,curling,3
+snowboarding,golfing,2
+cycle,cycling,34
+bowling,karaoke,3
+football,martial arts,5
+softball,samba,1
+cricket,laser tag,0
+cycle,samba,1
+racing,improv,18
+fitness,skydiving,0
+skiing,dance,36
+paint,draw,30
+parkour,disc golf,1
+gambling,archery,3
+parkour,comedy,13
+fitness,hiking,6
+swim,thrifting,0
+disc golf,hockey,20
+improv,bike,7
+track,golfing,1
+escape room,bowling,14
+snowboard,karaoke,7
+dancing,rollerskate,0
+painting,pottery,12
+boxe,ziplining,0
+painting,pool,7
+basketball,tennis,15
+laser tag,skate,31
+running,paragliding,0
+yoga,skiing,1
+dancing,swimming,6
+thrifting,biking,0
+photography,softball,0
+skiing,arcade,2
+badminton,gymnastics,7
+rafting,theatre,7
+comedy,skiing,1
+curling,gambling,2
+climb,surf,0
+basketball,archery,1
+rollerskate,rollerskating,21
+gymnastics,surf,1
+bungee jumping,paragliding,0
+parkour,climb,9
+skateboard,bowling,12
+cycle,archery,2
+bike,running,69
+bike,bike,210
+mini golf,origami,2
+track,laser tag,0
+surf,arcade,5
+sing,pottery,5
+drawing,mini golf,4
+handball,snowboard,1
+hockey,comedy,5
+squash,salsa,10
+reading,mini golf,2
+racing,hike,2
+tennis,drawing,11
+arcade,martial arts,2
+hockey,rollerblade,0
+swim,bowling,3
+rollerskating,bowling,9
+rollerskating,surf,4
+climb,karaoke,3
+paintball,bungee jumping,4
+billiards,rafting,8
+skiing,gymnastics,5
+volleyball,climb,7
+gymnastics,fencing,2
+billiards,volleyball,4
+rollerskating,mini golf,1
+curling,singing,28
+pool,draw,10
+theatre,track,32
+dance,hockey,8
+baseball,skating,4
+skiing,paddleboarding,0
+go kart,rugby,3
+racquetball,arcade,4
+running,swim,6
+climb,thrifting,0
+table tennis,bungee jumping,7
+biking,skateboarding,17
+painting,skating,0
+rollerskate,thrift,2
+golf,salsa,3
+squash,track,39
+rollerblading,trampolining,0
+martial arts,laser tag,3
+pottery,surfing,1
+swim,rollerblading,0
+racing,golf,16
+surf,skateboard,9
+fencing,tennis,11
+paintball,biking,2
+golf,swimming,8
+surf,ski,9
+comedy,bowling,2
+gymnastics,gymnastics,210
+horseback riding,ziplining,0
+squash,snowboarding,0
+fencing,samba,1
+rollerblading,hike,5
+squash,reading,47
+painting,ziplining,0
+disc golf,rollerskating,0
+ziplining,surfing,8
+bungee jumping,thrifting,0
+photography,tennis,3
+sculpture,billiards,1
+fitness,dance,46
+fitness,bowling,4
+cricket,sing,11
+track,hiking,2
+skydiving,go kart,4
+rollerskate,basketball,12
+bike,golfing,0
+volleyball,paint,6
+yoga,martial arts,7
+bike,biking,12
+swimming,rugby,8
+climb,ski,3
+dancing,golf,6
+surfing,martial arts,3
+paragliding,singing,10
+hike,improv,23
+surfing,paddleboarding,0
+comedy,escape room,2
+arcade,racquetball,0
+mini golf,rock climbing,1
+karaoke,climb,7
+rugby,yoga,34
+trampolining,skating,6
+table tennis,rollerskating,1
+gymnastics,paragliding,0
+shooting,track,24
+paint,squash,0
+rollerskating,sculpture,1
+draw,racquetball,0
+disc golf,improv,18
+snowboarding,swimming,13
+basketball,climbing,0
+tennis,pool,17
+cycling,yoga,17
+bike,comedy,4
+paragliding,trampolining,0
+singing,draw,11
+boxe,rollerskating,0
+rollerskate,archery,1
+parkour,ski,3
+drawing,shooting,12
+golfing,badminton,0
+gambling,dancing,13
+snowboard,drawing,6
+comedy,hiking,2
+surfing,shooting,17
+paint,go kart,3
+soccer,soccer,210
+skateboard,ziplining,0
+handball,ski,9
+boxing,swim,5
+snowboard,martial arts,2
+track,biking,3
+dancing,biking,0
+soccer,sculpture,0
+arcade,boxe,0
+handball,skate,1
+pool,horseback riding,2
+badminton,skydiving,0
+gambling,theatre,15
+fitness,skiing,8
+rollerskate,bungee jumping,1
+improv,football,27
+skating,rugby,0
+hike,curling,3
+surfing,golf,12
+skateboarding,rugby,3
+karaoke,dance,68
+hockey,paragliding,0
+squash,yoga,8
+rock climbing,origami,1
+hike,climbing,8
+skateboarding,surfing,15
+curling,go kart,2
+basketball,arcade,2
+sculpture,fencing,1
+bowling,arcade,0
+rollerblading,running,72
+samba,soccer,7
+skating,fitness,4
+yoga,karaoke,3
+handball,boxe,0
+rollerskating,surfing,3
+pool,pottery,6
+reading,sing,16
+origami,salsa,3
+paintball,skydiving,2
+cycle,skateboard,6
+rollerskating,escape room,2
+rock climbing,basketball,14
+sing,escape room,5
+bike,dance,25
+pool,swim,15
+origami,yoga,13
+bowling,escape room,1
+bike,gambling,0
+singing,skate,2
+comedy,biking,1
+skateboarding,go kart,3
+archery,karaoke,7
+skiing,paint,11
+paragliding,rollerskating,1
+rock climbing,badminton,3
+comedy,karaoke,9
+swim,paint,16
+curling,snowboarding,0
+softball,curling,0
+basketball,racing,17
+martial arts,shooting,24
+painting,table tennis,0
+running,hockey,6
+rock climbing,biking,9
+rugby,photography,54
+salsa,samba,2
+parkour,curling,1
+baseball,cricket,3
+baseball,swimming,6
+bike,reading,27
+dancing,climbing,2
+golf,softball,19
+rollerskate,bowling,14
+skydiving,skydiving,210
+martial arts,rugby,9
+curling,rock climbing,2
+singing,baseball,2
+comedy,yoga,9
+surf,photography,29
+horseback riding,boxing,3
+martial arts,dancing,28
+salsa,thrifting,0
+snowboarding,biking,12
+ziplining,bowling,9
+surfing,sing,23
+snowboarding,cycle,10
+climbing,gymnastics,3
+escape room,rollerskating,0
+volleyball,ski,2
+karaoke,skate,1
+comedy,paint,8
+football,disc golf,0
+table tennis,drawing,9
+origami,thrifting,0
+draw,arcade,2
+skate,ski,1
+paintball,sing,9
+boxing,field hockey,0
+laser tag,running,65
+bungee jumping,archery,3
+running,ski,1
+go kart,badminton,0
+parkour,martial arts,2
+shooting,snowboard,0
+paintball,archery,4
+cycle,racing,20
+samba,snowboarding,1
+photography,football,15
+climbing,thrift,2
+rollerskating,reading,44
+rollerskate,squash,2
+martial arts,cricket,6
+billiards,ziplining,0
+cycling,pottery,3
+rollerskating,sing,28
+table tennis,rugby,6
+golf,paddleboarding,1
+skating,golf,11
+paintball,horseback riding,2
+cricket,golf,19
+cycling,biking,18
+salsa,running,48
+painting,softball,0
+running,golf,14
+baseball,pottery,13
+baseball,racing,14
+hockey,paint,8
+golf,cycle,12
+rollerskate,skiing,1
+curling,biking,1
+boxe,gambling,0
+golf,biking,2
+bowling,field hockey,1
+thrifting,skateboard,3
+sing,laser tag,2
+fencing,karaoke,1
+running,arcade,1
+yoga,origami,0
+thrift,fitness,14
+ski,photography,19
+skate,skateboarding,32
+parkour,fitness,8
+handball,photography,7
+paintball,samba,1
+rugby,theatre,34
+arcade,karaoke,3
+paragliding,fitness,8
+skateboarding,racing,14
+paint,skateboarding,1
+swimming,arcade,4
+gambling,laser tag,1
+reading,photography,13
+paddleboarding,disc golf,2
+basketball,origami,6
+curling,photography,17
+painting,karaoke,2
+hiking,sculpture,5
+volleyball,mini golf,1
+mini golf,paragliding,0
+mini golf,trampolining,0
+karaoke,handball,0
+samba,trampolining,0
+tennis,go kart,2
+horseback riding,rollerskating,0
+pottery,skateboarding,0
+golf,track,49
+laser tag,table tennis,1
+sing,curling,0
+dance,surf,2
+skateboard,improv,19
+football,thrifting,0
+squash,racquetball,1
+samba,ski,0
+field hockey,hiking,7
+cycling,handball,0
+climb,improv,24
+bungee jumping,boxing,7
+golfing,arcade,1
+golf,painting,9
+bowling,painting,7
+baseball,paddleboarding,0
+bike,handball,0
+rollerblade,snowboard,4
+soccer,football,84
+cricket,paddleboarding,0
+parkour,basketball,18
+fencing,bungee jumping,0
+curling,badminton,4
+hiking,field hockey,0
+basketball,rollerblading,0
+ziplining,boxe,0
+disc golf,rollerblading,0
+field hockey,origami,1
+hockey,surf,1
+trampolining,samba,1
+arcade,arcade,210
+boxing,surfing,3
+racquetball,golfing,2
+racing,paragliding,0
+rollerblade,gambling,3
+gymnastics,rollerskating,0
+go kart,rollerskate,0
+rock climbing,drawing,13
+hike,bungee jumping,1
+trampolining,photography,13
+improv,hiking,2
+rafting,thrifting,0
+cricket,go kart,1
+ziplining,martial arts,1
+rugby,boxing,80
+salsa,skiing,1
+karaoke,snowboard,0
+salsa,golf,13
+bowling,paint,14
+fitness,biking,2
+fitness,bungee jumping,1
+golf,reading,28
+pottery,softball,0
+dance,biking,0
+archery,swim,12
+field hockey,rugby,13
+volleyball,sculpture,2
+drawing,rollerskating,0
+laser tag,paragliding,0
+sing,snowboard,0
+salsa,arcade,0
+ski,cricket,5
+skating,billiards,1
+rollerskating,theatre,11
+golf,climbing,7
+thrift,disc golf,2
+swim,boxe,1
+rafting,climbing,14
+parkour,fencing,1
+thrift,fencing,0
+field hockey,softball,28
+trampolining,archery,3
+baseball,running,39
+running,baseball,17
+escape room,table tennis,3
+cycle,karaoke,3
+dance,table tennis,3
+disc golf,surfing,3
+draw,horseback riding,2
+swimming,rollerskate,0
+go kart,singing,19
+bowling,samba,0
+bike,origami,2
+surfing,sculpture,3
+paragliding,boxe,0
+volleyball,hike,2
+disc golf,paddleboarding,1
+pool,climb,4
+dancing,climb,6
+thrifting,reading,39
+basketball,skiing,0
+climbing,badminton,0
+soccer,skate,2
+hike,bowling,5
+mini golf,arcade,11
+rollerskate,hockey,14
+handball,softball,2
+field hockey,skateboarding,0
+golfing,golfing,210
+shooting,softball,2
+theatre,rollerskating,0
+gymnastics,thrift,0
+arcade,sing,12
+snowboard,cycling,19
+gymnastics,rollerskate,0
+snowboard,disc golf,3
+squash,pottery,7
+salsa,softball,7
+drawing,skydiving,0
+bike,mini golf,2
+gambling,basketball,12
+surfing,surf,42
+swim,badminton,2
+boxe,thrift,1
+ski,hockey,12
+boxing,reading,34
+skydiving,thrifting,0
+laser tag,biking,1
+gambling,skiing,3
+ski,yoga,19
+drawing,running,69
+swimming,yoga,10
+pottery,rollerblade,0
+draw,baseball,9
+bike,fencing,0
+climb,cycling,9
+skate,swim,8
+photography,hike,3
+volleyball,thrifting,0
+volleyball,swimming,21
+handball,bungee jumping,3
+hike,hike,211
+golf,comedy,5
+salsa,skating,2
+thrifting,archery,1
+hike,squash,0
+shooting,disc golf,0
+martial arts,singing,17
+rollerblading,fencing,0
+pottery,skateboard,3
+reading,yoga,7
+climbing,disc golf,0
+photography,drawing,30
+running,tennis,4
+singing,arcade,0
+badminton,cycle,6
+horseback riding,paragliding,3
+skating,rock climbing,0
+swim,dancing,9
+sculpture,horseback riding,2
+skydiving,handball,1
+bowling,horseback riding,1
+cricket,origami,1
+improv,karaoke,11
+skateboarding,painting,15
+swimming,parkour,0
+salsa,sing,22
+hike,skiing,8
+theatre,field hockey,1
+football,archery,1
+arcade,fitness,5
+skating,photography,11
+ski,rollerblading,0
+snowboarding,samba,0
+golf,dancing,12
+shooting,archery,1
+climb,skiing,1
+tennis,samba,1
+billiards,thrifting,0
+bowling,billiards,1
+reading,golfing,2
+climbing,fitness,17
+boxe,samba,3
+gymnastics,laser tag,0
+skating,hockey,17
+tennis,tennis,210
+disc golf,field hockey,3
+arcade,escape room,3
+cricket,fitness,16
+photography,bungee jumping,4
+draw,rock climbing,2
+softball,handball,0
+gambling,bowling,8
+basketball,draw,17
+hike,comedy,13
+surfing,skateboarding,7
+skate,ziplining,0
+cycling,sing,6
+painting,reading,34
+track,painting,6
+billiards,table tennis,3
+curling,golf,17
+skate,singing,21
+football,swim,5
+biking,ziplining,2
+martial arts,rollerblade,0
+surf,pool,30
+draw,comedy,7
+reading,thrifting,1
+paragliding,drawing,10
+fencing,comedy,5
+handball,painting,9
+curling,arcade,2
+rollerskating,parkour,0
+mini golf,bungee jumping,0
+ski,escape room,3
+track,running,38
+improv,skiing,0
+climb,paddleboarding,0
+drawing,dance,70
+golf,boxe,0
+table tennis,gambling,1
+parkour,skateboard,4
+karaoke,field hockey,11
+cycling,paddleboarding,3
+hike,drawing,13
+fencing,trampolining,0
+cycling,skateboard,3
+skydiving,origami,3
+theatre,thrifting,0
+boxing,running,59
+skydiving,paintball,0
+handball,sing,9
+hike,soccer,9
+curling,billiards,0
+snowboard,tennis,17
+surf,football,21
+paintball,sculpture,7
+gymnastics,bungee jumping,0
+sculpture,rollerskate,0
+soccer,rollerblading,1
+basketball,rock climbing,0
+dancing,archery,1
+ski,skiing,18
+billiards,fencing,0
+photography,gambling,0
+volleyball,surfing,0
+sculpture,skateboarding,1
+comedy,rugby,7
+rollerblading,arcade,4
+martial arts,sing,19
+painting,theatre,10
+origami,singing,13
+climb,mini golf,4
+climbing,boxing,3
+bowling,golfing,0
+running,sing,21
+handball,rollerskate,0
+rollerskating,yoga,3
+track,fencing,0
+laser tag,paintball,10
+table tennis,sculpture,4
+climb,pool,5
+skateboard,paint,23
+skateboarding,rollerblade,0
+softball,origami,0
+paddleboarding,martial arts,3
+escape room,surf,3
+trampolining,thrift,1
+paragliding,paintball,1
+dance,skating,1
+theatre,skateboarding,0
+yoga,swimming,12
+field hockey,ziplining,0
+go kart,table tennis,0
+martial arts,paint,7
+baseball,surfing,3
+racquetball,shooting,13
+horseback riding,skiing,6
+paintball,yoga,12
+surf,dancing,11
+thrift,badminton,1
+shooting,drawing,9
+rafting,parkour,1
+bike,martial arts,1
+ziplining,paragliding,0
+pool,skiing,2
+gymnastics,escape room,0
+cycling,trampolining,1
+skiing,theatre,6
+bowling,climbing,2
+thrifting,snowboarding,0
+trampolining,handball,1
+reading,fencing,0
+hike,hockey,8
+table tennis,yoga,4
+surfing,rollerskating,0
+paragliding,squash,3
+drawing,fitness,6
+photography,paragliding,0
+hockey,rollerskating,0
+softball,running,69
+origami,bike,9
+curling,bungee jumping,4
+swimming,cricket,5
+climb,trampolining,0
+boxing,origami,1
+boxing,racquetball,1
+samba,cricket,6
+baseball,snowboarding,0
+curling,paint,9
+go kart,tennis,4
+soccer,biking,4
+field hockey,photography,8
+hockey,bike,6
+track,sing,19
+ziplining,badminton,1
+skateboarding,paint,6
+hockey,gymnastics,1
+go kart,samba,0
+thrift,sing,13
+pool,photography,14
+ski,rollerblade,0
+singing,basketball,4
+soccer,pottery,6
+running,go kart,3
+surf,handball,0
+table tennis,parkour,1
+football,shooting,20
+field hockey,drawing,12
+horseback riding,photography,20
+hiking,paddleboarding,0
+bungee jumping,biking,2
+rollerblading,volleyball,9
+climb,ziplining,0
+paint,racquetball,0
+basketball,horseback riding,0
+laser tag,mini golf,4
+volleyball,badminton,2
+snowboard,boxe,0
+drawing,soccer,6
+surf,soccer,5
+football,yoga,4
+fitness,track,44
+racquetball,sing,12
+skating,trampolining,0
+skiing,tennis,11
+bowling,comedy,6
+curling,bowling,6
+rollerskating,fitness,12
+snowboard,rollerblade,1
+fencing,disc golf,0
+skate,trampolining,0
+horseback riding,ski,9
+biking,singing,18
+running,racquetball,0
+gymnastics,biking,1
+drawing,handball,1
+swimming,field hockey,9
+go kart,rollerblade,2
+salsa,mini golf,0
+singing,surfing,0
+salsa,paragliding,0
+rollerblading,sing,31
+hockey,theatre,4
+golfing,handball,2
+swimming,pottery,6
+horseback riding,rollerblade,0
+pottery,soccer,10
+squash,fitness,26
+climbing,paint,16
+skating,sing,10
+billiards,thrift,3
+reading,climb,3
+snowboarding,squash,1
+badminton,cricket,27
+rafting,cycling,9
+skateboard,boxing,6
+rollerskate,comedy,17
+cricket,parkour,0
+rock climbing,field hockey,1
+bowling,racquetball,0
+paragliding,thrifting,0
+rock climbing,fitness,40
+swimming,biking,6
+sculpture,running,55
+shooting,gymnastics,2
+football,parkour,0
+hockey,surfing,3
+pool,swimming,68
+comedy,field hockey,0
+horseback riding,hockey,8
+biking,softball,7
+skiing,archery,2
+curling,squash,0
+hike,running,75
+arcade,snowboard,0
+thrifting,boxe,0
+surf,cycling,9
+gymnastics,cycling,4
+racing,hiking,12
+volleyball,shooting,9
+reading,handball,1
+cycling,paintball,0
+basketball,disc golf,0
+fitness,fitness,210
+snowboard,rollerblading,0
+archery,mini golf,0
+skiing,singing,19
+singing,ziplining,0
+rollerblading,dancing,29
+archery,archery,210
+climbing,martial arts,1
+pottery,comedy,18
+skydiving,martial arts,4
+laser tag,swim,5
+snowboarding,table tennis,5
+biking,volleyball,6
+rollerskating,fencing,1
+rollerskate,soccer,12
+golf,golfing,30
+cricket,yoga,4
+ziplining,rollerblading,0
+snowboarding,pottery,8
+volleyball,comedy,5
+photography,swim,6
+parkour,biking,1
+singing,laser tag,4
+soccer,field hockey,3
+drawing,paintball,0
+thrifting,karaoke,2
+laser tag,soccer,15
+tennis,golfing,2
+paintball,running,48
+trampolining,karaoke,11
+hockey,boxe,0
+trampolining,snowboarding,1
+fitness,volleyball,4
+racing,shooting,17
+bowling,rollerskating,0
+shooting,skating,1
+golfing,drawing,9
+parkour,boxing,6
+rollerblade,sing,19
+skate,climb,4
+snowboarding,thrift,0
+rollerblading,swimming,8
+samba,hike,1
+badminton,pottery,4
+surfing,skydiving,1
+improv,field hockey,1
+fencing,swim,6
+sculpture,yoga,10
+pottery,snowboarding,1
+squash,rock climbing,3
+basketball,karaoke,0
+badminton,golf,18
+football,comedy,61
+cycle,disc golf,0
+cricket,rollerskate,0
+theatre,fencing,1
+fencing,baseball,14
+origami,table tennis,4
+football,boxe,0
+tennis,surfing,2
+origami,laser tag,3
+running,snowboard,0
+softball,skateboard,2
+paragliding,ski,19
+salsa,biking,4
+hike,swim,14
+badminton,hiking,3
+disc golf,draw,8
+painting,samba,1
+horseback riding,karaoke,4
+squash,theatre,13
+go kart,football,29
+rafting,ziplining,0
+handball,running,33
+ski,horseback riding,2
+volleyball,golf,10
+hiking,paint,19
+skate,boxe,1
+bowling,parkour,0
+karaoke,salsa,2
+snowboarding,skate,29
+racing,thrifting,0
+racing,cricket,10
+trampolining,disc golf,0
+softball,pottery,2
+biking,swim,10
+bowling,laser tag,0
+sculpture,rollerblading,0
+singing,skateboarding,1
+track,rugby,2
+draw,swimming,6
+surf,rollerblade,1
+cycle,go kart,1
+racing,dance,28
+yoga,painting,8
+bungee jumping,thrift,0
+running,cricket,3
+surf,sing,12
+bike,climb,8
+horseback riding,fitness,16
+rollerskate,go kart,1
+tennis,rollerblading,0
+golf,thrift,0
+escape room,reading,52
+go kart,fitness,8
+archery,parkour,0
+fitness,sculpture,3
+track,horseback riding,3
+bowling,martial arts,1
+skiing,go kart,1
+track,paintball,0
+curling,rafting,1
+soccer,surfing,1
+football,theatre,3
+skiing,sing,11
+dance,sing,27
+paddleboarding,parkour,1
+snowboard,draw,11
+salsa,parkour,0
+soccer,salsa,0
+bike,yoga,7
+dancing,racquetball,0
+dancing,paintball,0
+skating,swimming,9
+origami,boxe,0
+paragliding,hike,14
+rugby,pool,88
+yoga,snowboard,0
+surfing,football,25
+climbing,racquetball,0
+table tennis,martial arts,11
+disc golf,escape room,0
+handball,boxing,9
+cricket,racquetball,1
+paintball,squash,2
+karaoke,swimming,6
+skating,horseback riding,1
+billiards,biking,3
+parkour,gambling,3
+bowling,bungee jumping,0
+bungee jumping,photography,15
+swim,hike,3
+snowboard,track,51
+karaoke,rollerskate,0
+dancing,track,26
+archery,snowboarding,2
+rugby,parkour,2
+martial arts,biking,1
+racquetball,cycling,9
+ziplining,curling,3
+singing,theatre,6
+drawing,racquetball,0
+drawing,paint,17
+samba,fencing,0
+handball,go kart,3
+arcade,rollerblading,0
+racing,origami,0
+thrift,rollerskate,0
+rollerskating,rugby,4
+yoga,draw,12
+volleyball,racing,6
+cricket,fencing,0
+skating,baseball,21
+hockey,karaoke,6
+go kart,archery,0
+rollerskate,rock climbing,0
+running,skate,9
+escape room,skydiving,1
+comedy,hike,1
+karaoke,rollerblading,0
+surfing,volleyball,5
+softball,cycling,2
+gymnastics,skateboarding,0
+paddleboarding,pool,33
+skateboarding,football,21
+sculpture,racing,15
+boxing,samba,0
+skateboarding,cricket,5
+snowboarding,paddleboarding,0
+biking,gambling,1
+theatre,bike,16
+paddleboarding,rollerskate,0
+go kart,disc golf,1
+hike,singing,19
+golf,sing,11
+golfing,skateboarding,1
+photography,singing,19
+cricket,skydiving,0
+billiards,billiards,210
+skate,thrift,1
+painting,skateboard,0
+bike,skate,6
+paragliding,snowboarding,5
+hockey,softball,6
+escape room,martial arts,4
+dance,archery,0
+squash,rollerskating,0
+boxing,mini golf,0
+gymnastics,cycle,2
+rock climbing,skiing,9
+paddleboarding,football,10
+parkour,hiking,3
+singing,swim,6
+paint,archery,1
+martial arts,surfing,8
+paintball,drawing,16
+cycling,snowboarding,3
+snowboard,singing,11
+tennis,golf,42
+bowling,theatre,5
+improv,samba,2
+boxe,rugby,5
+horseback riding,hike,10
+comedy,handball,0
+tennis,draw,39
+golfing,parkour,0
+salsa,gambling,1
+skydiving,basketball,23
+football,horseback riding,1
+skateboarding,laser tag,3
+swim,cricket,2
+gymnastics,arcade,1
+skiing,photography,21
+football,draw,69
+bowling,surfing,0
+skiing,gambling,4
+surfing,climb,11
+archery,handball,3
+softball,swimming,5
+theatre,martial arts,5
+paragliding,badminton,1
+climb,cricket,6
+volleyball,skateboard,0
+improv,painting,17
+thrift,horseback riding,2
+shooting,singing,19
+sculpture,arcade,2
+volleyball,skating,1
+paddleboarding,billiards,1
+running,bungee jumping,3
+rollerskate,rollerblade,5
+theatre,basketball,8
+curling,improv,12
+yoga,snowboarding,0
+archery,photography,19
+racquetball,pottery,8
+ski,climbing,8
+paddleboarding,track,26
+golfing,paintball,0
+hiking,arcade,2
+billiards,draw,20
+skydiving,disc golf,3
+biking,hockey,7
+squash,running,51
+salsa,paint,11
+rollerskating,cricket,6
+racing,bike,38
+racquetball,hiking,21
+swim,snowboard,0
+origami,rock climbing,1
+field hockey,thrift,1
+disc golf,singing,16
+skateboard,pool,18
+paintball,mini golf,3
+escape room,badminton,2
+go kart,rollerblading,0
+rollerblading,handball,0
+snowboarding,surfing,25
+surfing,basketball,13
+salsa,handball,0
+skating,mini golf,1
+bowling,gymnastics,2
+snowboarding,ziplining,1
+hike,golfing,2
+singing,dancing,30
+racquetball,horseback riding,0
+volleyball,cycle,1
+badminton,golfing,0
+rollerblading,pottery,6
+paddleboarding,salsa,3
+climb,racing,16
+pool,martial arts,3
+table tennis,mini golf,7
+soccer,pool,8
+martial arts,swim,6
+ski,racquetball,2
+soccer,skateboarding,2
+soccer,karaoke,3
+softball,skydiving,1
+painting,martial arts,1
+tennis,disc golf,2
+samba,arcade,10
+track,martial arts,1
+softball,hiking,5
+dancing,draw,7
+fitness,gambling,1
+golfing,rafting,13
+thrifting,sing,16
+running,field hockey,3
+rollerblade,rollerblade,210
+rugby,mini golf,0
+martial arts,field hockey,3
+pottery,theatre,9
+boxing,climb,5
+fencing,football,32
+fitness,surf,4
+singing,improv,11
+rafting,hiking,20
+yoga,billiards,0
+bowling,squash,2
+rock climbing,rugby,4
+gymnastics,draw,5
+rock climbing,sing,11
+gambling,trampolining,0
+theatre,climbing,4
+cycling,climbing,22
+dance,paintball,0
+golfing,hockey,18
+gymnastics,volleyball,0
+climb,climbing,16
+snowboard,swim,10
+basketball,billiards,1
+rock climbing,racquetball,0
+archery,rollerskating,0
+surfing,cycle,7
+gambling,skating,0
+cricket,rugby,16
+disc golf,rollerblade,1
+martial arts,paintball,2
+parkour,cycling,0
+origami,improv,18
+drawing,draw,53
+boxe,biking,0
+comedy,martial arts,6
+table tennis,swim,9
+bungee jumping,football,16
+rock climbing,trampolining,0
+badminton,escape room,2
+draw,racing,15
+volleyball,snowboard,1
+golfing,rock climbing,1
+skydiving,table tennis,4
+handball,mini golf,3
+racing,cycle,22
+paddleboarding,photography,27
+paint,sculpture,8
+archery,paddleboarding,0
+cycle,rollerblading,0
+bungee jumping,comedy,12
+skating,skateboarding,38
+cycling,field hockey,0
+bowling,mini golf,1
+pool,comedy,18
+go kart,paragliding,0
+golfing,theatre,2
+snowboard,samba,2
+pottery,volleyball,2
+rollerskating,skydiving,1
+snowboarding,rollerblade,0
+arcade,bowling,5
+comedy,boxing,14
+rollerskate,skateboarding,4
+racquetball,dance,35
+sculpture,cycle,10
+swimming,dancing,21
+horseback riding,surf,4
+cycle,climb,13
+track,escape room,1
+volleyball,volleyball,210
+golfing,surfing,1
+curling,sculpture,2
+soccer,martial arts,3
+comedy,racing,9
+drawing,martial arts,6
+reading,baseball,8
+boxing,billiards,1
+biking,skiing,5
+racquetball,rock climbing,1
+basketball,bike,8
+paddleboarding,hike,15
+basketball,golf,19
+volleyball,paragliding,0
+disc golf,billiards,1
+escape room,draw,15
+gymnastics,dancing,6
+disc golf,rafting,8
+surf,golfing,1
+swimming,gambling,4
+handball,tennis,25
+yoga,archery,0
+billiards,badminton,2
+disc golf,soccer,26
+surfing,curling,1
+field hockey,handball,1
+paint,hiking,1
+cricket,rafting,5
+football,field hockey,2
+photography,rock climbing,5
+origami,pottery,12
+gymnastics,sculpture,0
+rafting,basketball,11
+rollerblading,photography,10
+biking,squash,3
+snowboarding,field hockey,5
+bungee jumping,skydiving,14
+sculpture,tennis,9
+drawing,badminton,0
+swimming,badminton,4
+gambling,bike,6
+paddleboarding,table tennis,3
+bike,football,28
+billiards,shooting,11
+singing,rollerskating,0
+hiking,dancing,25
+reading,horseback riding,3
+track,hockey,6
+hockey,bowling,4
+surfing,paintball,1
+golfing,rollerblade,0
+paragliding,boxing,4
+drawing,gambling,1
+cricket,handball,2
+snowboarding,golf,19
+laser tag,ziplining,0
+surf,disc golf,1
+cricket,cricket,210
+sing,sculpture,5
+laser tag,draw,12
+squash,cricket,3
+origami,cricket,5
+horseback riding,painting,15
+golfing,improv,15
+cycle,billiards,0
+basketball,basketball,210
+karaoke,boxe,0
+bowling,rafting,4
+biking,bowling,5
+volleyball,dancing,24
+running,rugby,2
+swimming,laser tag,7
+yoga,climb,7
+drawing,laser tag,4
+horseback riding,racquetball,0
+ski,parkour,0
+biking,mini golf,2
+disc golf,thrifting,0
+bike,shooting,16
+handball,rollerblading,0
+go kart,racquetball,0
+photography,skiing,1
+horseback riding,rock climbing,5
+improv,shooting,18
+samba,softball,2
+hiking,thrift,3
+escape room,ski,4
+racquetball,climbing,7
+curling,skating,4
+hockey,football,56
+racquetball,ski,2
+golfing,field hockey,0
+origami,shooting,13
+golf,boxing,5
+golf,pottery,3
+fencing,climb,10
+dancing,field hockey,0
+disc golf,snowboarding,2
+rollerskating,gambling,1
+soccer,volleyball,23
+skydiving,archery,0
+bowling,baseball,20
+boxe,dance,21
+shooting,boxing,9
+sing,bike,6
+dance,golf,7
+softball,dancing,16
+martial arts,rollerskate,0
+surf,horseback riding,2
+paintball,gambling,1
+samba,go kart,1
+skating,climbing,1
+volleyball,yoga,14
+volleyball,salsa,2
+rollerblade,comedy,10
+surf,hike,3
+biking,bungee jumping,3
+rollerblade,escape room,2
+hiking,mini golf,1
+escape room,hockey,6
+improv,origami,1
+dancing,parkour,2
+bike,skateboard,4
+fencing,cycle,7
+curling,ski,4
+badminton,billiards,0
+ziplining,boxing,4
+snowboard,surf,12
+parkour,football,23
+paragliding,rollerskate,0
+bike,paint,9
+parkour,squash,1
+golfing,table tennis,2
+field hockey,martial arts,3
+thrifting,photography,23
+pottery,ski,5
+shooting,fitness,7
+draw,volleyball,3
+badminton,arcade,1
+gambling,rollerskating,0
+singing,sing,56
+hike,dance,29
+go kart,hockey,11
+climbing,gambling,3
+draw,archery,1
+rock climbing,rollerblading,0
+curling,gymnastics,2
+hike,boxing,3
+shooting,boxe,0
+photography,basketball,4
+rugby,skating,16
+archery,draw,25
+boxing,photography,11
+cricket,hike,6
+climb,photography,14
+cricket,boxing,12
+badminton,surf,1
+samba,cycle,4
+squash,singing,23
+bike,sing,17
+gymnastics,rugby,7
+skiing,snowboarding,11
+golf,racing,13
+reading,samba,0
+paintball,boxing,6
+volleyball,snowboarding,0
+gymnastics,archery,4
+fencing,boxing,7
+archery,disc golf,2
+rollerskating,hockey,9
+cycle,surf,5
+rollerblading,skateboard,3
+cycling,skating,3
+soccer,fitness,17
+racing,football,39
+draw,dance,29
+climb,curling,1
+fitness,skating,0
+basketball,hiking,5
+skateboarding,gambling,1
+go kart,salsa,0
+rollerblade,climbing,4
+bungee jumping,rollerblade,0
+paragliding,skydiving,8
+rollerblade,karaoke,5
+origami,gymnastics,1
+rollerskating,cycle,10
+improv,photography,31
+laser tag,billiards,0
+sculpture,football,24
+golfing,snowboarding,1
+gambling,skateboard,0
+rollerblade,reading,33
+golfing,paragliding,0
+shooting,sculpture,7
+baseball,track,39
+trampolining,parkour,6
+gambling,paint,8
+trampolining,swimming,19
+bungee jumping,skate,0
+bungee jumping,improv,5
+sing,rollerblade,0
+painting,go kart,0
+climbing,comedy,6
+snowboarding,ski,42
+track,theatre,9
+skateboard,rafting,4
+billiards,cycling,8
+squash,skating,4
+bowling,improv,7
+gymnastics,rollerblade,1
+skate,laser tag,1
+rollerskating,handball,0
+skating,bike,9
+climb,rafting,16
+drawing,boxing,2
+reading,boxing,7
+curling,thrifting,0
+ziplining,thrift,1
+hiking,go kart,0
+rollerblading,golfing,2
+draw,bungee jumping,1
+rugby,arcade,14
+theatre,disc golf,1
+theatre,billiards,0
+snowboarding,curling,2
+dancing,bowling,2
+dancing,golfing,0
+cycling,gymnastics,4
+swim,rafting,4
+baseball,squash,0
+paragliding,archery,16
+swim,horseback riding,1
+cricket,running,52
+draw,golfing,0
+golf,snowboard,2
+rugby,golf,84
+rugby,skiing,10
+reading,cycling,3
+rock climbing,archery,0
+biking,shooting,14
+rock climbing,samba,1
+rollerblade,photography,10
+dancing,rollerblading,0
+handball,martial arts,3
+shooting,paint,9
+parkour,climbing,7
+origami,skating,2
+pottery,swimming,1
+biking,pottery,10
+go kart,parkour,1
+skateboard,baseball,14
+singing,paint,7
+biking,pool,24
+bike,rollerblade,0
+bungee jumping,arcade,0
+squash,skateboarding,1
+arcade,squash,3
+drawing,climbing,2
+biking,dancing,16
+climb,badminton,2
+soccer,disc golf,2
+skating,paddleboarding,0
+drawing,disc golf,5
+mini golf,comedy,13
+yoga,horseback riding,1
+skydiving,parkour,3
+go kart,skiing,2
+skateboard,paragliding,0
+rollerblading,rollerblading,210
+thrifting,shooting,12
+ski,field hockey,3
+skiing,baseball,39
+disc golf,running,66
+fitness,squash,7
+karaoke,track,31
+snowboarding,snowboard,37
+martial arts,bowling,5
+horseback riding,skateboarding,3
+pottery,rollerskating,0
+skiing,swim,11
+samba,paddleboarding,0
+rollerskate,surf,1
+go kart,hike,4
+trampolining,badminton,5
+racquetball,paddleboarding,0
+football,paint,12
+rollerskating,paragliding,0
+badminton,handball,2
+singing,rollerblade,0
+thrift,thrift,210
+softball,go kart,2
+draw,snowboarding,0
+baseball,dance,37
+handball,archery,3
+fencing,snowboarding,1
+paragliding,bungee jumping,3
+football,golfing,0
+salsa,theatre,7
+soccer,basketball,42
+table tennis,running,39
+skateboarding,salsa,4
+biking,curling,0
+thrifting,baseball,12
+skiing,horseback riding,0
+laser tag,tennis,14
+skating,yoga,5
+reading,football,25
+tennis,bike,13
+sculpture,bike,10
+pool,paintball,1
+bike,swimming,10
+rugby,running,268
+rollerblading,surfing,0
+climb,swimming,6
+dancing,thrift,0
+sing,horseback riding,3
+squash,baseball,36
+climbing,painting,17
+rugby,martial arts,8
+pool,go kart,2
+track,draw,9
+yoga,skate,2
+horseback riding,bowling,6
+rollerblading,martial arts,3
+bowling,draw,18
+martial arts,bungee jumping,3
+softball,softball,210
+laser tag,fencing,0
+singing,parkour,2
+fencing,pottery,7
+go kart,bowling,5
+mini golf,snowboarding,0
+rollerskate,boxing,7
+basketball,skateboarding,2
+boxe,billiards,0
+biking,martial arts,3
+photography,biking,2
+skydiving,draw,10
+samba,drawing,13
+arcade,paragliding,0
+bowling,paragliding,0
+fencing,salsa,4
+dance,bungee jumping,3
+cricket,ski,1
+shooting,squash,0
+surfing,running,45
+badminton,improv,14
+basketball,biking,0
+skate,table tennis,1
+improv,sculpture,7
+football,trampolining,0
+drawing,surf,1
+cricket,table tennis,7
+bungee jumping,surf,2
+theatre,rollerblade,0
+track,shooting,18
+tennis,snowboarding,1
+comedy,painting,17
+pottery,photography,41
+track,salsa,2
+rollerskate,racquetball,0
+horseback riding,track,29
+rugby,thrifting,0
+handball,thrifting,0
+comedy,track,41
+paint,arcade,5
+boxing,sing,14
+tennis,rollerblade,0
+hockey,rock climbing,1
+singing,yoga,2
+ziplining,paintball,1
+fencing,rafting,7
+dance,paint,7
+snowboarding,bungee jumping,4
+snowboarding,dance,25
+martial arts,handball,0
+origami,karaoke,6
+go kart,cricket,3
+thrift,golf,12
+shooting,skateboard,3
+paragliding,arcade,2
+theatre,surfing,3
+snowboarding,pool,17
+skating,track,32
+skiing,rollerskate,0
+skydiving,singing,21
+bike,dancing,13
+running,yoga,8
+go kart,rafting,3
+paragliding,golf,7
+trampolining,rock climbing,1
+soccer,thrift,0
+curling,racing,16
+ziplining,hike,17
+bowling,badminton,2
+bike,snowboard,3
+billiards,curling,4
+fencing,cricket,8
+surf,sculpture,2
+ziplining,squash,3
+pool,ski,1
+photography,paddleboarding,0
+swim,track,37
+trampolining,racquetball,0
+skiing,rock climbing,0
+karaoke,dancing,37
+football,boxing,9
+boxe,bowling,4
+escape room,go kart,4
+bungee jumping,dancing,29
+snowboard,biking,4
+singing,rollerblading,0
+fencing,racquetball,1
+karaoke,parkour,0
+rugby,football,312
+cycling,surf,8
+cycling,racing,57
+tennis,billiards,1
+painting,trampolining,0
+laser tag,skateboard,17
+sing,origami,0
+hockey,thrift,0
+dancing,trampolining,0
+bike,skateboarding,3
+dancing,drawing,10
+pottery,go kart,0
+climb,gambling,2
+reading,snowboarding,2
+tennis,singing,13
+track,photography,12
+horseback riding,field hockey,1
+arcade,surfing,2
+cycle,sing,10
+rollerblading,paintball,0
+hiking,bike,25
+arcade,rugby,2
+singing,golfing,1
+hiking,drawing,9
+swim,salsa,2
+sculpture,paragliding,0
+badminton,rock climbing,1
+fencing,rugby,9
+draw,rugby,8
+yoga,table tennis,1
+golfing,escape room,0
+paddleboarding,skate,10
+handball,parkour,1
+soccer,theatre,11
+dancing,rugby,0
+gymnastics,racquetball,0
+mini golf,hiking,6
+disc golf,badminton,0
+dance,rafting,2
+paragliding,cycle,14
+yoga,racing,13
+racquetball,swim,7
+martial arts,pool,6
+photography,rollerblade,0
+snowboard,theatre,5
+disc golf,tennis,24
+climbing,go kart,0
+trampolining,singing,34
+swimming,skating,2
+singing,badminton,1
+ski,thrift,0
+swim,skate,4
+handball,climb,4
+squash,shooting,8
+bike,draw,8
+cycling,tennis,15
+golfing,draw,19
+sing,softball,2
+photography,table tennis,4
+fitness,skate,8
+surf,swim,18
+skateboard,bungee jumping,0
+salsa,yoga,17
+rollerblade,field hockey,4
+gymnastics,hockey,5
+racing,skiing,2
+pool,dance,36
+badminton,basketball,16
+running,escape room,3
+surfing,paragliding,1
+gymnastics,yoga,4
+mini golf,improv,16
+painting,bowling,3
+shooting,salsa,0
+skiing,draw,9
+table tennis,ziplining,0
+fencing,hiking,2
+paint,rollerskating,0
+hockey,pottery,7
+trampolining,fencing,3
+handball,comedy,7
+rollerskating,bungee jumping,0
+hiking,swim,12
+cycle,skydiving,3
+shooting,racquetball,0
+snowboarding,baseball,24
+thrifting,swimming,7
+salsa,dance,67
+snowboarding,sculpture,3
+skiing,cycling,7
+comedy,improv,24
+paintball,ziplining,0
+gambling,pottery,7
+fencing,fitness,20
+climbing,surf,7
+bike,ski,9
+paintball,draw,16
+improv,mini golf,2
+snowboarding,handball,1
+baseball,gymnastics,1
+archery,yoga,8
+softball,escape room,1
+swimming,gymnastics,1
+badminton,fitness,25
+tennis,rollerskating,1
+salsa,billiards,0
+hockey,fencing,1
+boxing,swimming,6
+skydiving,samba,0
+origami,ski,0
+dance,painting,6
+arcade,curling,0
+soccer,skating,0
+baseball,golfing,1
+racquetball,squash,18
+laser tag,handball,0
+pool,sculpture,3
+racing,disc golf,1
+painting,bungee jumping,0
+martial arts,ziplining,0
+biking,rollerblade,0
+paintball,track,16
+skydiving,ziplining,3
+snowboarding,rafting,6
+bike,boxe,0
+cycle,track,35
+improv,cycling,4
+volleyball,skate,4
+snowboard,curling,3
+football,rafting,6
+softball,skiing,2
+paint,gymnastics,0
+paint,rollerblading,0
+surf,racing,17
+cycle,painting,12
+rollerskating,laser tag,1
+track,archery,0
+soccer,paintball,1
+squash,trampolining,0
+handball,gambling,0
+sing,shooting,16
+pottery,racquetball,0
+snowboard,swimming,10
+golf,sculpture,4
+singing,skydiving,0
+painting,billiards,1
+rock climbing,rollerskating,0
+boxe,photography,22
+parkour,baseball,14
+pottery,rollerskate,0
+cycle,draw,11
+skiing,shooting,12
+thrift,archery,0
+snowboarding,bike,27
+gymnastics,skate,3
+climbing,rollerskate,0
+handball,reading,18
+drawing,racing,7
+martial arts,samba,0
+theatre,pottery,8
+salsa,comedy,13
+table tennis,dancing,18
+squash,badminton,2
+drawing,improv,11
+pool,hiking,1
+gambling,karaoke,2
+rollerblading,soccer,12
+ziplining,volleyball,3
+pool,skydiving,0
+arcade,track,21
+salsa,bungee jumping,2
+reading,painting,13
+biking,handball,0
+dance,origami,0
+swim,swim,210
+swim,hockey,3
+soccer,hockey,13
+rafting,drawing,16
+paintball,snowboard,0
+sculpture,field hockey,1
+rollerskate,skate,52
+snowboard,dancing,14
+paragliding,photography,32
+skate,field hockey,0
+reading,track,29
+skate,fitness,11
+thrift,swimming,7
+hiking,curling,2
+karaoke,biking,8
+gymnastics,improv,1
+improv,paintball,0
+rafting,martial arts,4
+badminton,curling,2
+biking,baseball,44
+table tennis,paintball,0
+dance,snowboard,1
+running,golfing,0
+skateboarding,shooting,15
+parkour,racing,10
+cycling,swim,18
+draw,ski,1
+billiards,martial arts,1
+escape room,fencing,0
+cycle,golfing,1
+go kart,rollerskating,0
+snowboard,dance,33
+cycle,pool,10
+draw,painting,23
+cricket,mini golf,0
+rugby,paintball,1
+swimming,volleyball,11
+baseball,drawing,8
+drawing,basketball,2
+yoga,hockey,4
+paint,ziplining,0
+surfing,rugby,6
+table tennis,skating,3
+rollerskating,rafting,4
+escape room,squash,3
+rafting,skydiving,1
+rollerblade,squash,0
+comedy,hockey,8
+salsa,bike,11
+pottery,football,22
+surfing,painting,10
+mini golf,painting,13
+rollerblade,hike,7
+skiing,curling,0
+fitness,boxing,3
+rollerblading,thrifting,0
+basketball,football,87
+climbing,dancing,22
+karaoke,skateboarding,0
+paint,paddleboarding,0
+skydiving,ski,3
+hockey,fitness,5
+pool,fitness,9
+karaoke,surf,2
+swimming,ziplining,0
+skateboarding,reading,26
+bike,photography,9
+cycle,fitness,34
+rollerskate,track,39
+thrifting,pool,6
+dance,handball,0
+comedy,snowboarding,0
+rollerblade,paddleboarding,0
+gymnastics,theatre,2
+softball,laser tag,2
+rollerskate,painting,24
+cricket,bungee jumping,0
+rollerblading,origami,1
+running,squash,2
+paragliding,shooting,14
+racing,trampolining,0
+sing,boxing,1
+samba,shooting,10
+snowboarding,fitness,12
+escape room,curling,0
+sculpture,boxe,0
+field hockey,badminton,2
+racing,comedy,10
+swimming,disc golf,9
+table tennis,gymnastics,3
+surf,draw,12
+pool,cricket,4
+gymnastics,boxe,1
+skate,volleyball,7
+bike,climbing,6
+hiking,softball,3
+fencing,swimming,10
+bowling,skateboard,1
+boxe,go kart,1
+surf,climb,7
+photography,curling,9
+rafting,fencing,0
+arcade,improv,7
+sculpture,soccer,12
+origami,bungee jumping,2
+paragliding,draw,10
+archery,badminton,4
+thrifting,draw,13
+shooting,badminton,1
+thrift,skateboarding,2
+gymnastics,badminton,0
+improv,hockey,6
+track,cycling,2
+soccer,skiing,1
+paragliding,reading,19
+paddleboarding,improv,15
+volleyball,theatre,2
+squash,thrift,1
+boxing,arcade,0
+rollerskate,field hockey,2
+golf,photography,15
+skydiving,dance,45
+rugby,softball,8
+thrifting,track,25
+ski,snowboard,11
+comedy,comedy,210
+snowboard,climbing,14
+thrift,escape room,4
+bungee jumping,hiking,5
+table tennis,arcade,5
+hike,karaoke,2
+football,gymnastics,1
+hike,bike,18
+drawing,ziplining,0
+comedy,surf,1
+snowboard,skateboard,11
+ziplining,table tennis,1
+track,pool,9
+hike,trampolining,0
+sculpture,laser tag,1
+shooting,basketball,15
+handball,sculpture,3
+sculpture,theatre,19
+archery,volleyball,8
+handball,origami,0
+laser tag,trampolining,0
+rollerblade,bike,23
+reading,draw,11
+parkour,yoga,2
+skateboard,horseback riding,0
+disc golf,rock climbing,1
+rock climbing,swimming,11
+climbing,rollerskating,0
+pottery,paddleboarding,0
+ski,basketball,21
+climb,dance,28
+field hockey,sculpture,3
+hike,racing,6
+salsa,go kart,1
+trampolining,origami,2
+track,parkour,0
+bike,tennis,10
+paintball,theatre,6
+theatre,badminton,0
+thrift,parkour,0
+comedy,squash,3
+parkour,sing,13
+rafting,gymnastics,3
+shooting,yoga,4
+yoga,field hockey,1
+volleyball,paddleboarding,0
+rugby,thrift,0
+thrift,bowling,1
+soccer,surf,1
+soccer,bowling,5
+martial arts,cycling,6
+shooting,reading,33
+table tennis,paddleboarding,0
+table tennis,snowboarding,3
+thrifting,go kart,2
+cycling,volleyball,4
+softball,horseback riding,2
+thrift,basketball,11
+softball,soccer,34
+tennis,sing,10
+climb,skate,1
+field hockey,shooting,17
+boxing,rollerblade,0
+sculpture,golf,19
+paragliding,comedy,5
+climbing,golf,12
+cycling,track,58
+shooting,climbing,5
+rollerblade,climb,3
+climbing,laser tag,0
+squash,paint,10
+rollerskate,baseball,20
+dance,dance,210
+salsa,archery,1
+ski,pottery,8
+painting,painting,210
+rollerblade,draw,18
+ski,pool,10
+gambling,swimming,4
+climbing,arcade,0
+fencing,skateboarding,2
+boxe,skydiving,0
+gambling,surf,1
+basketball,sculpture,5
+running,mini golf,3
+trampolining,paddleboarding,0
+origami,dancing,11
+trampolining,skateboard,1
+softball,rugby,1
+biking,skateboard,18
+skateboarding,handball,1
+swimming,trampolining,0
+softball,surfing,2
+racquetball,curling,2
+softball,salsa,0
+comedy,bike,10
+ziplining,softball,4
+paragliding,climb,20
+climbing,curling,2
+snowboarding,swim,14
+rollerblading,skydiving,0
+hiking,soccer,21
+escape room,skateboarding,2
+boxe,rollerskate,0
+surfing,bungee jumping,1
+karaoke,karaoke,210
+biking,snowboard,4
+golf,rafting,8
+skydiving,theatre,4
+horseback riding,soccer,5
+skating,improv,7
+swim,bungee jumping,2
+cycling,cycling,210
+disc golf,dancing,13
+karaoke,billiards,1
+arcade,basketball,9
+table tennis,paint,5
+boxing,archery,2
+photography,rollerblading,0
+rollerskate,racing,16
+climb,skateboard,0
+golf,escape room,1
+reading,shooting,18
+biking,trampolining,0
+paint,cricket,5
+rollerblading,curling,0
+hockey,parkour,0
+ziplining,karaoke,3
+rollerskating,skateboarding,2
+painting,paintball,0
+handball,dancing,15
+racquetball,bike,18
+theatre,singing,33
+climbing,surfing,7
+ski,skate,12
+paddleboarding,golfing,1
+shooting,comedy,9
+volleyball,parkour,1
+paint,rollerskate,0
+cycling,mini golf,1
+curling,laser tag,2
+thrifting,rock climbing,2
+golf,fitness,21
+rafting,disc golf,0
+samba,karaoke,5
+escape room,tennis,7
+laser tag,escape room,3
+cycling,pool,13
+improv,martial arts,4
+rollerblade,boxing,1
+rollerskating,dancing,21
+thrift,rollerskating,0
+swimming,comedy,7
+snowboard,sculpture,6
+pool,golfing,0
+yoga,gymnastics,8
+improv,bowling,5
+drawing,boxe,0
+trampolining,escape room,1
+badminton,racquetball,1
+snowboard,volleyball,6
+skate,reading,17
+climbing,climb,31
+basketball,pool,6
+ski,ziplining,0
+handball,skateboard,1
+comedy,baseball,4
+pool,origami,0
+pool,sing,22
+parkour,track,26
+horseback riding,skate,3
+shooting,climb,9
+ziplining,archery,1
+reading,singing,32
+sing,cycle,4
+table tennis,shooting,24
+billiards,trampolining,0
+surf,hiking,5
+parkour,painting,11
+basketball,paragliding,0
+racquetball,draw,26
+swim,racing,15
+thrifting,origami,0
+sculpture,rugby,8
+hockey,shooting,26
+cricket,boxe,0
+rollerskating,paddleboarding,0
+singing,hike,1
+racquetball,snowboarding,1
+shooting,football,23
+biking,table tennis,2
+climbing,boxe,0
+cricket,comedy,11
+martial arts,hiking,4
+gambling,biking,3
+racing,karaoke,0
+rollerblade,curling,3
+track,track,210
+hike,thrift,1
+pool,badminton,2
+field hockey,comedy,4
+salsa,racing,11
+paddleboarding,racing,23
+archery,basketball,16
+disc golf,handball,0
+hike,draw,5
+laser tag,dancing,18
+hiking,laser tag,2
+swim,escape room,2
+bungee jumping,escape room,3
+dancing,softball,4
+squash,skiing,0
+boxing,pool,9
+volleyball,pool,16
+rollerskating,go kart,1
+fitness,escape room,2
+rollerskate,climbing,6
+soccer,cycle,5
+cycling,baseball,6
+field hockey,cycling,8
+skating,sculpture,3
+bike,arcade,8
+gymnastics,baseball,7
+sculpture,golfing,1
+trampolining,sculpture,4
+singing,rugby,5
+dancing,billiards,0
+field hockey,climb,2
+go kart,laser tag,3
+singing,football,34
+paddleboarding,mini golf,3
+cycling,ziplining,0
+boxe,baseball,16
+skiing,disc golf,2
+swimming,reading,25
+go kart,dance,40
+volleyball,cricket,0
+rugby,karaoke,6
+improv,salsa,5
+skate,escape room,1
+cycling,hiking,16
+archery,fitness,24
+skate,racquetball,0
+trampolining,rollerskate,0
+baseball,rafting,9
+surf,fencing,0
+yoga,disc golf,1
+dancing,dance,85
+drawing,comedy,6
+cricket,trampolining,0
+reading,comedy,6
+bike,theatre,2
+surfing,disc golf,1
+basketball,shooting,20
+yoga,rollerblading,0
+sing,bungee jumping,2
+trampolining,gambling,1
+mini golf,boxe,0
+hockey,paintball,0
+rock climbing,fencing,1
+skating,rafting,2
+swimming,tennis,7
+skateboarding,rafting,4
+skating,snowboard,1
+dancing,rock climbing,1
+billiards,rollerblading,0
+curling,pottery,8
+pottery,sculpture,30
+karaoke,theatre,6
+parkour,photography,8
+skiing,swimming,9
+hike,baseball,16
+hike,ski,10
+surf,skydiving,2
+cycling,surfing,2
+paragliding,thrift,1
+curling,karaoke,3
+racing,pool,19
+boxing,parkour,1
+skydiving,tennis,5
+racquetball,dancing,10
+pool,biking,3
+hiking,rock climbing,1
+samba,gambling,1
+escape room,cycling,4
+karaoke,surfing,2
+ski,table tennis,3
+baseball,soccer,33
+soccer,softball,24
+squash,swimming,8
+skiing,skydiving,3
+karaoke,escape room,11
+rollerblade,ziplining,0
+hockey,racquetball,0
+mini golf,boxing,9
+surfing,comedy,10
+climb,rollerskating,0
+tennis,trampolining,0
+disc golf,table tennis,5
+hiking,rollerskating,0
+tennis,biking,1
+swim,running,60
+surfing,boxe,0
+table tennis,racquetball,0
+paint,rollerblade,0
+snowboard,billiards,1
+pool,shooting,21
+bike,escape room,3
+boxe,fitness,24
+track,thrift,1
+golf,trampolining,0
+swimming,rollerblade,1
+archery,hiking,13
+comedy,football,22
+salsa,draw,11
+yoga,swim,13
+handball,fencing,0
+samba,pottery,7
+ziplining,snowboarding,5
+swim,arcade,1
+paint,bike,9
+mini golf,martial arts,2
+curling,paragliding,0
+drawing,snowboarding,0
+drawing,cycling,0
+photography,escape room,7
+billiards,squash,2
+painting,swim,5
+salsa,drawing,16
+skiing,handball,0
+racing,racing,210
+track,hike,1
+paintball,bike,31
+bike,skating,3
+curling,cricket,2
+paddleboarding,paint,19
+skateboarding,thrift,1
+dance,thrifting,0
+pottery,skate,7
+parkour,racquetball,0
+boxe,disc golf,1
+disc golf,drawing,10
+theatre,shooting,15
+sing,tennis,2
+karaoke,swim,1
+comedy,curling,1
+bike,singing,20
+tennis,paint,5
+fitness,painting,11
+rollerblading,bike,11
+bowling,boxe,0
+mini golf,skydiving,1
+karaoke,fencing,0
+thrift,curling,2
+golfing,archery,3
+laser tag,samba,0
+bike,paintball,0
+hike,paddleboarding,2
+table tennis,table tennis,210
+theatre,drawing,19
+ski,softball,3
+running,paddleboarding,0
+rollerskating,comedy,11
+tennis,squash,3
+karaoke,martial arts,11
+rock climbing,climb,47
+gambling,go kart,1
+paragliding,surfing,9
+hockey,salsa,1
+paintball,table tennis,3
+fencing,paddleboarding,0
+hockey,dance,36
+improv,dancing,14
+parkour,boxe,0
+swimming,karaoke,6
+dance,bowling,6
+bowling,biking,1
+racquetball,ziplining,0
+skating,skate,70
+climb,singing,19
+boxe,boxe,210
+tennis,gambling,5
+rollerskate,draw,16
+thrifting,surf,1
+snowboarding,skiing,43
+arcade,badminton,2
+track,surfing,1
+ziplining,climbing,12
+golfing,bungee jumping,0
+sculpture,climb,5
+badminton,snowboarding,0
+climb,billiards,0
+rock climbing,hockey,5
+racing,skateboard,1
+racing,tennis,14
+comedy,pool,10
+swim,baseball,9
+fencing,bowling,7
+skateboarding,skiing,5
+badminton,softball,4
+rollerblading,squash,0
+golf,pool,14
+football,table tennis,4
+bungee jumping,rollerskate,0
+swimming,cycling,11
+surfing,photography,25
+rollerskating,trampolining,0
+cycle,skiing,2
+table tennis,boxe,0
+skateboard,boxe,0
+yoga,escape room,4
+biking,billiards,0
+reading,paddleboarding,0
+pottery,salsa,1
+gambling,escape room,4
+skating,football,14
+surf,cycle,5
+surf,biking,4
+rollerskating,skating,31
+field hockey,pottery,6
+baseball,sculpture,7
+martial arts,squash,2
+disc golf,paint,17
+climbing,escape room,1
+skateboarding,mini golf,4
+drawing,volleyball,1
+rollerskate,pool,13
+painting,running,33
+rock climbing,football,25
+swimming,mini golf,9
+rollerblading,surf,3
+fencing,hike,6
+skateboard,bike,30
+snowboard,climb,5
+boxe,fencing,1
+golfing,bowling,4
+climb,rollerblade,0
+skate,swimming,7
+snowboarding,boxing,8
+singing,rafting,4
+paint,swimming,11
+track,badminton,0
+laser tag,golf,12
+badminton,samba,1
+drawing,curling,2
+shooting,swim,2
+rollerskate,snowboard,0
+fitness,pottery,26
+gambling,track,27
+surfing,parkour,0
+improv,thrifting,0
+snowboard,squash,0
+sculpture,painting,73
+snowboard,surfing,13
+cricket,golfing,0
+paintball,paragliding,0
+photography,volleyball,0
+snowboard,escape room,1
+hiking,paragliding,0
+escape room,bungee jumping,2
+ziplining,painting,11
+hiking,trampolining,0
+badminton,horseback riding,1
+badminton,rafting,11
+snowboard,improv,5
+improv,thrift,1
+sing,rollerskating,0
+fitness,horseback riding,0
+handball,hike,1
+mini golf,hike,4
+sculpture,rollerblade,1
+arcade,go kart,1
+escape room,skateboard,1
+hiking,snowboard,6
+table tennis,draw,15
+biking,reading,30
+racquetball,skateboard,2
+squash,golf,15
+horseback riding,rollerskate,0
+singing,paragliding,0
+karaoke,cycling,1
+theatre,biking,0
+paragliding,mini golf,2
+climbing,skate,4
+painting,hockey,7
+volleyball,basketball,40
+yoga,surf,6
+skateboarding,bike,21
+disc golf,skateboarding,3
+painting,yoga,5
+paint,theatre,8
+cycle,golf,18
+skateboarding,karaoke,3
+reading,archery,3
+golfing,skiing,6
+gymnastics,parkour,2
+bike,skiing,3
+bowling,paintball,0
+volleyball,singing,29
+martial arts,boxing,32
+rafting,escape room,5
+dance,thrift,0
+surfing,skate,20
+pottery,parkour,0
+thrifting,surfing,3
+dance,swim,7
+sculpture,samba,1
+thrifting,rugby,0
+hiking,cricket,1
+ziplining,football,32
+skating,drawing,12
+cycling,drawing,15
+swimming,hiking,2
+reading,volleyball,2
+cycle,rollerskating,0
+tennis,fitness,15
+skating,gambling,3
+cycling,climb,29
+baseball,golf,24
+field hockey,go kart,1
+rock climbing,curling,2
+swimming,curling,1
+pottery,table tennis,2
+rugby,skateboarding,2
+bike,painting,13
+ziplining,skating,6
+rollerskating,karaoke,4
+escape room,racing,15
+skate,parkour,0
+parkour,gymnastics,4
+racquetball,racing,12
+skiing,squash,1
+gambling,thrifting,0
+tennis,badminton,5
+table tennis,surfing,0
+thrifting,ziplining,0
+swimming,table tennis,7
+shooting,mini golf,0
+cycling,comedy,9
+improv,swim,2
+baseball,ski,3
+boxing,baseball,18
+soccer,tennis,22
+reading,curling,0
+fencing,rollerskate,0
+billiards,snowboard,0
+rafting,rollerskating,1
+paddleboarding,trampolining,0
+reading,sculpture,3
+hiking,golfing,0
+bike,surf,5
+rollerblade,skateboard,7
+handball,pool,4
+go kart,golf,29
+martial arts,climb,5
+hike,reading,35
+fitness,thrift,6
+paintball,rollerskate,0
+painting,escape room,2
+sing,improv,9
+cricket,skating,1
+horseback riding,golf,16
+archery,racquetball,0
+thrifting,rafting,3
+racing,cycling,24
+badminton,singing,22
+rollerblade,rock climbing,4
+thrifting,rollerblading,0
+cycling,soccer,8
+skateboard,theatre,9
+escape room,pool,20
+disc golf,bike,37
+skydiving,rollerblading,0
+photography,thrifting,0
+draw,reading,44
+fitness,climbing,6
+hiking,skate,12
+skateboarding,pool,33
+rollerblade,skateboarding,3
+arcade,drawing,18
+pool,hike,0
+thrift,sculpture,5
+rollerskating,rollerskate,14
+shooting,sing,11
+arcade,skating,3
+draw,rollerblade,0
+origami,sculpture,17
+football,paddleboarding,0
+snowboard,rollerskating,0
+curling,painting,13
+theatre,snowboard,1
+disc golf,gambling,2
+paddleboarding,bike,28
+painting,skiing,3
+golfing,trampolining,0
+thrift,skydiving,0
+hike,pool,19
+ski,dance,25
+ski,theatre,6
+yoga,tennis,7
+yoga,photography,25
+swimming,theatre,2
+arcade,singing,14
+pool,softball,2
+soccer,swim,6
+paragliding,racquetball,0
+gambling,reading,23
+rollerskating,golfing,1
+rock climbing,escape room,0
+gymnastics,shooting,3
+rollerskating,ski,4
+swim,shooting,8
+climbing,football,31
+tennis,curling,1
+thrift,draw,13
+painting,singing,15
+cycling,reading,36
+gymnastics,painting,0
+football,paragliding,0
+dancing,tennis,2
+skate,paint,14
+swim,racquetball,0
+handball,cycling,11
+improv,reading,42
+samba,skateboarding,3
+track,climb,6
+running,rollerblade,1
+table tennis,field hockey,7
+parkour,soccer,7
+draw,gymnastics,0
+origami,snowboarding,0
+comedy,swimming,7
+parkour,singing,30
+rollerblading,gymnastics,2
+trampolining,theatre,13
+ski,skateboard,4
+climb,archery,12
+yoga,rollerskating,0
+climbing,snowboarding,1
+hiking,horseback riding,0
+softball,arcade,3
+fitness,comedy,5
+cycling,karaoke,1
+draw,sing,12
+hiking,skating,5
+gambling,table tennis,1
+trampolining,shooting,13
+golf,field hockey,1
+curling,soccer,10
+karaoke,volleyball,7
+table tennis,fencing,1
+track,comedy,7
+racquetball,drawing,7
+rock climbing,sculpture,3
+rugby,hike,10
+baseball,samba,1
+escape room,drawing,16
+escape room,karaoke,6
+dance,football,15
+bike,improv,13
+biking,paragliding,0
+disc golf,curling,1
+trampolining,horseback riding,0
+skateboarding,racquetball,0
+biking,skate,7
+horseback riding,theatre,12
+draw,martial arts,1
+skate,theatre,3
+snowboarding,drawing,10
+dancing,rollerblade,1
+badminton,bungee jumping,1
+skating,paint,12
+table tennis,singing,27
+snowboarding,soccer,21
+ski,paddleboarding,0
+painting,rollerblade,0
+skateboard,singing,30
+shooting,cricket,8
+pool,table tennis,3
+escape room,photography,23
+origami,billiards,2
+paint,escape room,1
+improv,yoga,15
+hockey,singing,23
+gambling,arcade,3
+table tennis,curling,2
+racquetball,rugby,9
+hiking,baseball,20
+paintball,baseball,32
+paddleboarding,karaoke,3
+disc golf,trampolining,0
+thrift,football,18
+racquetball,comedy,14
+paddleboarding,climbing,10
+boxing,biking,0
+rafting,samba,0
+hike,paintball,0
+rugby,curling,8
+racquetball,boxe,0
+climbing,photography,31
+paddleboarding,draw,15
+biking,boxing,7
+painting,snowboarding,0
+sculpture,fitness,14
+bowling,fitness,4
+running,karaoke,4
+disc golf,hike,6
+skydiving,cycling,0
+fencing,paintball,0
+draw,paint,16
+sculpture,cycling,6
+dance,draw,11
+skiing,racing,8
+reading,climbing,4
+thrift,pool,12
+paddleboarding,softball,3
+sing,fencing,0
+mini golf,volleyball,6
+singing,billiards,0
+volleyball,skiing,1
+climbing,soccer,15
+ziplining,tennis,10
+drawing,origami,3
+horseback riding,snowboard,0
+gambling,fencing,0
+mini golf,skateboarding,2
+surf,shooting,13
+improv,billiards,0
+gymnastics,salsa,1
+archery,painting,18
+cricket,horseback riding,0
+fencing,field hockey,2
+softball,boxe,0
+pool,boxe,0
+arcade,pottery,6
+bowling,volleyball,4
+snowboard,hiking,24
+yoga,handball,0
+billiards,rollerskating,0
+improv,dance,47
+racing,golfing,1
+reading,badminton,0
+rollerblade,rollerskating,2
+arcade,pool,11
+boxe,sing,2
+gymnastics,origami,0
+photography,golf,9
+swimming,rollerskating,0
+parkour,running,58
+photography,skate,2
+racquetball,gambling,2
+draw,bowling,9
+trampolining,ziplining,0
+boxing,gymnastics,1
+rollerblade,drawing,10
+boxe,cycling,4
+football,skydiving,0
+paragliding,disc golf,4
+skydiving,volleyball,5
+go kart,improv,9
+paddleboarding,rollerblade,0
+draw,draw,210
+rollerskate,rafting,5
+snowboarding,softball,4
+fencing,table tennis,0
+racquetball,reading,22
+archery,paint,19
+skating,arcade,0
+thrift,skiing,0
+arcade,table tennis,3
+hike,mini golf,0
+bowling,shooting,25
+dance,rock climbing,4
+karaoke,rollerskating,0
+paintball,climbing,1
+surfing,skating,2
+rollerblade,rugby,6
+gambling,parkour,5
+fitness,parkour,0
+paddleboarding,cycle,11
+snowboarding,improv,17
+snowboarding,sing,16
+rollerblading,track,33
+rollerblade,boxe,0
+fitness,laser tag,2
+softball,rock climbing,2
+pool,ziplining,0
+arcade,field hockey,1
+bike,hike,3
+soccer,bungee jumping,2
+badminton,rollerblading,0
+surf,gymnastics,1
+swimming,squash,0
+rollerskate,shooting,20
+snowboarding,singing,12
+swim,ski,4
+swimming,running,47
+table tennis,improv,20
+bungee jumping,volleyball,4
+racquetball,photography,15
+karaoke,thrift,0
+painting,cycle,5
+salsa,tennis,6
+baseball,thrifting,1
+boxe,volleyball,5
+tennis,thrifting,0
+origami,volleyball,0
+theatre,table tennis,1
+football,sing,13
+ziplining,skateboarding,1
+bungee jumping,paint,7
+karaoke,cycle,1
+paintball,basketball,15
+climbing,rugby,4
+bungee jumping,rafting,6
+photography,bike,11
+fencing,surfing,0
+ziplining,skate,7
+horseback riding,dance,52
+paddleboarding,arcade,1
+running,dancing,22
+volleyball,rollerblading,0
+football,reading,21
+dancing,skydiving,1
+boxing,paintball,0
+sculpture,hiking,2
+comedy,bungee jumping,0
+martial arts,racing,13
+racquetball,rollerskating,0
+tennis,reading,25
+mini golf,swimming,11
+dance,climb,6
+softball,golf,27
+field hockey,fitness,22
+rock climbing,snowboarding,6
+drawing,bungee jumping,4
+hockey,yoga,7
+track,singing,14
+sculpture,origami,3
+boxe,rock climbing,2
+hike,boxe,0
+tennis,climb,13
+drawing,pool,6
+skateboarding,paddleboarding,1
+rollerskating,biking,2
+baseball,snowboard,0
+disc golf,paragliding,0
+badminton,boxe,0
+archery,samba,1
+paintball,rock climbing,2
+bowling,snowboarding,0
+paragliding,running,49
+singing,painting,8
+sculpture,surfing,4
+photography,handball,1
+golf,soccer,21
+skiing,comedy,7
+bungee jumping,skiing,3
+baseball,trampolining,0
+arcade,salsa,1
+climb,disc golf,2
+archery,laser tag,4
+running,rollerskate,0
+sculpture,sculpture,210
+gymnastics,skating,1
+hockey,pool,16
+comedy,dancing,15
+skateboard,cycle,10
+running,thrift,1
+boxe,hiking,3
+boxing,improv,13
+improv,horseback riding,1
+swimming,boxing,3
+skating,skating,211
+paragliding,baseball,2
+salsa,baseball,14
+track,skateboarding,0
+draw,boxe,0
+pool,archery,1
+disc golf,football,56
+basketball,hike,0
+paragliding,yoga,9
+comedy,singing,23
+curling,rugby,4
+paintball,thrifting,0
+karaoke,climbing,3
+billiards,bowling,16
+yoga,curling,2
+climbing,rock climbing,15
+dance,baseball,15
+parkour,origami,1
+rollerskating,horseback riding,0
+cycle,cycle,210
+skateboard,field hockey,0
+samba,curling,0
+singing,thrift,0
+field hockey,skiing,2
+sing,paint,9
+rugby,skate,18
+skating,salsa,4
+curling,rollerblade,1
+gymnastics,boxing,1
+racing,salsa,0
+rollerskate,improv,8
+laser tag,swimming,3
+skiing,soccer,25
+gambling,football,65
+trampolining,cycle,25
+singing,thrifting,2
+laser tag,rollerskating,0
+ziplining,parkour,1
+hike,salsa,4
+rollerskating,rollerblade,2
+paintball,volleyball,5
+ziplining,laser tag,1
+field hockey,boxing,6
+parkour,badminton,1
+improv,rollerblade,0
+dancing,pool,12
+rock climbing,soccer,8
+improv,gymnastics,0
+paragliding,parkour,3
+fitness,theatre,10
+pool,rollerskating,0
+swimming,golfing,0
+bike,track,37
+ski,golfing,0
+samba,skydiving,0
+cycling,curling,0
+paint,tennis,3
+draw,disc golf,2
+skating,dancing,21
+cycling,horseback riding,2
+go kart,skate,8
+go kart,skateboarding,2
+skateboarding,ski,11
+rock climbing,handball,1
+skateboarding,baseball,15
+fitness,surfing,4
+yoga,laser tag,1
+dance,mini golf,3
+racing,squash,2
+tennis,running,55
+mini golf,archery,2
+disc golf,squash,1
+cycling,arcade,1
+comedy,volleyball,2
+ziplining,hockey,7
+boxe,horseback riding,1
+hike,rafting,7
+dancing,yoga,4
+rollerblading,pool,14
+painting,improv,14
+boxing,badminton,1
+gymnastics,bowling,2
+surfing,snowboarding,4
+field hockey,gymnastics,3
+squash,skydiving,0
+handball,squash,0
+surf,swimming,7
+swim,softball,1
+singing,trampolining,0
+surfing,softball,6
+go kart,golfing,2
+cricket,skiing,0
+racquetball,rollerskate,0
+cricket,basketball,8
+volleyball,field hockey,3
+badminton,photography,20
+samba,comedy,13
+laser tag,field hockey,1
+ziplining,salsa,2
+ziplining,bungee jumping,2
+handball,theatre,5
+skiing,karaoke,4
+rollerskate,table tennis,0
+rollerblading,escape room,1
+samba,boxe,0
+singing,pottery,9
+fitness,ziplining,0
+improv,biking,0
+table tennis,skiing,3
+shooting,horseback riding,0
+surfing,swim,13
+football,sculpture,3
+gambling,salsa,4
+fitness,gymnastics,3
+arcade,billiards,1
+martial arts,baseball,21
+track,snowboard,0
+boxing,yoga,2
+snowboard,laser tag,0
+surfing,pottery,11
+baseball,thrift,0
+volleyball,paintball,1
+surfing,baseball,14
+mini golf,cycling,5
+escape room,soccer,14
+boxing,hockey,9
+baseball,rollerskate,0
+swim,pool,41
+track,trampolining,0
+drawing,paragliding,0
+swim,paragliding,0
+soccer,paragliding,0
+skateboarding,draw,11
+hiking,climbing,32
+soccer,golf,27
+fencing,running,54
+ski,arcade,0
+football,surfing,1
+cricket,karaoke,0
+baseball,climbing,2
+painting,football,25
+paint,softball,0
+surfing,boxing,5
+photography,improv,26
+basketball,cycle,5
+climbing,pottery,6
+painting,rugby,5
+cricket,gambling,3
+boxe,soccer,9
+tennis,origami,0
+arcade,football,21
+parkour,field hockey,1
+ski,fitness,14
+escape room,trampolining,0
+volleyball,table tennis,1
+swim,football,30
+parkour,shooting,14
+handball,swimming,8
+rollerblading,ziplining,0
+escape room,disc golf,2
+cycling,bungee jumping,1
+comedy,arcade,9
+samba,billiards,1
+fitness,field hockey,0
+boxe,handball,1
+pool,bike,8
+rafting,laser tag,0
+hike,gambling,1
+rollerskate,boxe,0
+comedy,paragliding,0
+basketball,rollerblade,0
+thrifting,soccer,8
+biking,racing,17
+climbing,skateboard,3
+snowboarding,shooting,24
+comedy,golf,7
+racquetball,sculpture,5
+snowboarding,archery,2
+horseback riding,volleyball,8
+horseback riding,rafting,5
+ziplining,theatre,11
+squash,hiking,6
+laser tag,pool,16
+sculpture,racquetball,0
+handball,skating,2
+golf,football,58
+track,fitness,10
+skydiving,racquetball,0
+soccer,mini golf,3
+ski,ski,210
+rollerblade,rollerskate,2
+paragliding,theatre,8
+fencing,racing,14
+disc golf,fencing,1
+curling,ziplining,0
+shooting,karaoke,1
+fitness,mini golf,0
+paragliding,football,23
+climb,rollerblading,0
+skateboarding,boxing,1
+badminton,paddleboarding,0
+golfing,thrifting,0
+rollerskating,hike,5
+hockey,tennis,8
+rollerskating,boxing,4
+origami,rollerblading,0
+horseback riding,swim,10
+bike,drawing,12
+golfing,rugby,4
+billiards,cricket,3
+archery,skydiving,0
+running,paint,12
+dancing,bike,9
+cricket,rollerblade,0
+snowboard,bike,48
+field hockey,skate,6
+painting,paragliding,0
+snowboarding,boxe,0
+bungee jumping,sculpture,2
+reading,bowling,5
+cricket,hockey,23
+escape room,skiing,1
+cycle,reading,42
+thrifting,cricket,1
+hockey,rollerskate,0
+squash,hike,8
+boxing,skateboard,2
+fencing,rock climbing,2
+bungee jumping,parkour,1
+golf,golf,210
+mini golf,golf,142
+soccer,table tennis,2
+reading,dancing,19
+sing,paintball,1
+thrift,surfing,4
+curling,martial arts,2
+hockey,rafting,15
+karaoke,singing,60
+skating,go kart,2
+laser tag,skating,6
+cricket,cycle,12
+skateboard,skiing,4
+paddleboarding,skiing,11
+running,pottery,6
+paragliding,volleyball,2
+horseback riding,fencing,0
+climbing,samba,1
+dancing,cricket,0
+cycling,martial arts,2
+fencing,volleyball,10
+dancing,theatre,7
+climb,martial arts,2
+running,trampolining,0
+theatre,cricket,7
+pottery,draw,25
+swim,skiing,2
+paddleboarding,thrifting,1
+rollerskating,skiing,2
+skating,squash,0
+gymnastics,football,12
+origami,fencing,5
+billiards,soccer,21
+handball,skateboarding,0
+basketball,cycling,4
+racing,skate,2
+track,climbing,0
+improv,theatre,46
+fencing,softball,4
+mini golf,biking,0
+ski,shooting,12
+billiards,snowboarding,0
+golfing,fencing,0
+fencing,theatre,10
+salsa,squash,10
+racing,go kart,2
+paddleboarding,paddleboarding,210
+paragliding,samba,1
+rollerblading,rollerskating,0
+dance,samba,3
+laser tag,gymnastics,0
+fitness,softball,0
+thrift,skateboard,1
+cycle,thrifting,0
+snowboarding,comedy,4
+ski,dancing,16
+comedy,ziplining,0
+draw,trampolining,0
+skateboarding,trampolining,0
+reading,soccer,7
+ski,tennis,11
+samba,squash,2
+reading,hockey,6
+rollerblade,rafting,2
+track,dance,48
+photography,ziplining,0
+track,rollerskating,0
+billiards,go kart,2
+surf,samba,1
+squash,golfing,3
+paddleboarding,bowling,3
+shooting,volleyball,3
+improv,swimming,10
+table tennis,comedy,13
+salsa,rollerblading,1
+boxing,bowling,4
+paddleboarding,go kart,2
+pottery,golfing,0
+thrift,rock climbing,2
+table tennis,escape room,8
+horseback riding,improv,12
+fencing,reading,49
+swim,rock climbing,1
+bike,racquetball,0
+fitness,baseball,12
+samba,skate,5
+racing,soccer,8
+rugby,hockey,85
+horseback riding,bike,19
+fencing,sing,17
+paragliding,swim,7
+trampolining,skydiving,0
+drawing,ski,0
+arcade,cycling,2
+hiking,football,29
+parkour,skydiving,1
+field hockey,snowboard,2
+salsa,ziplining,0
+pool,thrift,0
+running,pool,9
+cricket,paragliding,0
+softball,skate,1
+disc golf,bowling,7
+rafting,biking,9
+swimming,skydiving,4
+rock climbing,shooting,26
+golf,handball,1
+mini golf,dance,43
+paintball,surfing,1
+martial arts,trampolining,0
+swim,climbing,4
+origami,parkour,3
+paddleboarding,sing,16
+fencing,basketball,20
+arcade,cycle,4
+pottery,hiking,10
+paint,table tennis,2
+rollerskate,hike,3
+biking,cycle,19
+comedy,rock climbing,0
+boxing,thrifting,0
+gymnastics,singing,156
+laser tag,paint,10
+paddleboarding,swim,24
+martial arts,comedy,13
+thrifting,racing,6
+track,golf,14
+horseback riding,trampolining,0
+swimming,fencing,1
+skateboard,sing,23
+rock climbing,skateboard,3
+thrifting,billiards,0
+hockey,skydiving,1
+tennis,paintball,1
+gambling,martial arts,1
+karaoke,hiking,1
+softball,table tennis,2
+racing,photography,17
+bungee jumping,mini golf,2
+skiing,biking,3
+rugby,surfing,20
+rollerskate,sculpture,3
+badminton,pool,9
+cycle,hiking,3
+theatre,paintball,1
+squash,draw,8
+cycle,badminton,0
+hockey,biking,1
+reading,arcade,1
+paint,rafting,9
+rollerblading,billiards,2
+hiking,thrifting,0
+martial arts,golfing,0
+basketball,sing,7
+golfing,running,76
+handball,skiing,5
+escape room,sing,18
+hockey,cricket,4
+swimming,golf,8
+pottery,trampolining,0
+squash,paintball,0
+pottery,rugby,6
+bungee jumping,samba,0
+basketball,reading,19
+basketball,curling,2
+disc golf,skiing,3
+origami,cycling,6
+bungee jumping,cycling,0
+billiards,ski,5
+escape room,parkour,1
+improv,cricket,6
+ziplining,rafting,12
+cycling,boxing,8
+laser tag,paddleboarding,0
+handball,surf,1
+skydiving,hiking,3
+thrift,running,39
+running,ziplining,0
+gambling,climbing,2
+salsa,surf,5
+origami,paragliding,0
+swim,samba,1
+fitness,improv,40
+football,dancing,6
+drawing,painting,30
+reading,gymnastics,0
+rafting,comedy,25
+skateboard,table tennis,2
+fencing,singing,19
+golfing,skateboard,1
+surfing,escape room,5
+billiards,golf,21
+rafting,dancing,24
+soccer,hike,5
+origami,sing,11
+mini golf,surfing,5
+sculpture,bowling,4
+sing,theatre,4
+hockey,golf,21
+softball,hockey,9
+hiking,rollerblade,0
+racquetball,paint,3
+cycling,gambling,1
+boxe,shooting,24
+reading,ski,4
+boxing,rugby,8
+skateboarding,golfing,0
+dance,paddleboarding,0
+reading,skateboard,0
+rugby,improv,74
+samba,racquetball,0
+mini golf,thrift,3
+archery,tennis,17
+rollerblading,snowboarding,1
+escape room,skate,1
+curling,tennis,7
+origami,thrift,0
+laser tag,thrift,3
+dance,running,46
+tennis,mini golf,3
+horseback riding,dancing,18
+draw,ziplining,0
+comedy,samba,0
+running,skating,2
+paint,skateboard,3
+rollerblading,climb,3
+bungee jumping,paintball,1
+snowboard,skydiving,3
+comedy,table tennis,2
+paintball,fencing,1
+swimming,racquetball,0
+theatre,mini golf,1
+pool,disc golf,2
+swim,handball,0
+ski,go kart,2
+drawing,dancing,32
+disc golf,track,29
+billiards,tennis,17
+paint,skating,1
+track,disc golf,1
+climb,cycle,16
+origami,football,18
+sculpture,bungee jumping,2
+skydiving,laser tag,4
+sculpture,snowboarding,0
+paintball,field hockey,3
+surfing,paint,8
+curling,dance,41
+softball,gambling,0
+swim,soccer,13
+surfing,climbing,2
+skate,painting,15
+racquetball,climb,8
+surf,badminton,0
+paddleboarding,dancing,14
+biking,snowboarding,2
+skate,track,32
+track,samba,2
+handball,billiards,0
+thrift,gymnastics,3
+track,skating,3
+rock climbing,volleyball,3
+rollerskating,pool,14
+ziplining,surf,7
+climb,handball,0
+skate,running,57
+rollerblade,skiing,3
+hiking,karaoke,4
+surf,trampolining,0
+trampolining,go kart,0
+softball,sing,18
+running,gymnastics,0
+snowboarding,skateboarding,16
+paragliding,surf,8
+table tennis,archery,2
+arcade,mini golf,1
+boxe,draw,12
+thrift,comedy,10
+rock climbing,surf,6
+escape room,football,13
+climb,tennis,3
+fencing,mini golf,1
+skate,baseball,20
+rollerskate,singing,27
+cycle,singing,20
+dancing,go kart,1
+golfing,hike,6
+track,boxing,3
+hockey,drawing,15
+handball,climbing,4
+boxe,bike,45
+arcade,reading,38
+trampolining,mini golf,1
+baseball,ziplining,0
+field hockey,rock climbing,3
+biking,drawing,17
+painting,field hockey,0
+draw,photography,12
+hike,football,19
+skydiving,fitness,3
+comedy,skateboarding,4
+origami,surfing,4
+ziplining,singing,27
+shooting,rollerskating,0
+cricket,disc golf,0
+drawing,karaoke,1
+laser tag,golfing,3
+boxing,disc golf,0
+fitness,paragliding,0
+rollerblading,climbing,2
+comedy,billiards,1
+golfing,sculpture,6
+thrifting,gymnastics,1
+skydiving,boxe,0
+thrift,dancing,19
+salsa,origami,0
+racquetball,boxing,8
+dance,reading,26
+basketball,bungee jumping,0
+skate,horseback riding,0
+horseback riding,climb,7
+rugby,cricket,112
+gymnastics,rock climbing,0
+paddleboarding,rock climbing,2
+rollerblade,go kart,3
+running,cycling,3
+racing,hockey,5
+ziplining,paint,12
+biking,comedy,7
+swimming,swimming,210
+rollerblade,bowling,6
+tennis,cycling,7
+rollerblade,basketball,28
+samba,tennis,13
+horseback riding,rugby,1
+fitness,rollerblade,0
+hiking,rugby,2
+arcade,theatre,5
+cricket,field hockey,0
+snowboard,painting,13
+squash,hockey,11
+squash,swim,15
+sing,badminton,1
+bike,sculpture,3
+rollerblade,snowboarding,0
+golf,shooting,30
+softball,hike,2
+thrift,reading,38
+go kart,theatre,8
+bike,salsa,6
+soccer,yoga,8
+fencing,painting,27
+sculpture,shooting,34
+arcade,snowboarding,0
+skydiving,climb,3
+football,go kart,1
+improv,surfing,2
+running,softball,10
+paragliding,skateboarding,5
+origami,tennis,11
+shooting,escape room,3
+surfing,rollerblade,0
+pottery,origami,1
+squash,sing,9
+racing,ski,4
+paragliding,skate,5
+salsa,swim,12
+origami,soccer,11
+archery,football,24
+snowboard,gymnastics,8
+yoga,rafting,3
+improv,pool,15
+paintball,improv,7
+climbing,paintball,0
+basketball,bowling,2
+bungee jumping,bungee jumping,210
+paint,disc golf,1
+rollerblade,badminton,1
+hiking,comedy,3
+sculpture,dancing,20
+handball,swim,7
+photography,billiards,0
+sing,mini golf,2
+laser tag,climb,5
+singing,softball,0
+improv,climb,8
+origami,swim,10
+origami,reading,46
+golfing,salsa,2
+racquetball,biking,6
+bike,rafting,6
+disc golf,samba,1
+racquetball,archery,0
+gambling,mini golf,1
+rollerblading,sculpture,0
+snowboard,rugby,11
+karaoke,laser tag,10
+fencing,shooting,17
+go kart,snowboard,0
+tennis,skateboard,0
+golf,ski,8
+samba,table tennis,1
+paragliding,hockey,3
+boxe,gymnastics,2
+skiing,martial arts,5
+snowboard,arcade,6
+yoga,salsa,7
+go kart,trampolining,0
+track,cricket,4
+laser tag,comedy,4
+trampolining,cycling,12
+track,football,26
+trampolining,painting,12
+skate,archery,1
+softball,surf,0
+gambling,sculpture,15
+sing,billiards,0
+rugby,rollerskate,2
+trampolining,surfing,4
+skating,rollerblade,2
+surfing,swimming,21
+snowboard,rafting,6
+skiing,climb,12
+draw,shooting,14
+sculpture,curling,2
+thrifting,climbing,3
+gambling,billiards,1
+thrifting,bowling,4
+golf,yoga,10
+racquetball,handball,9
+theatre,reading,36
+biking,bike,75
+thrift,racquetball,0
+paint,salsa,0
+basketball,squash,0
+biking,karaoke,2
+fencing,ski,4
+climb,football,28
+rollerskate,swim,12
+skating,surfing,7
+shooting,fencing,0
+paint,paint,210
+climb,sing,18
+gymnastics,fitness,7
+ski,trampolining,0
+rafting,softball,5
+archery,cycling,10
+trampolining,biking,5
+parkour,volleyball,6
+hiking,snowboarding,1
+pool,rugby,4
+painting,laser tag,0
+snowboarding,racing,17
+pottery,painting,48
+origami,skydiving,0
+field hockey,disc golf,0
+sculpture,disc golf,2
+swim,surfing,6
+field hockey,soccer,49
+dance,rollerblade,0
+skateboard,paddleboarding,0
+pottery,snowboard,0
+racquetball,badminton,4
+bowling,swim,3
+rafting,volleyball,3
+cricket,rock climbing,1
+squash,skate,4
+rollerskating,disc golf,1
+pottery,hockey,12
+fencing,hockey,7
+dance,gymnastics,2
+origami,paddleboarding,1
+escape room,cycle,15
+horseback riding,laser tag,2
+sing,biking,0
+snowboard,bowling,2
+climb,paint,16
+cricket,dance,50
+cycle,trampolining,0
+salsa,climbing,1
+disc golf,golf,189
+dance,rugby,1
+snowboard,softball,8
+sculpture,thrift,4
+skate,shooting,14
+disc golf,pottery,7
+horseback riding,pool,21
+trampolining,reading,57
+horseback riding,climbing,6
+hiking,shooting,14
+paint,shooting,11
+baseball,volleyball,19
+singing,fitness,3
+track,paddleboarding,0
+samba,improv,8
+snowboard,snowboarding,35
+track,skateboard,0
+origami,hiking,5
+drawing,baseball,6
+rollerskate,dancing,25
+cycling,skydiving,1
+drawing,snowboard,0
+climb,skydiving,0
+golfing,gambling,2
+draw,sculpture,5
+ski,bowling,2
+dance,horseback riding,4
+squash,martial arts,2
+escape room,boxing,9
+climbing,horseback riding,0
+singing,running,49
+cricket,thrift,0
+softball,dance,59
+bungee jumping,running,34
+tennis,sculpture,3
+curling,table tennis,4
+thrift,drawing,18
+golfing,softball,7
+tennis,salsa,1
+gymnastics,comedy,1
+boxing,dancing,24
+cycling,fencing,2
+climbing,swimming,17
+go kart,boxe,1
+thrift,origami,3
+shooting,swimming,7
+karaoke,rugby,7
+rugby,baseball,74
+soccer,billiards,1
+ski,gambling,1
+trampolining,basketball,11
+rollerskating,shooting,14
+rollerblade,golf,12
+parkour,handball,0
+gambling,sing,9
+yoga,softball,2
+paddleboarding,climb,14
+skating,racquetball,1
+disc golf,paintball,7
+salsa,track,36
+dancing,boxe,0
+gambling,ski,16
+karaoke,racquetball,0
+rollerskate,rollerskate,210
+karaoke,gymnastics,3
+rafting,sculpture,5
+snowboarding,origami,1
+arcade,comedy,9
+football,origami,0
+fencing,laser tag,0
+handball,disc golf,3
+badminton,thrift,0
+handball,track,23
+thrift,mini golf,2
+ziplining,snowboard,1
+billiards,karaoke,9
+bike,go kart,4
+ski,bungee jumping,2
+cycle,photography,18
+skate,paintball,2
+rock climbing,cycling,14
+running,climbing,3
+snowboard,parkour,7
+improv,arcade,3
+skiing,cricket,4
+paragliding,table tennis,4
+hike,paint,8
+skateboard,handball,0
+ziplining,dancing,28
+rollerskating,drawing,10
+rollerblade,racquetball,0
+gambling,hockey,6
+hike,handball,0
+handball,yoga,5
+rafting,running,62
+rugby,escape room,8
+fitness,racing,13
+trampolining,squash,1
+climbing,hiking,13
+bike,squash,0
+disc golf,cycling,13
+golfing,cycle,13
+pottery,skiing,4
+archery,cricket,6
+pottery,badminton,0
+skateboard,soccer,15
+go kart,rock climbing,3
+hockey,sculpture,2
+boxing,rafting,7
+samba,boxing,5
+field hockey,billiards,0
+hiking,improv,19
+skateboarding,hockey,11
+field hockey,ski,7
+boxing,volleyball,5
+escape room,handball,0
+hiking,badminton,1
+rafting,billiards,0
+billiards,swim,17
+boxing,draw,37
+snowboard,yoga,22
+dancing,salsa,3
+martial arts,horseback riding,2
+draw,swim,7
+martial arts,soccer,21
+yoga,cycle,10
+handball,escape room,4
+football,racquetball,0
+ski,karaoke,4
+theatre,theatre,210
+volleyball,skateboarding,1
+mini golf,ziplining,1
+badminton,ziplining,0
+cycle,soccer,5
+surfing,karaoke,2
+surfing,rollerblading,0
+dance,escape room,3
+racing,martial arts,1
+bungee jumping,reading,36
+origami,running,44
+yoga,basketball,12
+snowboard,running,59
+samba,paragliding,0
+billiards,reading,28
+hike,rollerblade,0
+rollerblade,table tennis,4
+rollerskating,rock climbing,1
+dance,laser tag,3
+go kart,basketball,20
+basketball,ski,1
+table tennis,paragliding,0
+pool,racquetball,0
+skating,skiing,2
+ziplining,running,68
+go kart,photography,13
+cricket,skateboarding,0
+draw,samba,2
+sculpture,draw,17
+table tennis,thrift,1
+sing,bowling,6
+basketball,go kart,0
+rollerskate,golf,17
+rafting,yoga,7
+racing,skydiving,0
+paintball,laser tag,5
+skateboarding,dance,47
+surfing,hockey,8
+cycle,laser tag,0
+billiards,climb,2
+improv,volleyball,0
+paddleboarding,pottery,5
+sing,go kart,2
+fitness,skateboard,3
+skateboarding,soccer,18
+improv,rafting,23
+hiking,yoga,12
+rollerskate,arcade,3
+shooting,paintball,0
+skateboarding,drawing,12
+origami,theatre,13
+fencing,photography,22
+climbing,swim,5
+martial arts,gymnastics,2
+paddleboarding,field hockey,2
+rock climbing,boxe,1
+escape room,origami,1
+thrift,rafting,7
+table tennis,laser tag,7
+cricket,snowboard,1
+cycle,skate,7
+snowboard,snowboard,210
+racquetball,racquetball,210
+rock climbing,baseball,24
+parkour,dance,46
+arcade,golf,12
+escape room,pottery,8
+disc golf,golfing,18
+go kart,ski,4
+sing,archery,0
+rollerskating,thrift,2
+escape room,salsa,1
+swimming,photography,19
+squash,dance,31
+curling,snowboard,1
+fencing,surf,1
+billiards,pottery,10
+surfing,hike,5
+reading,rollerskate,0
+skateboarding,comedy,15
+racquetball,track,21
+golfing,swimming,8
+theatre,curling,4
+archery,origami,1
+golf,karaoke,1
+hockey,improv,14
+rollerblade,improv,9
+skydiving,surf,3
+ski,boxe,0
+dancing,cycling,0
+badminton,origami,1
+running,bike,5
+curling,track,36
+disc golf,rollerskate,0
+biking,improv,32
+squash,horseback riding,1
+karaoke,reading,27
+volleyball,boxing,2
+dancing,bungee jumping,1
+shooting,soccer,4
+climbing,cycling,12
+bungee jumping,rugby,1
+mini golf,curling,0
+theatre,swimming,5
+softball,fencing,0
+rock climbing,horseback riding,2
+racing,sing,9
+skateboard,dance,66
+skate,golfing,1
+fencing,soccer,18
+yoga,fencing,0
+gymnastics,handball,3
+laser tag,arcade,10
+surfing,pool,24
+rollerblading,draw,12
+rollerblade,racing,13
+racing,reading,32
+karaoke,gambling,1
+football,laser tag,1
+badminton,dance,39
+ski,biking,7
+bike,rollerblading,0
+parkour,dancing,16
+singing,escape room,5
+badminton,soccer,11
+dancing,mini golf,1
+snowboard,racquetball,0
+painting,surf,1
+draw,rollerskate,0
+paint,boxe,0
+surfing,laser tag,1
+hiking,track,45
+hiking,rafting,13
+escape room,dance,44
+soccer,skydiving,0
+field hockey,bungee jumping,0
+skateboarding,squash,0
+comedy,paintball,1
+boxing,cycling,3
+escape room,cricket,4
+paintball,comedy,10
+baseball,tennis,22
+hike,skateboarding,1
+paintball,escape room,4
+hockey,billiards,0
+climbing,skiing,8
+pool,skateboard,1
+draw,drawing,49
+paint,skate,4
+cycling,bike,112
+rollerskate,paint,21
+go kart,origami,0
+sculpture,badminton,3
+archery,biking,3
+rollerblade,baseball,28
+billiards,rock climbing,3
+surf,cricket,2
+gambling,skydiving,0
+softball,painting,6
+golfing,skate,3
+rollerskate,laser tag,1
+rollerskate,handball,0
+rugby,trampolining,0
+racquetball,pool,21
+theatre,soccer,12
+squash,disc golf,2
+fencing,skate,2
+racquetball,skateboarding,4
+track,rock climbing,3
+theatre,dance,72
+paragliding,paddleboarding,0
+surfing,skiing,5
+rollerblade,running,47
+football,bungee jumping,0
+origami,hockey,5
+skate,boxing,3
+ski,mini golf,3
+bike,rollerskating,0
+escape room,surfing,1
+skydiving,escape room,4
+ziplining,paddleboarding,0
+ziplining,skateboard,1
+skateboarding,bowling,3
+painting,basketball,13
+rollerblade,track,30
+paddleboarding,skateboarding,2
+skydiving,soccer,15
+skate,karaoke,1
+salsa,badminton,1
+golfing,go kart,2
+escape room,painting,23
+golf,table tennis,3
+table tennis,biking,3
+hiking,bowling,2
+golfing,bike,14
+archery,billiards,1
+photography,samba,1
+mini golf,softball,5
+racing,curling,6
+racing,biking,2
+painting,shooting,12
+softball,paint,12
+arcade,rafting,7
+boxing,ziplining,0
+baseball,mini golf,0
+laser tag,softball,4
+theatre,go kart,1
+salsa,escape room,2
+table tennis,boxing,8
+karaoke,running,51
+cricket,singing,16
+painting,rafting,3
+boxing,singing,12
+skateboard,snowboard,3
+dancing,cycle,2
+dancing,rafting,0
+golfing,martial arts,1
+paddleboarding,rafting,3
+bowling,trampolining,0
+squash,surfing,2
+improv,laser tag,1
+rafting,table tennis,0
+drawing,golfing,0
+skating,thrifting,0
+fencing,bike,20
+swimming,sculpture,0
+hockey,snowboard,1
+gymnastics,pool,3
+curling,bike,14
+climbing,shooting,27
+rollerskating,snowboard,1
+reading,cricket,2
+escape room,hiking,4
+bowling,swimming,3
+shooting,paddleboarding,1
+surfing,bowling,7
+field hockey,bike,11
+draw,gambling,1
+singing,climbing,2
+soccer,dance,36
+archery,boxing,7
+samba,ziplining,0
+golf,racquetball,0
+rugby,track,118
+sing,surf,1
+parkour,drawing,17
+racing,handball,0
+racquetball,martial arts,2
+comedy,cycle,5
+swim,basketball,19
+disc golf,reading,32
+boxing,escape room,2
+climbing,sing,22
+hiking,skiing,7
+climb,snowboarding,0
+ski,paintball,1
+rollerskate,swimming,11
+disc golf,climbing,6
+laser tag,pottery,22
+origami,racquetball,0
+climbing,hockey,8
+skiing,racquetball,0
+rafting,badminton,2
+skating,racing,12
+paint,snowboard,1
+thrift,theatre,7
+parkour,pottery,10
+volleyball,curling,1
+climb,climb,210
+draw,track,19
+reading,snowboard,0
+reading,skate,3
+skate,draw,10
+samba,escape room,3
+snowboarding,horseback riding,5
+rafting,paintball,0
+handball,karaoke,0
+golfing,snowboard,1
+parkour,arcade,1
+volleyball,improv,8
+horseback riding,cricket,1
+bungee jumping,handball,0
+reading,trampolining,0
+basketball,singing,14
+bungee jumping,swim,6
+boxe,racing,20
+theatre,skateboard,0
+soccer,rafting,3
+comedy,basketball,9
+swimming,painting,11
+skate,hike,2
+go kart,softball,5
+paddleboarding,yoga,38
+drawing,thrift,2
+football,singing,9
+bungee jumping,pottery,8
+swimming,sing,20
+karaoke,football,23
+rollerskate,dance,63
+singing,mini golf,4
+gambling,squash,1
+tennis,swimming,15
+mini golf,reading,39
+sculpture,hockey,10
+disc golf,martial arts,3
+rugby,climbing,20
+mini golf,fencing,0
+hiking,painting,16
+pool,handball,0
+photography,trampolining,0
+pottery,laser tag,0
+sing,ziplining,0
+snowboard,badminton,3
+racquetball,snowboard,1
+dance,arcade,0
+thrifting,ski,1
+origami,squash,0
+skydiving,bungee jumping,5
+rollerblade,parkour,1
+snowboard,paintball,4
+rollerskating,football,25
+photography,racing,6
+comedy,thrifting,0
+rollerblade,fitness,12
+draw,escape room,5
+rollerblading,tennis,7
+track,mini golf,1
+squash,photography,18
+tennis,dancing,18
+climb,soccer,10
+shooting,shooting,210
+drawing,rollerblading,0
+baseball,disc golf,0
+rollerblading,samba,0
+thrift,climb,5
+skydiving,swimming,10
+golf,billiards,1
+improv,disc golf,1
+fencing,horseback riding,0
+hike,racquetball,0
+hike,laser tag,0
+photography,cricket,11
+volleyball,painting,8
+gymnastics,skateboard,2
+dancing,skating,1
+photography,theatre,5
+bike,cycling,51
+dancing,improv,5
+rock climbing,rollerblade,0
+hockey,rugby,3
+samba,bike,18
+thrift,snowboarding,0
+fencing,curling,0
+boxing,laser tag,0
+volleyball,track,30
+pool,rollerblading,0
+football,fitness,17
+skating,cycle,4
+softball,swim,10
+thrift,hiking,6
+parkour,golfing,1
+yoga,badminton,0
+bowling,singing,22
+skateboard,racquetball,0
+rollerskating,singing,33
+racing,surf,1
+disc golf,snowboard,10
+shooting,draw,7
+field hockey,skateboard,1
+skateboarding,singing,25
+yoga,paintball,0
+reading,gambling,1
+fencing,fencing,210
+cricket,archery,8
+rollerskating,improv,14
+hike,cricket,4
+parkour,laser tag,1
+sing,arcade,0
+surf,rollerskating,0
+shooting,bike,8
+handball,improv,27
+samba,sculpture,4
+thrift,pottery,10
+drawing,reading,39
+paint,fencing,0
+improv,rollerblading,0
+boxe,racquetball,0
+cycle,gymnastics,0
+pool,yoga,6
+skating,cricket,2
+dancing,gymnastics,7
+bike,thrift,2
+hike,surfing,5
+tennis,rafting,7
+curling,paddleboarding,0
+thrifting,rollerskating,0
+tennis,volleyball,15
+snowboard,mini golf,0
+sculpture,table tennis,1
+mini golf,surf,2
+karaoke,sculpture,6
+skateboarding,curling,1
+samba,surf,2
+fitness,boxe,1
+field hockey,surf,2
+boxing,paragliding,0
+bungee jumping,hockey,6
+martial arts,pottery,9
+boxe,paint,6
+basketball,rugby,6
+racquetball,fitness,33
+volleyball,rafting,1
+skateboard,gymnastics,4
+thrifting,fitness,7
+bungee jumping,yoga,3
+bungee jumping,salsa,3
+snowboarding,snowboarding,210
+basketball,snowboard,1
+trampolining,pottery,18
+baseball,curling,1
+skating,softball,6
+cycling,paint,11
+go kart,painting,7
+theatre,sing,22
+rafting,rollerskate,0
+trampolining,tennis,17
+trampolining,trampolining,210
+skydiving,biking,0
+thrift,skate,2
+running,comedy,6
+rock climbing,reading,42
+sculpture,squash,1
+horseback riding,handball,0
+pottery,climb,2
+surf,gambling,2
+cycle,curling,1
+skateboard,climbing,6
+sing,skating,0
+improv,rollerskate,0
+skating,karaoke,4
+paintball,swim,10
+track,squash,2
+soccer,go kart,1
+reading,rollerskating,0
+rock climbing,gambling,0
+samba,rollerskating,0
+table tennis,pool,20
+pool,running,37
+skateboarding,improv,6
+surf,reading,19
+origami,skate,7
+rugby,origami,2
+snowboard,racing,24
+samba,rollerskate,0
+snowboard,fitness,28
+squash,skateboard,11
+yoga,theatre,3
+boxe,surf,0
+running,soccer,13
+photography,laser tag,4
+handball,rock climbing,3
+horseback riding,boxe,0
+surfing,racquetball,1
+surf,track,24
+running,disc golf,4
+boxing,theatre,3
+photography,dance,46
+curling,fitness,12
+cricket,football,50
+hockey,basketball,52
+drawing,skiing,0
+salsa,cricket,3
+cycling,thrift,1
+pool,paragliding,0
+ziplining,skiing,8
+golf,go kart,1
+singing,fencing,0
+snowboarding,volleyball,11
+racquetball,disc golf,2
+skate,biking,2
+hiking,boxing,2
+paddleboarding,golf,8
+sculpture,biking,3
+dancing,running,48
+skateboarding,swim,5
+paintball,painting,27
+parkour,swim,7
+skate,dancing,12
+cycling,origami,0
+golfing,thrift,2
+archery,sing,19
+skiing,bowling,5
+rollerskate,volleyball,2
+billiards,fitness,8
+handball,basketball,25
+go kart,running,51
+golf,hockey,20
+table tennis,reading,19
+golf,theatre,7
+thrifting,improv,18
+handball,rafting,2
+swim,table tennis,1
+paragliding,hiking,20
+mini golf,racquetball,0
+table tennis,painting,8
+skydiving,field hockey,4
+bowling,pottery,10
+sing,racing,8
+rugby,field hockey,10
+origami,horseback riding,1
+yoga,thrift,0
+hockey,squash,3
+dance,salsa,4
+boxe,rollerblade,0
+paragliding,ziplining,0
+thrift,softball,2
+laser tag,boxing,7
+surf,escape room,3
+golf,cricket,9
+rollerskate,softball,2
+volleyball,squash,0
+climbing,rollerblade,0
+field hockey,mini golf,0
+dancing,paint,7
+track,paint,4
+rollerblade,thrift,1
+rollerblade,surf,4
+reading,fitness,6
+origami,rugby,8
+arcade,hockey,9
+gambling,racquetball,0
+thrifting,dance,49
+handball,fitness,8
+singing,climb,5
+skate,martial arts,1
+ski,running,57
+disc golf,salsa,3
+improv,paint,12
+running,shooting,12
+boxing,skating,2
+cricket,salsa,0
+fencing,golfing,2
+basketball,rafting,5
+hockey,skateboard,1
+rollerskate,cricket,2
+skateboard,swim,10
+arcade,golfing,2
+skiing,fencing,0
+table tennis,hiking,6
+paint,basketball,3
+field hockey,biking,1
+fitness,paintball,2
+escape room,paragliding,0
+badminton,biking,8
+football,thrift,0
+football,painting,11
+golfing,rollerblading,0
+snowboard,paint,14
+surf,basketball,21
+singing,skateboard,0
+archery,shooting,62
+karaoke,mini golf,10
+tennis,fencing,3
+shooting,skate,1
+skiing,skateboard,1
+swim,billiards,0
+baseball,martial arts,2
+skate,samba,0
+rock climbing,cricket,4
+singing,rock climbing,5
+football,skate,5
+origami,softball,0
+disc golf,skateboard,5
+curling,rollerskate,0
+archery,squash,3
+squash,cycling,16
+theatre,horseback riding,1
+ziplining,pool,27
+boxe,salsa,2
+rollerskate,cycle,8
+biking,football,26
+squash,volleyball,2
+paddleboarding,rugby,9
+snowboard,reading,23
+gambling,singing,10
+martial arts,basketball,18
+parkour,paddleboarding,0
+yoga,ski,0
+paragliding,pool,8
+swim,drawing,9
+martial arts,cycle,6
+curling,curling,210
+football,dance,85
+theatre,golfing,2
+skiing,ski,35
+volleyball,swim,10
+dance,ski,0
+paragliding,golfing,0
+yoga,golfing,2
+racing,pottery,7
+hockey,running,56
+surf,fitness,16
+snowboard,gambling,1
+sculpture,pottery,20
+laser tag,badminton,0
+biking,paint,13
+football,rock climbing,1
+parkour,sculpture,2
+paddleboarding,drawing,15
+table tennis,softball,3
+cricket,skate,2
+rugby,rugby,840
+parkour,rollerskating,0
+origami,basketball,10
+squash,ziplining,0
+theatre,baseball,7
+racquetball,thrift,0
+improv,bungee jumping,1
+paint,skydiving,1
+pool,gymnastics,0
+climb,gymnastics,2
+running,rock climbing,4
+photography,skateboarding,4
+rock climbing,paragliding,1
+hiking,handball,0
+table tennis,skate,4
+hike,snowboarding,1
+paint,cycling,2
+sculpture,pool,17
+paintball,softball,4
+biking,golfing,2
+bowling,thrift,2
+theatre,running,59
+karaoke,bike,7
+samba,skating,1
+parkour,bike,15
+archery,skating,1
+paint,origami,1
+drawing,samba,1
+bungee jumping,gymnastics,3
+rock climbing,bowling,6
+track,volleyball,7
+table tennis,cricket,15
+running,improv,6
+trampolining,yoga,11
+golfing,golf,93
+improv,skateboard,1
+origami,painting,41
+theatre,softball,2
+bike,pottery,12
+boxing,rollerskating,0
+paragliding,fencing,0
+golfing,pottery,6
+ziplining,climb,13
+surfing,surfing,210
+gymnastics,swim,6
+climb,softball,3
+draw,field hockey,3
+curling,horseback riding,2
+basketball,drawing,10
+rock climbing,hike,11
+bungee jumping,painting,10
+golfing,karaoke,1
+rollerblading,baseball,36
+arcade,boxing,1
+martial arts,softball,3
+golf,cycling,6
+yoga,skydiving,0
+painting,surfing,1
+horseback riding,arcade,0
+skate,improv,10
+cycle,handball,1
+trampolining,skateboarding,2
+handball,football,52
+track,baseball,10
+painting,salsa,0
+snowboard,horseback riding,0
+baseball,reading,29
+comedy,shooting,25
+racing,rollerskating,0
+hiking,hike,29
+rollerskating,thrifting,0
+thrifting,handball,0
+paint,biking,2
+rugby,ziplining,0
+thrift,shooting,16
+sculpture,reading,49
+paint,bowling,0
+comedy,rafting,6
+hockey,volleyball,5
+running,skateboarding,1
+skydiving,football,27
+draw,fencing,0
+thrift,trampolining,0
+rock climbing,table tennis,1
+surf,billiards,2
+hiking,draw,7
+surf,rollerskate,0
+martial arts,volleyball,1
+theatre,hike,2
+shooting,hockey,4
+golf,mini golf,4
+rugby,rollerblading,0
+photography,hockey,2
+sing,paddleboarding,0
+theatre,squash,2
+thrifting,fencing,0
+skateboard,fitness,25
+escape room,bike,24
+archery,gymnastics,4
+thrift,racing,5
+golfing,ski,6
+hiking,paintball,0
+golf,fencing,0
+horseback riding,sculpture,5
+tennis,hike,2
+photography,soccer,3
+surf,drawing,5
+swimming,cycle,11
+rollerskating,salsa,3
+paintball,parkour,3
+squash,curling,2
+cycling,rollerblading,0
+archery,ski,7
+fencing,snowboard,0
+arcade,skydiving,0
+martial arts,rock climbing,3
+swim,fitness,19
+curling,basketball,15
+skating,rollerskating,2
+rugby,squash,3
+snowboard,trampolining,0
+racquetball,trampolining,0
+bike,parkour,2
+rafting,origami,3
+bungee jumping,tennis,6
+basketball,field hockey,0
+biking,photography,20
+skateboard,salsa,5
+thrift,paint,23
+volleyball,hockey,10
+cycle,origami,0
+racing,rollerskate,0
+surfing,rock climbing,3
+golf,samba,0
+tennis,parkour,0
+skateboard,skateboard,210
+shooting,skydiving,1
+paragliding,swimming,12
+tennis,laser tag,2
+climbing,skydiving,0
+mini golf,gambling,0
+field hockey,skating,4
+bike,disc golf,2
+draw,squash,0
+biking,gymnastics,1
+draw,surfing,1
+cycle,salsa,0
+cycling,draw,14
+comedy,fitness,13
+snowboarding,trampolining,0
+cricket,biking,2
+dancing,table tennis,1
+dancing,handball,0
+skateboarding,fitness,14
+skateboard,skate,35
+snowboarding,dancing,17
+origami,ziplining,0
+mini golf,golfing,12
+skate,gymnastics,1
+hockey,skating,11
+baseball,draw,11
+hiking,salsa,1
+sing,baseball,5
+hike,cycle,19
+climbing,cricket,6
+rafting,handball,0
+gambling,softball,1
+handball,drawing,13
+bungee jumping,sing,22
+skating,running,45
+rollerskating,skate,32
+improv,tennis,20
+running,track,29
+biking,climbing,16
+reading,ziplining,0
+skydiving,bike,10
+swim,paddleboarding,0
+bungee jumping,racquetball,0
+hike,painting,12
+boxing,surf,2
+theatre,salsa,1
+running,painting,6
+skiing,thrift,1
+martial arts,football,20
+boxing,painting,6
+pool,skate,1
+golf,rollerskate,0
+painting,paddleboarding,0
+swimming,climbing,4
+track,reading,23
+pool,snowboard,0
+volleyball,billiards,0
+cycle,tennis,10
+cycle,dance,35
+horseback riding,softball,4
+soccer,laser tag,2
+billiards,samba,1
+swim,skydiving,1
+improv,archery,4
+racquetball,hockey,44
+badminton,skate,3
+surfing,fitness,14
+rugby,bungee jumping,0
+skate,bungee jumping,0
+rollerskate,snowboarding,1
+ski,rugby,5
+bungee jumping,disc golf,2
+skate,skating,35
+paint,reading,42
+fencing,gambling,2
+pool,surf,3
+golf,badminton,1
+paragliding,handball,0
+pool,bowling,7
+gymnastics,horseback riding,0
+escape room,golf,17
+swimming,rock climbing,9
+horseback riding,skateboard,0
+disc golf,yoga,13
+boxe,climb,4
+ski,cycling,10
+squash,comedy,11
+paint,gambling,0
+fitness,shooting,13
+billiards,salsa,2
+shooting,painting,8
+rollerblade,tennis,8
+samba,basketball,10
+thrifting,rollerblade,0
+gambling,cycle,10
+samba,skiing,1
+badminton,shooting,24
+golfing,horseback riding,0
+skating,bowling,4
+dance,volleyball,4
+dance,photography,7
+rollerblade,theatre,5
+rollerblade,skydiving,2
+reading,theatre,13
+comedy,gymnastics,2
+rollerblading,badminton,3
+bowling,running,40
+arcade,bungee jumping,1
+mini golf,fitness,21
+gambling,rollerblading,0
+surf,pottery,5
+salsa,cycling,4
+karaoke,badminton,0
+squash,climb,4
+escape room,hike,2
+rollerskate,bike,11
+field hockey,swimming,11
+drawing,softball,2
+skateboard,sculpture,3
+rollerskating,basketball,17
+rollerskate,trampolining,0
+skateboard,squash,1
+cycle,volleyball,3
+sculpture,cricket,5
+horseback riding,cycle,10
+samba,martial arts,1
+paddleboarding,escape room,2
+theatre,pool,8
+laser tag,thrifting,1
+tennis,theatre,9
+arcade,paddleboarding,0
+laser tag,sing,22
+track,cycle,7
+reading,racquetball,0
+laser tag,rugby,2
+curling,surf,4
+rock climbing,softball,7
+racing,arcade,10
+karaoke,skydiving,2
+theatre,racquetball,0
+dance,cricket,1
+handball,racquetball,0
+sing,rollerskate,0
+skate,comedy,12
+thrifting,rollerskate,0
+sing,snowboarding,0
+ziplining,golf,23
+cycle,softball,1
+skating,cycling,2
+curling,skiing,2
+mini golf,baseball,22
+gambling,racing,26
+rollerskate,rugby,4
+curling,swimming,10
+bike,badminton,1
+skating,bungee jumping,0
+racing,bowling,1
+skiing,drawing,6
+curling,baseball,14
+skateboarding,bungee jumping,2
+thrift,swim,8
+rollerblade,hockey,24
+fencing,skateboard,4
+bike,cycle,25
+baseball,billiards,0
+field hockey,running,53
+thrifting,drawing,11
+salsa,horseback riding,1
+escape room,improv,19
+climbing,skateboarding,1
+rafting,snowboarding,0
+badminton,rugby,16
+sing,gambling,0
+thrifting,comedy,5
+badminton,sing,13
+disc golf,skate,10
+thrifting,martial arts,1
+laser tag,bowling,9
+photography,painting,25
+biking,cycling,40
+surf,go kart,1
+gambling,gambling,210
+horseback riding,yoga,12
+racing,paddleboarding,0
+skate,squash,2
+field hockey,racquetball,0
+racquetball,skiing,4
+ski,cycle,12
+skate,sculpture,3
+skydiving,paddleboarding,0
+bungee jumping,soccer,11
+pottery,hike,0
+boxing,skate,5
+mini golf,photography,11
+draw,theatre,5
+parkour,mini golf,3
+rollerblade,hiking,6
+swimming,fitness,10
+go kart,paddleboarding,0
+field hockey,paint,13
+ski,hiking,8
+racquetball,fencing,2
+pool,surfing,1
+comedy,ski,1
+archery,comedy,12
+surf,racquetball,0
+hockey,field hockey,3
+running,racing,12
+swim,cycle,13
+dancing,paddleboarding,0
+volleyball,climbing,2
+curling,racquetball,0
+softball,bowling,9
+surf,rugby,3
+volleyball,escape room,10
+tennis,hiking,15
+fitness,origami,0
+skateboard,parkour,4
+improv,snowboard,0
+theatre,ski,3
+rollerblading,drawing,14
+yoga,shooting,14
+billiards,handball,2
+billiards,surfing,0
+dance,skateboard,1
+ziplining,rock climbing,3
+painting,thrifting,0
+biking,field hockey,2
+fitness,basketball,7
+paint,badminton,1
+sculpture,archery,2
+hockey,mini golf,1
+yoga,pool,8
+curling,fencing,0
+golfing,track,24
+pottery,gymnastics,2
+hiking,ski,19
+baseball,archery,4
+bungee jumping,theatre,5
+swimming,skateboard,1
+drawing,skateboard,0
+cycling,cycle,76
+bungee jumping,cricket,3
+racquetball,bowling,9
+golfing,painting,6
+theatre,golf,9
+rafting,swimming,12
+hiking,running,90
+bike,karaoke,5
+climb,hockey,5
+swimming,rollerblading,0
+samba,football,28
+arcade,shooting,19
+thrift,thrifting,10
+thrifting,basketball,12
+billiards,paddleboarding,1
+shooting,cycle,6
+billiards,skateboard,0
+paint,painting,51
+yoga,parkour,0
+curling,hockey,24
+hiking,table tennis,0
+surfing,reading,45
+archery,climbing,25
+skate,paragliding,0
+sing,sing,211
+thrift,rollerblade,0
+rollerblade,skate,29
+draw,curling,3
+paint,paragliding,0
+cycling,singing,16
+archery,reading,32
+boxing,basketball,19
+singing,bike,7
+reading,billiards,0
+sing,fitness,3
+tennis,racing,11
+martial arts,table tennis,2
+bowling,ziplining,0
+biking,hiking,43
+origami,skateboarding,2
+painting,golfing,0
+pottery,skating,0
+pool,bungee jumping,2
+rollerblading,swim,10
+biking,rafting,3
+biking,track,32
+rollerblade,biking,3
+rollerblade,cycle,8
+squash,karaoke,7
+rollerblade,archery,5
+skating,thrift,0
+mini golf,sing,18
+trampolining,boxe,0
+yoga,soccer,8
+rugby,tennis,90
+reading,skiing,4
+theatre,boxing,6
+skate,salsa,1
+improv,singing,26
+rollerblading,paint,15
+paintball,paintball,210
+drawing,golf,5
+hiking,racing,16
+ski,improv,12
+skiing,rollerskating,0
+skate,dance,45
+pool,hockey,4
+paddleboarding,painting,9
+rollerskate,reading,40
+swimming,go kart,7
+track,swimming,4
+archery,track,30
+basketball,escape room,1
+boxe,mini golf,1
+hike,rugby,1
+biking,salsa,2
+racing,dancing,7
+dance,yoga,5
+surfing,skateboard,8
+mini golf,skateboard,0
+ziplining,sing,22
+rock climbing,arcade,4
+billiards,bike,17
+biking,soccer,19
+paintball,skating,1
+rollerblade,handball,0
+escape room,skating,0
+salsa,hike,0
+drawing,tennis,6
+fencing,drawing,15
+snowboarding,paragliding,0
+pool,laser tag,2
+samba,sing,19
+gambling,rugby,18
+bungee jumping,rock climbing,4
+sing,table tennis,4
+dancing,curling,2
+soccer,draw,33
+reading,racing,6
+fitness,rock climbing,2
+boxing,skydiving,1
+hiking,skateboarding,23
+rollerskate,skateboard,7
+rollerblading,biking,3
+skate,snowboarding,1
+gymnastics,dance,12
+origami,dance,40
+bike,billiards,1
+paragliding,skiing,16
+rollerblade,softball,7
+thrifting,skydiving,1
+surf,baseball,12
+paint,paintball,0
+bungee jumping,laser tag,4
+comedy,go kart,2
+painting,arcade,4
+paddleboarding,sculpture,1
+yoga,dancing,18
+hockey,horseback riding,1
+ski,football,30
+volleyball,origami,0
+hiking,disc golf,0
+cycling,improv,32
+rafting,skating,2
+draw,go kart,3
+bungee jumping,billiards,0
+field hockey,salsa,2
+climbing,theatre,10
+skateboard,curling,3
+skate,go kart,0
+hockey,swimming,5
+draw,basketball,13
+racquetball,cycle,7
+track,racquetball,0
+escape room,paintball,10
+paintball,gymnastics,0
+skateboarding,climbing,3
+hiking,archery,3
+arcade,photography,13
+origami,climbing,9
+curling,volleyball,9
+football,softball,11
+karaoke,softball,1
+volleyball,go kart,2
+swimming,draw,9
+dance,soccer,9
+running,boxing,5
+rollerblading,skateboarding,1
+rollerblade,rollerblading,25
+handball,salsa,2
+laser tag,snowboard,0
+golf,gambling,3
+boxing,comedy,10
+karaoke,snowboarding,1
+paragliding,martial arts,2
+skydiving,mini golf,3
+comedy,origami,1
+swimming,paintball,1
+draw,rollerskating,0
+escape room,field hockey,3
+handball,samba,2
+thrifting,disc golf,2
+arcade,rollerskating,1
+football,curling,0
+pottery,escape room,0
+painting,ski,3
+biking,hike,16
+samba,badminton,1
+bike,swim,18
+badminton,skateboarding,0
+martial arts,improv,24
+improv,fencing,0
+surf,ziplining,0
+gambling,tennis,10
+soccer,shooting,28
+pottery,disc golf,0
+climbing,origami,1
+sing,climb,1
+skating,boxing,7
+improv,baseball,17
+escape room,rollerskate,1
+handball,horseback riding,3
+sing,drawing,9
+cycle,drawing,9
+snowboard,sing,7
+bungee jumping,pool,12
+dance,rollerskate,0
+skiing,bungee jumping,2
+bike,rock climbing,1
+salsa,gymnastics,1
+skiing,ziplining,0
+rafting,arcade,3
+surf,bowling,3
+drawing,squash,0
+gambling,drawing,15
+curling,theatre,8
+racing,skateboarding,3
+reading,origami,0
+tennis,painting,9
+cricket,baseball,7
+archery,go kart,0
+skate,handball,1
+field hockey,paintball,0
+bungee jumping,climb,3
+parkour,paragliding,0
+racquetball,softball,17
+rollerskate,yoga,9
+boxing,golf,11
+ski,painting,11
+swim,squash,1
+comedy,rollerblade,0
+surfing,mini golf,2
+shooting,tennis,5
+boxing,gambling,5
+curling,surfing,1
+pottery,cycle,11
+handball,laser tag,3
+bowling,softball,9
+cycle,comedy,9
+badminton,draw,34
+tennis,gymnastics,4
+reading,rollerblade,0
+shooting,martial arts,4
+hiking,rollerskate,0
+cycle,ziplining,0
+theatre,racing,13
+rafting,painting,13
+skating,table tennis,0
+hike,fencing,1
+thrifting,volleyball,2
+cycling,fitness,45
+theatre,fitness,9
+bike,basketball,18
+origami,baseball,8
+theatre,laser tag,1
+racquetball,karaoke,4
+dance,surfing,2
+rafting,rugby,14
+golfing,reading,28
+archery,surf,21
+snowboarding,martial arts,6
+billiards,paint,11
+baseball,basketball,74
+rock climbing,cycle,11
+martial arts,track,25
+golfing,climbing,2
+dance,theatre,2
+photography,karaoke,1
+cricket,shooting,16
+bungee jumping,skateboarding,2
+pottery,improv,11
+soccer,sing,11
+soccer,trampolining,0
+paintball,hike,7
+football,golf,17
+pottery,samba,1
+golf,baseball,46
+bungee jumping,singing,32
+cricket,pool,5
+softball,draw,9
+pottery,tennis,41
+skateboard,cycling,5
+surfing,drawing,10
+bike,fitness,14
+singing,salsa,6
+fitness,golf,29
+bowling,curling,1
+swim,climb,5
+theatre,football,32
+climb,painting,13
+racquetball,improv,15
+rollerblading,thrift,4
+pool,racing,5
+squash,escape room,2
+painting,dancing,21
+skating,dance,39
+track,yoga,6
+painting,tennis,7
+thrifting,skate,6
+origami,martial arts,6
+shooting,parkour,0
+gambling,paddleboarding,1
+paragliding,basketball,3
+fencing,rollerblade,0
+martial arts,skydiving,1
+arcade,tennis,13
+drawing,fencing,1
+boxe,skating,1
+shooting,laser tag,0
+softball,gymnastics,9
+snowboarding,reading,33
+paint,snowboarding,0
+archery,swimming,11
+paint,mini golf,2
+snowboard,pottery,7
+gymnastics,samba,0
+yoga,boxe,0
+fencing,boxe,0
+rafting,rafting,211
+football,squash,0
+baseball,bike,10
+billiards,golfing,1
+horseback riding,paint,15
+skateboard,biking,2
+skate,tennis,16
+swimming,singing,28
+racing,swimming,12
+curling,thrift,0
+disc golf,cricket,3
+climbing,salsa,1
+yoga,rollerblade,0
+golfing,comedy,8
+paint,thrifting,0
+hockey,trampolining,0
+parkour,skiing,1
+skate,surf,15
+sing,samba,0
+field hockey,laser tag,2
+skiing,skiing,210
+skydiving,rock climbing,5
+surfing,cycling,3
+hike,climb,17
+squash,bowling,11
+skydiving,billiards,0
+shooting,hiking,1
+racing,draw,14
+singing,go kart,4
+surfing,dancing,23
+billiards,running,58
+rafting,salsa,3
+paddleboarding,boxe,0
+softball,badminton,1
+mini golf,basketball,21
+rock climbing,paintball,1
+golfing,climb,3
+skateboarding,field hockey,4
+archery,racing,21
+rafting,pottery,10
+paddleboarding,baseball,9
+tennis,improv,24
+arcade,handball,0
+hike,rollerblading,0
+climbing,karaoke,4
+martial arts,yoga,29
+rollerskating,field hockey,0
+paragliding,horseback riding,1
+squash,paddleboarding,0
+paintball,soccer,12
+skydiving,hockey,9
+billiards,baseball,21
+surfing,theatre,6
+soccer,singing,17
+paintball,disc golf,4
+swim,singing,20
+pool,boxing,5
+surfing,cricket,4
+climbing,billiards,0
+rafting,photography,24
+cycling,go kart,0
+hockey,skiing,1
+skate,climbing,8
+thrift,painting,19
+running,paintball,0
+golfing,gymnastics,1
+tennis,rock climbing,3
+sculpture,rock climbing,2
+rollerskating,baseball,17
+reading,karaoke,3
+skating,archery,1
+archery,rollerskate,0
+cycling,golfing,0
+skateboard,rollerblade,0
+squash,gambling,2
+pottery,skydiving,0
+running,hiking,5
+racquetball,origami,1
+climbing,softball,2
+squash,thrifting,1
+badminton,snowboard,1
+ski,racing,20
+martial arts,hike,3
+skiing,softball,3
+hiking,origami,0
+bowling,reading,29
+handball,pottery,3
+rock climbing,thrifting,0
+archery,baseball,22
+pool,rock climbing,3
+badminton,trampolining,0
+volleyball,samba,0
+paint,handball,0
+cycle,rollerblade,1
+hike,yoga,11
+martial arts,rollerblading,0
+pottery,rafting,6
+shooting,trampolining,0
+dance,billiards,0
+fencing,pool,24
+skating,rollerskate,0
+football,climbing,2
+skateboarding,rollerskating,0
+curling,golfing,3
+pool,paint,9
+skateboarding,horseback riding,2
+biking,surf,8
+archery,pottery,11
+tennis,softball,32
+pottery,archery,5
+rollerskate,fencing,1
+sing,track,30
+skating,handball,0
+photography,running,34
+horseback riding,swimming,10
+softball,mini golf,2
+gambling,disc golf,2
+reading,running,46
+photography,thrift,0
+archery,horseback riding,2
+squash,laser tag,0
+shooting,theatre,14
+swimming,basketball,8
+dancing,disc golf,2
+skating,soccer,12
+basketball,skydiving,0
+racquetball,running,64
+parkour,hockey,6
+escape room,running,59
+football,bike,5
+dancing,surfing,1
+yoga,hiking,5
+climbing,cycle,6
+disc golf,swimming,5
+soccer,rollerskate,0
+squash,parkour,1
+rollerskating,badminton,2
+martial arts,paddleboarding,0
+surfing,hiking,8
+softball,paragliding,0
+draw,handball,1
+golf,skating,2
+trampolining,paint,23
+salsa,hiking,3
+rock climbing,salsa,3
+skateboard,thrift,2
+sing,soccer,18
+boxe,running,76
+rock climbing,disc golf,0
+go kart,yoga,2
+rock climbing,dance,39
+sing,rafting,5
+tennis,yoga,3
+surfing,horseback riding,2
+parkour,rock climbing,2
+running,theatre,3
+skateboarding,paragliding,0
+skate,football,25
+skateboarding,skate,102
+skate,arcade,7
+fencing,sculpture,2
+drawing,skateboarding,1
+cycle,thrift,1
