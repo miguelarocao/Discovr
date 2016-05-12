@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
+import sys
 
 with open('weights.json', 'r') as fp:
    weights = json.load(fp)
@@ -84,9 +85,11 @@ activs = [
 'Arcade game',
 ]
 
-ip = [
-'Motorcycling'
-]
+
+
+ip = sys.argv[1:]
+if len(ip) == 0:
+    ip = ['Archery ','Baseball','Softball',]
 
 for elem in ip:
     id = activs.index(elem)
