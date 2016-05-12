@@ -1,4 +1,6 @@
 import googlemaps
+import sys
+from google import search
 from datetime import datetime
 
 # Fetch Gmaps server key from local file
@@ -9,30 +11,25 @@ with open('gmaps_server_api_key.txt', 'r') as f:
 gmaps = googlemaps.Client(key = key)
 
 # Geocoding an address
-geocode_result = gmaps.geocode('1600 Amphitheatre Parkway, Mountain View, CA')
+geocode_result = gmaps.geocode('Mountain View, CA')
 
-# Look up an address with reverse geocoding
-reverse_geocode_result = gmaps.reverse_geocode((40.714224, -73.961452))
-
-# Request directions via public transit
-now = datetime.now()
-directions_result = gmaps.directions("Sydney Town Hall",
-                                     "Parramatta, NSW",
-                                     mode="transit",
-                                     departure_time=now)
 
 # Query for a place with various parameters
-query = 'museum'
+
+ip = sys.argv[1:]
+if len(ip) == 0:
+    query = 'Billiards'
+else:
+    query = ip[0]    
 # Catalina Grad Housing
-location = (34.139974, -118.128759)
+lat = geocode_result[0]["geometry"]['location']['lat']
+lng = geocode_result[0]["geometry"]['location']['lng']
+location = (lat, lng)
 min_price = 1
 max_price = 3
-open_now = True
+open_now = False
 lang = 'en_US'
-radius = 100
-
-# type doesn't really work for a lot of cases
-type = 'restaurant'
+radius = 1000
 
 # Run query
 places = gmaps.places(query, 
@@ -44,3 +41,22 @@ places = gmaps.places(query,
                       open_now = open_now,
                       #type = type
                       )
+
+# Look up an address with reverse geocoding
+size = len(places["results"])
+results = []
+for i in range (0, min(size,5)):
+    results.append(places["results"][i]["name"])
+    print places["results"][i]["name"] +  ":  " +  places["results"][i]["formatted_address"] 
+
+#for result in results:
+
+    #for url in search(result, stop=1):
+#           print(url)
+    
+    
+    # Request directions via public transit
+now = datetime.now()
+directions_result = gmaps.directions("Sydney Town Hall",
+                                     "Parramatta, NSW",)    
+
