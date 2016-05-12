@@ -1,0 +1,97 @@
+singing	Singing
+hockey	Hockey
+football	American football
+draw	Drawing
+cycling	Cycling
+mini golf	Mini Golf
+paintball	Paintball
+swim	Swimming (sport)
+bowling	Bowling
+snowboarding	Snowboarding
+rollerskating	Roller skating
+boxe	Boxing
+softball	Softball
+archery	Archery 
+ski	Skiing
+rock climbing	Rock Climbing
+racing	Racing
+skiing	Skiing
+table tennis	Table Tennis
+theatre	Theatre
+hiking	Hiking
+field hockey	Field Hockey
+curling	Curling
+ziplining	Ziplining
+dancing	Dance
+parkour	Parkour
+skating	Inline skating
+billiards	Billiards
+sing	Singing
+rollerblade	Roller skating
+rollerskate	Roller skating
+gambling	Gambling 
+go kart	Go Kart
+arcade	Arcade game
+fencing	Fencing
+thrifting	Charity shop
+shooting	Shooting sport
+rafting	Rafting
+skateboard	Skateboarding
+escape room	Escape room
+gymnastics	Gymnastics
+tennis	Tennis
+martial arts	Martial Arts
+origami	Origami
+skydiving	Skydiving
+laser tag	Laser Tag
+reading	Reading (process)
+surf	Surfing
+disc golf	Disc Golf
+cycle	Cycling
+thrift	Charity shop
+improv	Improvisational theatre
+rugby	Rugby football
+handball	Handball
+volleyball	Volleyball
+pottery	Pottery
+golf	Golf
+paddleboarding	Paddleboarding
+pool	Pool (cue sports)
+painting	Painting
+squash	Squash (sport)
+golfing	Golf
+trampolining	Trampolining
+karaoke	Karaoke
+cricket	Cricket
+yoga	Yoga
+bungee jumping	Bungee jumping
+basketball	Basketball
+drawing	Drawing
+surfing	Surfing
+snowboard	Snowboarding
+skateboarding	Skateboarding
+salsa	Salsa (dance)
+boxing	Boxing
+running	Running
+climb	Rock Climbing
+biking	Motorcycling
+soccer	Association football
+skate	Inline skating
+track	Track and field
+paint	Painting
+fitness	Physical fitness
+baseball	Baseball
+horseback riding	Horseback Riding
+paragliding	Paragliding
+racquetball	Racquetball
+comedy	Comedy
+samba	Samba
+rollerblading	Roller skating
+climbing	Sport Climbing
+photography	Photography
+sculpture	Sculpture
+hike	Hiking
+badminton	Badminton
+dance	Dance
+bike	Motorcycling
+swimming	Swimming (sport)
