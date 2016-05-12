@@ -1,6 +1,6 @@
 import googlemaps
 import sys
-from google import search
+#from google import search
 from datetime import datetime
 
 # Fetch Gmaps server key from local file
@@ -39,11 +39,13 @@ places = gmaps.places(query,
                       min_price= min_price,
                       max_price = max_price,
                       open_now = open_now,
-                      #type = type
+                  #    type = "restaurant"
                       )
 
 # Look up an address with reverse geocoding
 size = len(places["results"])
+if size == 0:
+    print "No Results Found"
 results = []
 for i in range (0, min(size,5)):
     results.append(places["results"][i]["name"])
