@@ -29,7 +29,7 @@ echo "<br \>Discovr recommends:<br \><br \>";
 foreach($acts as $act)
 {
     $string .= '"'.$act.'" ';
-    echo "{$act}<br />";
+    echo "<a href=\"gmaps.php?act={$act}\">{$act}</a><br />";
 }
 echo "<br \><a href=\"javascript:history.go(-1)\">Go Back</a>";
 ?>
