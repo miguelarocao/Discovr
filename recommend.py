@@ -85,23 +85,25 @@ activs = [
 'Arcade game',
 ]
 
-
-
 ip = sys.argv[1:]
+ip = list(set(ip))
 if len(ip) == 0:
-    ip = ['Archery ','Baseball','Softball',]
+    ip = ['Archery ','Baseball','Softball']
 
 for elem in ip:
-    id = activs.index(elem)
-    del activs[id]
-    
+    if elem in activs:
+        id = activs.index(elem)
+        del activs[id]
+        
 scores = dict()
+
 for elem in activs:
     scores[elem] = 0
 
 for key in ip:
     for elem in activs:
-        scores[elem] += weights[key][elem]
+        if key in weights:
+            scores[elem] += weights[key][elem]
     
 factor = sum(scores.itervalues())    
 for key in scores:
