@@ -5,6 +5,7 @@ import pickle
 from wikitools import wiki
 from wikitools import page
 from copy import deepcopy
+import json
 # from wikitools import category
 
 # Load the graph
@@ -238,6 +239,8 @@ for i in range(0,len(acts)):
     print acts[i]
     dict_final[acts[i]] = dict_activity
     
+with open('result_wiki.json', 'w') as fp:
+   json.dump(dict_final, fp)    
     
 #if __name__ == '__main__':
 #    main()
