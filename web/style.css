@@ -1,0 +1,306 @@
+body{
+    background-image: url('images/shattered.png');
+}
+
+div.center
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 800px;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+div.discovr
+{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font: 84px 'Arial Narrow', sans-serif;
+    color: #fefefe;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 48px; margin: 0 0 50px;
+    text-align: center;
+    opacity: 0.70;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+div.row_wrap
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+div.choices
+{
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    white-space: nowrap;
+    background: transparent;
+    border: 2px #444 solid;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #444;
+    text-transform: uppercase;
+}
+
+div.locations
+{
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.scale
+{
+    font-family: Gill Sans, Verdana;
+	font-size: 12px;
+    color: #666666;
+    padding: 8px 10px 0px 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+#load
+{
+    width:50%;
+    height:80%;
+    position:fixed;
+    top: 50%;
+    z-index:9999;
+    background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.0);
+}
+
+#loc_wrap
+{
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#prompt
+{
+    display: flex;
+    padding: 0px 0px 10px 0px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#big_prompt
+{
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+	margin: 0;
+	font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+#small_prompt
+{
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+    color: #666666;
+	line-height: 14px;
+    padding: 0px 0px 6px 0px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+#activities
+{
+    margin: 0px 5px 0 5px;
+    padding: 5px 0px 5px 0px;
+}
+
+select
+{
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    background: transparent;
+    border: 2px #444 solid;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #444;
+    text-transform: uppercase;
+}
+
+select option
+{
+   font-family: times, Times New Roman, times-roman, georgia, serif;
+   background-color: #DBDEDE; 
+   font-weight: normal;
+   font-size: 18px;
+   color: #444;
+   text-transform: initial;
+}
+
+.submit{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 40px;
+    margin: 20px 10px 10px 10px;
+    border-radius: 10px;
+    font-family: Gill Sans, Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+	letter-spacing: 3px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;  
+    background-color: #FF4C4C;
+    border-bottom: 5px solid #B52626;
+    text-shadow: 0px -1px #B52626;
+    /* Animation */
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    box-shadow:none;
+}
+
+.submit:hover, 
+.submit:focus {
+    text-decoration: none;
+    color: #FFF;
+    background-image: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.submit:active {
+    transform: translate(-50%,-48%);
+    -webkit-transform: translate(-50%,-48%);
+    border-bottom: 2px solid;
+}
+
+.back
+{
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    padding: 5px 20px;
+    margin: 20px 10px 10px 10px;
+    border-radius: 10px;
+    font-family: Gill Sans, Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+	letter-spacing: 3px;
+    font-size: 15px;
+    color: #FFF;
+    text-decoration: none;  
+    background-color: #535252;
+    border-bottom: 5px solid #262626;
+    text-shadow: 0px -1px #262626;
+    /* Animation */
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    box-shadow:none;
+}
+
+.back:hover,
+.back:focus
+{
+    text-decoration: none;
+    color: #FFF;
+    background-image: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.back:active{
+    transform: translate(0%,2%);
+    -webkit-transform: translate(0%,2%);
+    border-bottom: 2px solid;
+}
+
+.rec
+{
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    white-space: nowrap;
+    background: transparent;
+    border: 2px #444 solid;
+    font-size: 20px;
+    margin: 20px 10px 10px 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #444;
+    text-transform: uppercase;
+    text-decoration: none;  
+    background-color: #535252;
+    border-bottom: 3px solid #262626;
+    text-shadow: 0px -1px #444;
+    /* Animation */
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    box-shadow:none;
+}
+
+.rec:hover,
+.rec:focus
+{
+    text-decoration: none;
+    color: #606060;
+    background-image: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.rec:active{
+    transform: translate(0%,2%);
+    -webkit-transform: translate(0%,2%);
+    border-bottom: 2px solid;
+}
+
+/*override default button colors*/
+
+#r0
+{
+    /*border: 2px #367b5c solid;*/
+    background-color: #83AF9B;
+    text-shadow: #367b5c;
+    /*border-bottom: 5px solid #367b5c;*/
+}
+
+#r1
+{
+    background-color: #C8C8A9;
+}
+
+#r2
+{
+    background-color: #f9dcc6;
+}
+
+#r3
+{
+    background-color: #fc9d9a;
+}
+
+#r4
+{
+    background-color: #fe4365;
+}

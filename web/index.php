@@ -1,6 +1,6 @@
 <link rel="stylesheet" type = "text/css" href="style.css">
 
-<form method="post" action="recommend.php">
+<form method="post" id="fav_form" action="recommend.php">
 <div class="discovr">
 discovr
 </div>
@@ -13,7 +13,7 @@ discovr
         Help us get to know you a little better.
         </div>
      </div>
-    <div class="input_wrap">
+    <div class="row_wrap">
         <?php
         $activities = array(
         '', 
@@ -120,5 +120,8 @@ discovr
     </div>
     
 </div>
-<input type="submit" class="submit" value="Try Something New!">
+<input type="submit" class="submit" value="Try Something New!" onClick="dispLoad()">
+<img src="images/load.gif" id="gif" style="display: block; margin: 0 auto; width: 100px; visibility: hidden;">
 </form>
+
+
