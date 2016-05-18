@@ -24,10 +24,25 @@ function toggle_visibility(id) {
     }
 }
 
-//loading gif
-/*<script>
-    function dispLoad () {
-       document.getElementById('load').style.visibility="visible";
+/*Auto location script*/
+var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(autoDetected);
+    } 
 }
-</script>*/
 
+function autoDetected(position) {
+    loc_data=String(position.coords.latitude)+','+String(position.coords.longitude);
+    //set to form
+    document.getElementById('auto_out').value=loc_data;
+    document.getElementById('detect').innerHTML='&#10004';
+    document.getElementById('detect').style.fontSize='20';
+    document.getElementById('detect').style.backgroundColor='#39a939';
+    document.getElementById('detect').style.borderBottom='5px solid #0A730A';
+    document.getElementById('address').placeholder='Auto detected!';
+    document.getElementById('address').style.border='solid 5px #39a939';
+    document.getElementById('address').className+=("green-placeholder");
+}
+
+/*Radius Slider*/

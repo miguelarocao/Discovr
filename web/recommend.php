@@ -6,11 +6,20 @@
 <?php 
 
 $activities = $_POST['activities'];
+$address = $_POST['address']; //User input address
+$autodetect = $_POST['auto']; //Auto detected address, may be 'None' otherwise
+                              //'latitude,longitude'
+$radius = $_POST['radius']; //Search radius
+
 $string = 'cd .. & python recommend.py ';
 foreach($activities as $act)
 {
     $string .= '"'.$act.'" ';
 }
+$string .= '"'.$address.'" ';
+$string .= '"'.$autodetect.'" ';
+$string .= '"'.$radius.'" ';
+
 //echo 'Eexecuting command : '.$string;
 $output = shell_exec($string);
 if(is_null($output)){
@@ -37,7 +46,6 @@ foreach($acts as $act)
     }
     $locations[]=$output;
 }
-//TODO: Remove breaks
 /*
 $locations[]="California Billiard Club:  881 E El Camino Real, Mountain View, CA 94040, United States";
 $locations[]="Domino's:  1711 W El Camino Real, Mountain View, CA 94040, United States";

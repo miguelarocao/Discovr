@@ -1,10 +1,11 @@
 <link rel="stylesheet" type = "text/css" href="style.css">
-
+<script type="text/javascript" src="scripts.js"></script>
 <form method="post" id="fav_form" action="recommend.php">
 <div class="discovr">
 discovr
 </div>
 <div class="center">
+<input type="submit" class="submit" value="Try Something New!"> <!--Has to go here-->
     <div id="prompt">
         <div id="big_prompt">
         What Are Your 5 Favorite Activities?
@@ -118,10 +119,21 @@ discovr
         }
         ?>
     </div>
-    
+    <div class="row_wrap">
+        <input type="text" id="address" name="address" placeholder="Please Enter Address">
+        <div id='detect_wrap'>
+            <button onclick="getLocation()" type="button" id="detect">Auto Detect</button>
+            <input type='hidden' id= 'auto_out' name='auto' value="None" />
+        </div>
+        <div class="user_rad">
+            Search Radius
+        
+        <input type="range" id="radius" name="radius" value="100" min="10" max="200"
+        oninput="radius_out.value=radius.value">
+        <output id="radius_out"> 100 </output> miles.
+        </div>
+    </div>
 </div>
-<input type="submit" class="submit" value="Try Something New!" onClick="dispLoad()">
-<img src="images/load.gif" id="gif" style="display: block; margin: 0 auto; width: 100px; visibility: hidden;">
-</form>
 
+</form>
 
