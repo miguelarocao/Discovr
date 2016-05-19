@@ -38,7 +38,7 @@ $locations = array();
 
 foreach($acts as $act)
 {
-    $string = 'cd ..\gmaps_api & python google_maps.py "'.$act.'"';
+    $string = 'cd ..\gmaps_api & python google_maps.py "'.$act.'" "'.$address.'" "'.$radius.'"';
     $output = shell_exec($string);
     $output = str_replace("\n", "<br \><br \>", $output);
     if(is_null($output)){

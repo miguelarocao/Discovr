@@ -128,9 +128,9 @@ discovr
         <div class="user_rad">
             Search Radius
         
-        <input type="range" id="radius" name="radius" value="100" min="10" max="200"
+        <input type="range" id="radius" name="radius" value="1000" min="100" max="2000"
         oninput="radius_out.value=radius.value">
-        <output id="radius_out"> 100 </output> miles.
+        <output id="radius_out"> 1000 </output> miles.
         </div>
     </div>
 </div>
