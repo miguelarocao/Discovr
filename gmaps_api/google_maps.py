@@ -10,17 +10,44 @@ with open('gmaps_server_api_key.txt', 'r') as f:
 # Initialise Gmaps API
 gmaps = googlemaps.Client(key = key)
 
+
 # Geocoding an address
-geocode_result = gmaps.geocode('Mountain View, CA')
+
+Map = {}
+for line in open('../wiki_to_gmap.txt'):
+    listWords = line.split("\t")
+    Map[listWords[0]] = listWords[1][:-1]
 
 
 # Query for a place with various parameters
 
 ip = sys.argv[1:]
+
 if len(ip) == 0:
-    query = 'Billiards'
-else:
-    query = ip[0]    
+    query = 'Karaoke'
+    radius = 1000
+    address = 'Mountain View, CA'
+elif len(ip) == 1:
+    query = ip[0] 
+    radius = 1000
+    address = 'Mountain View, CA'
+elif len(ip) == 2:
+    query = ip[0]     
+    address = ip[1]
+    radius = 1000
+else:    
+    query = ip[0]     
+    address = ip[1]
+    radius = ip[2]
+
+if query == "":
+    query = 'Karaoke'    
+if radius == "":
+    query = 1000
+if address == "":
+    address = 'Mountain View, CA'         
+    
+geocode_result = gmaps.geocode(address)    
 # Catalina Grad Housing
 lat = geocode_result[0]["geometry"]['location']['lat']
 lng = geocode_result[0]["geometry"]['location']['lng']
@@ -29,10 +56,9 @@ min_price = 1
 max_price = 3
 open_now = False
 lang = 'en_US'
-radius = 1000
 
 # Run query
-places = gmaps.places(query, 
+places = gmaps.places(Map[query], 
                       location = location,
                       radius = radius,
                       language = lang,
@@ -44,8 +70,6 @@ places = gmaps.places(query,
 
 # Look up an address with reverse geocoding
 size = len(places["results"])
-if size == 0:
-    print "No Results Found"
 results = []
 for i in range (0, min(size,5)):
     results.append(places["results"][i]["name"])
