@@ -1,0 +1,97 @@
+Singing	Singing
+Hockey	Hockey
+American football	Football
+Drawing	Drawing
+Cycling	Cycling
+Mini Golf	Mini Golf
+Paintball	Paintball
+Swimming (sport)	Swimming
+Bowling	Bowling
+Snowboarding	Snowboarding
+Roller skating	Skating
+Boxing	Boxing
+Softball	Softball
+Archery 	Archery 
+Skiing	Skiing
+Rock Climbing	Rock Climbing
+Racing	Racing
+Skiing	Skiing
+Table Tennis	Ping Pong
+Theatre	Theatre
+Hiking	Hiking
+Field Hockey	Hockey
+Curling	Curling
+Ziplining	Ziplining
+Dance	Dance
+Parkour	Parkour
+Inline skating	Skating
+Billiards	Billiards
+Singing	Singing
+Roller skating	Skating
+Roller skating	Skating
+Gambling 	Gambling 
+Go Kart	Go Kart
+Arcade game	Arcade game
+Fencing	Fencing
+Charity shop	Charity shop
+Shooting sport	Shooting
+Rafting	Rafting
+Skateboarding	Skateboarding
+Escape room	Escape room
+Gymnastics	Gymnastics
+Tennis	Tennis
+Martial Arts	Martial Arts
+Origami	Origami
+Skydiving	Skydiving
+Laser Tag	Laser Tag
+Reading (process)	Reading
+Surfing	Surfing
+Disc Golf	Disc Golf
+Cycling	Cycling
+Charity shop	Charity shop
+Improvisational theatre	Improvisational theatre
+Rugby football	Rugby
+Handball	Handball
+Volleyball	Volleyball
+Pottery	Pottery
+Golf	Golf
+Paddleboarding	Paddleboarding
+Pool (cue sports)	Pool
+Painting	Painting
+Squash (sport)	Squash
+Golf	Golf
+Trampolining	Trampolining
+Karaoke	Karaoke
+Cricket	Cricket
+Yoga	Yoga
+Bungee jumping	Bungee jumping
+Basketball	Basketball
+Drawing	Drawing
+Surfing	Surfing
+Snowboarding	Snowboarding
+Skateboarding	Skateboarding
+Salsa (dance)	Salsa
+Boxing	Boxing
+Running	Running
+Rock Climbing	Rock Climbing
+Motorcycling	Motorcycling
+Association football	Soccer
+Inline skating	Skating
+Track and field	Track and field
+Painting	Painting
+Physical fitness	Physical fitness
+Baseball	Baseball
+Horseback Riding	Horseback Riding
+Paragliding	Paragliding
+Racquetball	Racquetball
+Comedy	Comedy
+Samba	Samba
+Roller skating	Roller skating
+Sport Climbing	Climbing
+Photography	Photography
+Sculpture	Sculpture
+Hiking	Hiking
+Badminton	Badminton
+Dance	Dance
+Motorcycling	Motorcycling
+Swimming (sport)	Swimming
