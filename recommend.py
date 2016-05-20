@@ -85,10 +85,28 @@ activs = [
 'Arcade game',
 ]
 
+
+
+
+Map = {}
+Reverse_Map = {}
+for line in open('wiki_to_gmap.txt'):
+    listWords = line.split("\t")
+    Map[listWords[1][:-1]] = listWords[0]
+    Reverse_Map[listWords[0]] = listWords[1][:-1]
+
+
 ip = sys.argv[1:]
+
 ip = list(set(ip))
 if len(ip) == 0:
-    ip = ['Archery ','Baseball','Softball']
+    ip = ['Baseball','Softball']
+
+# convert to wiki keys
+for elem in ip:
+    if elem in Map:
+        id = ip.index(elem)
+        ip[id] = Map[elem]
 
 for elem in ip:
     if elem in activs:
@@ -112,6 +130,8 @@ for key in scores:
 for activity in ip:
     scores.pop(activity, None)
 
-print sorted(scores, key=scores.get, reverse=True)[:5]
+toprint = sorted(scores, key=scores.get, reverse=True)[:5]
 
+new_toprint = [Reverse_Map[x] for x in toprint]
+print new_toprint
 

@@ -25,40 +25,41 @@ ip = sys.argv[1:]
 
 if len(ip) == 0:
     query = 'Karaoke'
-    radius = 1000
+    radius = 10
     address = 'Mountain View, CA'
 elif len(ip) == 1:
     query = ip[0] 
-    radius = 1000
+    radius = 10
     address = 'Mountain View, CA'
 elif len(ip) == 2:
     query = ip[0]     
     address = ip[1]
-    radius = 1000
+    radius = 10
 else:    
     query = ip[0]     
     address = ip[1]
-    radius = ip[2]
+    radius = int(ip[2])
 
 if query == "":
     query = 'Karaoke'    
 if radius == "":
-    query = 1000
+    radius = 10
 if address == "":
     address = 'Mountain View, CA'         
-    
+   
 geocode_result = gmaps.geocode(address)    
 # Catalina Grad Housing
 lat = geocode_result[0]["geometry"]['location']['lat']
 lng = geocode_result[0]["geometry"]['location']['lng']
 location = (lat, lng)
-min_price = 1
-max_price = 3
+min_price = 0
+max_price = 4
 open_now = False
 lang = 'en_US'
 
+radius = radius * 1609.34
 # Run query
-places = gmaps.places(Map[query], 
+places = gmaps.places(query, 
                       location = location,
                       radius = radius,
                       language = lang,
