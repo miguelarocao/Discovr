@@ -29,6 +29,7 @@ if(is_null($output)){
 $output = str_replace("'", "", $output);
 $output = str_replace("]", "", $output);
 $output = str_replace("[", "", $output);
+$output = str_replace("\n", "", $output);
 
 $acts = explode(", ", $output);
 
@@ -39,11 +40,14 @@ $locations = array();
 foreach($acts as $act)
 {
     $string = 'cd ..\gmaps_api & python google_maps.py "'.$act.'" "'.$address.'" "'.$radius.'"';
+    $output = '';
+    /*
     $output = shell_exec($string);
     $output = str_replace("\n", "<br \><br \>", $output);
     if(is_null($output)){
         echo 'Error: google maps script did not run';
     }
+    */
     $locations[]=$output;
 }
 /*
@@ -68,7 +72,7 @@ lululemon athletica | University Ave: 432 University Ave, Palo Alto, CA 94301, U
 <div class="center">
     <div id="prompt">
         <div id="big_prompt">
-            Your Favorite Activies Are
+            Your Favorite Activities Are
         </div>
         <div class="row_wrap">
 
@@ -90,14 +94,18 @@ lululemon athletica | University Ave: 432 University Ave, Palo Alto, CA 94301, U
         <?php
             for($i=0;$i<count($acts);$i++)
             {
-                echo "<div id='r{$i}' class='rec' onclick='toggle_visibility(\"loc{$i}\");'>{$acts[$i]}</div>";
+                echo "<div id='r{$i}' class='rec' onclick='document.getElementById(\"ifr\").src=\"gmaps.php?act={$acts[$i]}&address={$address}&radius={$radius}\";'>{$acts[$i]}</div>\n";
             }
         ?>
         <div class="scale"> #5 </div>
         </div>
-        </div>
+    </div>
+    <div align="bottom">
+        <iframe id='ifr' style="float:none" frameborder="0" width="800" height="250">
+        </iframe>
     </div>
 </div>
+<!--
 <div id="loc_wrap">
     <?php
         for($i=0;$i<count($acts);$i++)
@@ -106,8 +114,9 @@ lululemon athletica | University Ave: 432 University Ave, Palo Alto, CA 94301, U
         }
     ?>
 </div>
+-->
 <div>
-    <button class="back" onClick="goBack()"> Go Back </button>
+    <button class="back" onClick="window.location = 'index.php';"> Go Back </button>
 </div>
 </body>
 </html>
